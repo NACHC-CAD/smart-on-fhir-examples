@@ -14,7 +14,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueCode": "structured"
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCA2",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Questionnaire/NACHCA2",
   "name": "NACHCA2",
   "title": "NACHC.A2 HIV test",
   "status": "active",
@@ -28,7 +28,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/activity-codes",
         "code": "NACHC.A2",
         "display": "HIV test"
       } ]
@@ -36,15 +36,15 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test#Observation.code",
+    "definition": "http://fhir.org/guides/nachc/smart-on-fhir-examples/StructureDefinition/hiv-test#Observation.code",
     "text": "Concepts Associated with HIV Testing",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a2-de1-codes-grouper.json"
+    "answerValueSet": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a2-de1-codes-grouper.json"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-test-ordered#ServiceRequest.code",
+    "definition": "http://fhir.org/guides/nachc/smart-on-fhir-examples/StructureDefinition/hiv-test-ordered#ServiceRequest.code",
     "text": "Concepts Associated with Ordering an HIV Test",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a2-de217.json"
+    "answerValueSet": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a2-de217.json"
   } ]
 }

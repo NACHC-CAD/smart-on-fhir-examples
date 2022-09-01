@@ -14,7 +14,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueCode": "structured"
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCB2",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Questionnaire/NACHCB2",
   "name": "NACHCB2",
   "title": "NACHC.B2 HCV test",
   "status": "active",
@@ -28,7 +28,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/activity-codes",
         "code": "NACHC.B2",
         "display": "HCV test"
       } ]
@@ -36,15 +36,15 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hepatitis-c-test#Observation.code",
+    "definition": "http://fhir.org/guides/nachc/smart-on-fhir-examples/StructureDefinition/hepatitis-c-test#Observation.code",
     "text": "Concepts Associated with HCV Testing",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de1-codes-grouper.json"
+    "answerValueSet": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de1-codes-grouper.json"
   }, {
     "linkId": "2",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hepatitis-c-procedures#Procedure.code",
+    "definition": "http://fhir.org/guides/nachc/smart-on-fhir-examples/StructureDefinition/hepatitis-c-procedures#Procedure.code",
     "text": "Concepts Associated with HCV Procedures",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de113.json"
+    "answerValueSet": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de113.json"
   } ]
 }

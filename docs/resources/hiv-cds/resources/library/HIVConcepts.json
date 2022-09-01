@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Library/HIVConcepts",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/HIVConcepts",
   "name": "HIVConcepts",
   "title": "Library - HIV Concepts",
   "description": "A Generated Logic library encapsulating necessary concepts and terminology for HIV Screening.",
@@ -62,331 +62,331 @@
   }, {
     "type": "depends-on",
     "display": "Code system Extended Codes CodeSystem",
-    "resource": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom"
+    "resource": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom"
   }, {
     "type": "depends-on",
     "display": "Value set Encounter Type Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a0-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a0-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Sexual Orientation Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a0-de49.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a0-de49.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gender Identity Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a0-de56.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a0-de56.json"
   }, {
     "type": "depends-on",
     "display": "Value set HIV infection as a condition Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a1-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a1-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set HIV-1 HIV 2 Ab Ag tests Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a2-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a2-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set HIV Viral Load Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a2-de173.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a2-de173.json"
   }, {
     "type": "depends-on",
     "display": "Value set HIV Test Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a2-de1-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a2-de1-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set HIV Test Ordered Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a2-de217.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a2-de217.json"
   }, {
     "type": "depends-on",
     "display": "Value set Hepatitis C Virus Infection (Disorders) Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b1-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b1-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Chronic Infection of liver due to Hepatitis C virus Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b1-de31.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b1-de31.json"
   }, {
     "type": "depends-on",
     "display": "Value set HCV Infection (Organism or Substance in Lab Results) Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b1-de33.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b1-de33.json"
   }, {
     "type": "depends-on",
     "display": "Value set Hepatitis C condition Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b1-de61.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b1-de61.json"
   }, {
     "type": "depends-on",
     "display": "Value set Hepatitis C Diagnosis Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b1-de1-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b1-de1-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Hepatitis C Ag Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Hepatitis C nucleic acid Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de5.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de5.json"
   }, {
     "type": "depends-on",
     "display": "Value set Hepatitis C virus antibody test Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de41.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de41.json"
   }, {
     "type": "depends-on",
     "display": "Value set Hepatitis C virus nucleic (RNA) test Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de81.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de81.json"
   }, {
     "type": "depends-on",
     "display": "Value set Hepatitis C Test Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de103.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de103.json"
   }, {
     "type": "depends-on",
     "display": "Value set Hepatitis C Test Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de1-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de1-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Hepatitis C Procedures Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de113.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de113.json"
   }, {
     "type": "depends-on",
     "display": "Value set Syphilis Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c1-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-c1-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Syphilis (Organism or Substance in Lab Results) Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c1-de185.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-c1-de185.json"
   }, {
     "type": "depends-on",
     "display": "Value set Syphilis condition Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c1-de192.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-c1-de192.json"
   }, {
     "type": "depends-on",
     "display": "Value set Syphilis Diagnosis Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c1-de1-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-c1-de1-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Syphilis (Tests for Treponema pallidum Nucleic Acid) Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c2-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-c2-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Syphilis (Tests for Treponemal or Non Antibody) Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c2-de8.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-c2-de8.json"
   }, {
     "type": "depends-on",
     "display": "Value set Syphilis Test Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c2-de1-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-c2-de1-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gonococcal Infections and Venereal Diseases Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-d1-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-d1-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gonorrhea Organism or Substance in Lab Results Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-d1-de167.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-d1-de167.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gonorrhea Secondary Sites Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-d1-de182.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-d1-de182.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gonorrhea Diagnosis Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-d1-de1-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-d1-de1-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gonorrhea Tests for Neisseria gonorrhea by Culture Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-d2-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-d2-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gonorrhea Tests for Neisseria Nucleic Acid Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-d2-de17.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-d2-de17.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gonorrhea Tests for Neisseria species by Culture Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-d2-de60.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-d2-de60.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gonorrhea test Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-d2-de67.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-d2-de67.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gonorrhea Tests and Chlamydia/Gonorrhea Combined Tests Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-d2-de101.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-d2-de101.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gonorrhea Test Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-d2-de1-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-d2-de1-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Chlamydia Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e1-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e1-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Chlamydia Infections and Venereal Diseases Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e1-de27.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e1-de27.json"
   }, {
     "type": "depends-on",
     "display": "Value set Chlamydia trachomatis Infection Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e1-de32.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e1-de32.json"
   }, {
     "type": "depends-on",
     "display": "Value set Chlamydia trachomatis organism Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e1-de63.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e1-de63.json"
   }, {
     "type": "depends-on",
     "display": "Value set Chlamydia Diagnosis Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e1-de1-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e1-de1-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Chlamydia Screening Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e2-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e2-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Chlamydia test Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e2-de49.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e2-de49.json"
   }, {
     "type": "depends-on",
     "display": "Value set Chlamydia Trachomatis Tests, FPAR Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e2-de123.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e2-de123.json"
   }, {
     "type": "depends-on",
     "display": "Value set Tests for Chlamydia trachomatis Antigen Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e2-de125.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e2-de125.json"
   }, {
     "type": "depends-on",
     "display": "Value set Tests for Chlamydia trachomatis by Culture Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e2-de154.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e2-de154.json"
   }, {
     "type": "depends-on",
     "display": "Value set Tests for Chlamydia trachomatis Nucleic Acid Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e2-de164.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e2-de164.json"
   }, {
     "type": "depends-on",
     "display": "Value set Chlamydia Test Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-e2-de1-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-e2-de1-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Drug Rehabilitation Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f1-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Injection Findings Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de13.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f1-de13.json"
   }, {
     "type": "depends-on",
     "display": "Value set Injection Drug Use Diagnosis Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de16.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f1-de16.json"
   }, {
     "type": "depends-on",
     "display": "Value set Injection Drug Use Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f1-de201.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f1-de201.json"
   }, {
     "type": "depends-on",
     "display": "Value set Pregnancy Encounters Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f2-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Third Trimester Encounters Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de39.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f2-de39.json"
   }, {
     "type": "depends-on",
     "display": "Value set Pregnancy Supervision Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de43.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f2-de43.json"
   }, {
     "type": "depends-on",
     "display": "Value set Maternal Care Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de109.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f2-de109.json"
   }, {
     "type": "depends-on",
     "display": "Value set Pregnancy Procedures Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de673.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f2-de673.json"
   }, {
     "type": "depends-on",
     "display": "Value set Pregnancy Observations Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de905.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f2-de905.json"
   }, {
     "type": "depends-on",
     "display": "Value set Pregnancy Conditions Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-f2-de1132.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-f2-de1132.json"
   }, {
     "type": "depends-on",
     "display": "Value set Post Exposure Prophylaxis Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g1-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set Preferred nPEP Order Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de6.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g1-de6.json"
   }, {
     "type": "depends-on",
     "display": "Value set Alternative nPEP Order Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de100.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g1-de100.json"
   }, {
     "type": "depends-on",
     "display": "Value set PEP Medication Prescriptions Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de5-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g1-de5-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Preferred nPEP Supplied Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de144.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g1-de144.json"
   }, {
     "type": "depends-on",
     "display": "Value set Alternative nPEP Supplied Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de299.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g1-de299.json"
   }, {
     "type": "depends-on",
     "display": "Value set PEP Dispensed Medications Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g1-de143-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g1-de143-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Emtricitabine (FTC) 200mg Order Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de2.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de2.json"
   }, {
     "type": "depends-on",
     "display": "Value set TAF 25mg / FTC 200mg Order Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de7.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de7.json"
   }, {
     "type": "depends-on",
     "display": "Value set TDF 300mg / FTC 200mg Order Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de15.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de15.json"
   }, {
     "type": "depends-on",
     "display": "Value set Tenofovir Alafenamide (TAF) 25 mg Order Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de18.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de18.json"
   }, {
     "type": "depends-on",
     "display": "Value set Tenofovir Disoproxil Fumarate (TDF) 300mg Order Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de22.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de22.json"
   }, {
     "type": "depends-on",
     "display": "Value set Prep Medication Prescriptions Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de1-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de1-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Emtricitabine (FTC) 200mg Supplied Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de27.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de27.json"
   }, {
     "type": "depends-on",
     "display": "Value set TAF 25mg / FTC 200mg Supplied Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de35.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de35.json"
   }, {
     "type": "depends-on",
     "display": "Value set TDF 300mg / FTC 200mg Supplied Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de37.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de37.json"
   }, {
     "type": "depends-on",
     "display": "Value set Tenofovir Alafenamide (TAF) 25 mg Supplied Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de78.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de78.json"
   }, {
     "type": "depends-on",
     "display": "Value set Tenofovir Disoproxil Fumarate (TDF) 300mg Supplied Codes",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de79.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de79.json"
   }, {
     "type": "depends-on",
     "display": "Value set Prep Dispensed Medications Codes Grouper",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de26-codes-grouper.json"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de26-codes-grouper.json"
   }, {
     "type": "depends-on",
     "display": "Value set Gay Or Bisexual",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/GayOrBisexual"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/GayOrBisexual"
   }, {
     "type": "depends-on",
     "display": "Value set Transgender",
-    "resource": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/Transgender"
+    "resource": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/Transgender"
   } ],
   "content": [ {
     "contentType": "text/cql",

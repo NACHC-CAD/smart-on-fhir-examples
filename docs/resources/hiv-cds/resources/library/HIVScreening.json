@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Library/HIVScreening",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/HIVScreening",
   "name": "HIVScreening",
   "title": "Library - HIV Screening",
   "type": {

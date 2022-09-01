@@ -14,7 +14,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueCode": "structured"
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCA0",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Questionnaire/NACHCA0",
   "name": "NACHCA0",
   "title": "NACHC.A0 Contact & Profile",
   "status": "active",
@@ -28,7 +28,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/activity-codes",
         "code": "NACHC.A0",
         "display": "Contact & Profile"
       } ]

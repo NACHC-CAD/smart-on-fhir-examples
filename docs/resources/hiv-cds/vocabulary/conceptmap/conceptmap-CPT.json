@@ -1,14 +1,14 @@
 {
   "resourceType": "ConceptMap",
   "id": "CPT",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ConceptMap/CPT",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/ConceptMap/CPT",
   "name": "CPT",
   "title": "CPT",
   "status": "draft",
   "experimental": false,
   "description": "Concept mapping from content extended codes to CPT",
   "group": [ {
-    "source": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+    "source": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
     "target": "http://www.ama-assn.org/go/cpt",
     "element": [ {
       "code": "NACHC.B2.DE103",

@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-g2-de79",
-  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de79.json",
+  "url": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de79.json",
   "name": "TenofovirDisoproxilFumarateTDF300mgSuppliedCodes",
   "title": "Tenofovir Disoproxil Fumarate (TDF) 300mg Supplied Codes",
   "status": "draft",

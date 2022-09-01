@@ -1,7 +1,7 @@
 {
   "resourceType": "CodeSystem",
   "id": "hiv-custom",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
   "name": "hivcustom",
   "title": "Extended Codes CodeSystem",
   "status": "draft",

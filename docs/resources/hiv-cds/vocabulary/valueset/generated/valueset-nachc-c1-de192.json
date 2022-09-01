@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-c1-de192",
-  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c1-de192.json",
+  "url": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-c1-de192.json",
   "name": "SyphilisconditionCodes",
   "title": "Syphilis condition Codes",
   "status": "draft",

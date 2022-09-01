@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "GayOrBisexual",
-  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/GayOrBisexual",
+  "url": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/GayOrBisexual",
   "name": "GayOrBisexual",
   "title": "Gay Or Bisexual",
   "status": "active",
@@ -11,7 +11,7 @@
   "compose": {
     "include": [
       {
-        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+        "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
         "version": "1.0.0",
         "concept": [
           {

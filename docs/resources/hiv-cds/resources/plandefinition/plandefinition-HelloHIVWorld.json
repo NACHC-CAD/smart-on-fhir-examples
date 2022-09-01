@@ -1,7 +1,7 @@
 {
   "resourceType": "PlanDefinition",
   "id": "plandefinition-HelloHIVWorld",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/PlanDefinition/plandefinition-HelloHIVWorld",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/PlanDefinition/plandefinition-HelloHIVWorld",
   "identifier": [
     {
       "use": "official",
@@ -73,7 +73,7 @@
   ],
   "copyright": "© Copyright National Association of Community Health Centers, Inc. (NACHC) 2021+.",
   "library": [
-     "http://fhir.org/guides/nachc/hiv-cds/Library/HelloHIVWorld"
+     "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/HelloHIVWorld"
   ],
   "action": [
     {

@@ -14,7 +14,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueCode": "structured"
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCC1",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Questionnaire/NACHCC1",
   "name": "NACHCC1",
   "title": "NACHC.C1 Syphilis",
   "status": "active",
@@ -28,7 +28,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/activity-codes",
         "code": "NACHC.C1",
         "display": "Syphilis"
       } ]
@@ -36,9 +36,9 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/syphilis-diagnosis#Condition.code",
+    "definition": "http://fhir.org/guides/nachc/smart-on-fhir-examples/StructureDefinition/syphilis-diagnosis#Condition.code",
     "text": "Concepts Associated with Syphilis Diagnosis",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-c1-de1-codes-grouper.json"
+    "answerValueSet": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-c1-de1-codes-grouper.json"
   } ]
 }

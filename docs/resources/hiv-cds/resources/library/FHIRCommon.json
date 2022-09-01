@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Library/FHIRCommon",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/FHIRCommon",
   "version": "4.0.1",
   "name": "FHIRCommon",
   "title": "Library - FHIR Common",
@@ -19,7 +19,7 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/nachc/hiv-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Code system LOINC",

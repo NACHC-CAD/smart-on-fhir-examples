@@ -1,7 +1,7 @@
 {
     "resourceType": "PlanDefinition",
     "id": "HIVScreening",
-    "url": "http://fhir.org/guides/nachc/hiv-cds/PlanDefinition/HIVScreening",
+    "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/PlanDefinition/HIVScreening",
     "identifier": [{
         "use": "official",
         "value": "nachc-HIV-Screening"
@@ -57,7 +57,7 @@
     }],
     "copyright": "© Copyright National Association of Community Health Centers, Inc. (NACHC) 2021+.",
     "library": [
-        "http://fhir.org/guides/nachc/hiv-cds/Library/HIVScreening"
+        "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/HIVScreening"
     ],
     "action": [{
         "title": "HIV Screening",
@@ -113,7 +113,7 @@
                     }]
                 },
                 "selectionBehavior": "any",
-                "definitionCanonical": "http://fhir.org/guides/nachc/hiv-cds/ActivityDefinition/activitydefinition-hiv-screening-request",
+                "definitionCanonical": "http://fhir.org/guides/nachc/smart-on-fhir-examples/ActivityDefinition/activitydefinition-hiv-screening-request",
                 "dynamicValue": [{
                         "path": "action.title",
                         "expression": {
@@ -179,7 +179,7 @@
                     }]
                 },
                 "selectionBehavior": "any",
-                "definitionCanonical": "http://fhir.org/guides/nachc/hiv-cds/ActivityDefinition/activitydefinition-hiv-screening-request",
+                "definitionCanonical": "http://fhir.org/guides/nachc/smart-on-fhir-examples/ActivityDefinition/activitydefinition-hiv-screening-request",
                 "dynamicValue": [{
                         "path": "action.title",
                         "expression": {
@@ -245,7 +245,7 @@
                     }]
                 },
                 "selectionBehavior": "any",
-                "definitionCanonical": "http://fhir.org/guides/nachc/hiv-cds/ActivityDefinition/activitydefinition-hiv-screening-request",
+                "definitionCanonical": "http://fhir.org/guides/nachc/smart-on-fhir-examples/ActivityDefinition/activitydefinition-hiv-screening-request",
                 "dynamicValue": [{
                         "path": "action.title",
                         "expression": {
@@ -311,7 +311,7 @@
                     }]
                 },
                 "selectionBehavior": "any",
-                "definitionCanonical": "http://fhir.org/guides/nachc/hiv-cds/ActivityDefinition/activitydefinition-hiv-screening-request",
+                "definitionCanonical": "http://fhir.org/guides/nachc/smart-on-fhir-examples/ActivityDefinition/activitydefinition-hiv-screening-request",
                 "dynamicValue": [{
                         "path": "action.title",
                         "expression": {
@@ -377,7 +377,7 @@
                     }]
                 },
                 "selectionBehavior": "any",
-                "definitionCanonical": "http://fhir.org/guides/nachc/hiv-cds/ActivityDefinition/activitydefinition-hiv-screening-request",
+                "definitionCanonical": "http://fhir.org/guides/nachc/smart-on-fhir-examples/ActivityDefinition/activitydefinition-hiv-screening-request",
                 "dynamicValue": [{
                         "path": "action.title",
                         "expression": {

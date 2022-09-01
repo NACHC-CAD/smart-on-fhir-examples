@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-g2-de37",
-  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-g2-de37.json",
+  "url": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-g2-de37.json",
   "name": "TDF300mgFTC200mgSuppliedCodes",
   "title": "TDF 300mg / FTC 200mg Supplied Codes",
   "status": "draft",

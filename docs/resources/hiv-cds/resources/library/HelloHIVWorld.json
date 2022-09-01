@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Library/HelloHIVWorld",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/HelloHIVWorld",
   "version": "1.0.0",
   "name": "HelloHIVWorld",
   "title": "Library - Hello HIV World",
@@ -79,7 +79,7 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/nachc/hiv-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Value set Indicators of Human Immunodeficiency Virus (HIV)",

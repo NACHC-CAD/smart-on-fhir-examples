@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-b2-de81",
-  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de81.json",
+  "url": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de81.json",
   "name": "HepatitisCvirusnucleicRNAtestCodes",
   "title": "Hepatitis C virus nucleic (RNA) test Codes",
   "status": "draft",

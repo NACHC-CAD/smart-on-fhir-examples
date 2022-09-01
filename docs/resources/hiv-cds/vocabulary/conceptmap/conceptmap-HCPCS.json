@@ -1,14 +1,14 @@
 {
   "resourceType": "ConceptMap",
   "id": "HCPCS",
-  "url": "http://fhir.org/guides/nachc/hiv-cds/ConceptMap/HCPCS",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/ConceptMap/HCPCS",
   "name": "HCPCS",
   "title": "HCPCS",
   "status": "draft",
   "experimental": false,
   "description": "Concept mapping from content extended codes to HCPCS",
   "group": [ {
-    "source": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+    "source": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
     "target": "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
     "element": [ {
       "code": "NACHC.B2.DE103",

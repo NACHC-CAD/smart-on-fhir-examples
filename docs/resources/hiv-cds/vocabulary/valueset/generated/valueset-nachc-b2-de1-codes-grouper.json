@@ -1,7 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "nachc-b2-de1-codes-grouper",
-  "url": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de1-codes-grouper.json",
+  "url": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de1-codes-grouper.json",
   "name": "HepatitisCTestCodesGrouper",
   "title": "Hepatitis C Test Codes Grouper",
   "status": "draft",
@@ -11,15 +11,15 @@
   "immutable": true,
   "compose": {
     "include": [ {
-      "valueSet": [ "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de2.json" ]
+      "valueSet": [ "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de2.json" ]
     }, {
-      "valueSet": [ "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de5.json" ]
+      "valueSet": [ "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de5.json" ]
     }, {
-      "valueSet": [ "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de41.json" ]
+      "valueSet": [ "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de41.json" ]
     }, {
-      "valueSet": [ "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de81.json" ]
+      "valueSet": [ "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de81.json" ]
     }, {
-      "valueSet": [ "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-b2-de103.json" ]
+      "valueSet": [ "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-b2-de103.json" ]
     } ]
   },
   "expansion": {
@@ -413,31 +413,31 @@
       "code": "50023-1",
       "display": "Hepatitis C virus RNA panel (viral load) in Serum or Plasma by NAA with probe detection"
     }, {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE103",
       "display": "Antinuclear antibodies (ANA)"
     }, {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE104",
       "display": "Hepatitis C antibody"
     }, {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE105",
       "display": "Hepatitis C antibody; confirmatory test (eg, immunoblot)"
     }, {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE106",
       "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, direct probe technique"
     }, {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE107",
       "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, amplified probe technique, includes reverse transcription when performed"
     }, {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE108",
       "display": "Infectious agent detection by nucleic acid (DNA or RNA); hepatitis C, quantification, includes reverse transcription when performed"
     }, {
-      "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/hiv-custom",
+      "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/hiv-custom",
       "code": "NACHC.B2.DE109",
       "display": "Infectious agent genotype analysis by nucleic acid (DNA or RNA); Hepatitis C virus"
     }, {

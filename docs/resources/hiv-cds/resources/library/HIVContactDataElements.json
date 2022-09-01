@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Library/HIVContactDataElements",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/HIVContactDataElements",
   "name": "HIVContactDataElements",
   "title": "Library - Contact Data Elements",
   "description": "A Generated Logic library encapsulating necessary concepts and data elements for Encounters in relation for HIV Screening.",

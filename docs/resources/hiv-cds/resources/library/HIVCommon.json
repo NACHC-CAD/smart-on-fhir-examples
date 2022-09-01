@@ -7,7 +7,7 @@
       "reference": "Device/cqf-tooling"
     }
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Library/HIVCommon",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/HIVCommon",
   "name": "HIVCommon",
   "title": "Library - HIV Common",
   "description": "A Shared library encapsulating valuable common functions for HIV Screening.",
@@ -18,11 +18,11 @@
   }, {
     "type": "depends-on",
     "display": "Library FHIRHelpers",
-    "resource": "http://fhir.org/guides/nachc/hiv-cds/Library/FHIRHelpers|4.0.1"
+    "resource": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/FHIRHelpers|4.0.1"
   }, {
     "type": "depends-on",
     "display": "Library FC",
-    "resource": "http://fhir.org/guides/nachc/hiv-cds/Library/FHIRCommon"
+    "resource": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Library/FHIRCommon"
   }, {
     "type": "depends-on",
     "display": "Code system ConditionClinicalStatusCodes",

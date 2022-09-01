@@ -14,7 +14,7 @@
     "url": "http://hl7.org/fhir/uv/cpg/StructureDefinition/cpg-knowledgeRepresentationLevel",
     "valueCode": "structured"
   } ],
-  "url": "http://fhir.org/guides/nachc/hiv-cds/Questionnaire/NACHCA1",
+  "url": "http://fhir.org/guides/nachc/smart-on-fhir-examples/Questionnaire/NACHCA1",
   "name": "NACHCA1",
   "title": "NACHC.A1 HIV",
   "status": "active",
@@ -28,7 +28,7 @@
     },
     "valueCodeableConcept": {
       "coding": [ {
-        "system": "http://fhir.org/guides/nachc/hiv-cds/CodeSystem/activity-codes",
+        "system": "http://fhir.org/guides/nachc/smart-on-fhir-examples/CodeSystem/activity-codes",
         "code": "NACHC.A1",
         "display": "HIV"
       } ]
@@ -36,9 +36,9 @@
   } ],
   "item": [ {
     "linkId": "1",
-    "definition": "http://fhir.org/guides/nachc/hiv-cds/StructureDefinition/hiv-diagnosis#Condition.code",
+    "definition": "http://fhir.org/guides/nachc/smart-on-fhir-examples/StructureDefinition/hiv-diagnosis#Condition.code",
     "text": "Concepts Associated with HIV Diagnosis",
     "type": "choice",
-    "answerValueSet": "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-a1-de2.json"
+    "answerValueSet": "https://nachc-cad.github.io/smart-on-fhir-examples/resources/smart-on-fhir-examples/vocabulary/valueset/generated/valueset-nachc-a1-de2.json"
   } ]
 }
