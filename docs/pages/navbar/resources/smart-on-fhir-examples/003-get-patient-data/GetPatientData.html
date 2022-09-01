@@ -1,0 +1,108 @@
+<html>
+	
+	<!-- HEAD -->
+	
+	<head>
+		<!-- favicon link -->
+		<link rel="shortcut icon" type="image/x-icon" href="/hiv-cds/images/default.ico">
+		<link rel="icon" href="/hiv-cds/images/default.ico">
+		<!-- include lib code -->
+		<script src="/hiv-cds/site_libs/jquery-1.11.3/jquery.min.js"></script>
+		<div id="headerInclude"></div>
+		<script>$("#headerInclude").load("/hiv-cds/header.html");</script>
+	</head>
+
+	<!-- BODY -->
+	
+	<body>
+		<div class="container-fluid main-container">
+			
+			<div id="navbarInclude"></div>
+			<script>$("#navbarInclude").load("/hiv-cds/navbar.html");</script>
+			
+			<div align="center">
+				<h1>
+					SMART on FHIR Examples: 003-get-patient-data
+					<br/>
+					A Simple Application to Show an Application in an EMR
+					<br/>
+					and Authenticate to the EMR
+					<br/>
+					and Get Patient Data from the EMR
+				</h1>
+			</div>
+
+			<!-- introduction -->
+			<p>
+				This application shows how to launch a SMART on FHIR application in an EMR,
+				Authenticate to the EMR,
+				and get patient data from the EMR.  
+			</p>
+			
+			<p>
+			
+				<!-- clone and checkout -->
+				<h2>Step 01: Clone and Checkout the smart-on-fhir-examples application <nobr>v1.0.0-003-get-patient-data</nobr></h2>
+				The smart-on-fhir-examples application v1.0.0-003-get-patient-data branch can be cloned 
+				and checked out using git by running the following commands.  
+<pre class="pre-scrollable">
+git clone https://github.com/NACHC-CAD/smart-on-fhir-examples
+cd smart-on-fhir-examples
+git checkout v1.0.0-003-get-patient-data
+</pre>
+				<img width="800px" src="./img/clone-and-checkout.JPG" />
+				<br/><br/>
+
+				<!-- add to tomcat -->
+				<h2>Step 02: Add the Application to Tomcat</h2>
+				Use the Eclipse tools to add the application to Tomcat.  
+				<br/>
+				<img width="800px" src="./img/tomcat.JPG" />
+				<br/><br/>
+
+				<!-- confirm 001 -->
+				<h2>Step 03: Confirm the Application Has Been Deployed Successfully</h2>
+				Confirm that the application has been deployed successfully by opening a browser and entering the following url:
+				<br/>
+				<pre class="pre-scrollable">http://localhost:8080/smart-on-fhir-examples/index.html</pre>				
+				<img width="800px" src="./img/confirm-001.JPG" />
+				<br/><br/>
+				
+				Then click on the link to confirm that the launch page has been successfully deployed.  
+				<br/>
+				<pre class="pre-scrollable">http://localhost:8080/smart-on-fhir-examples/003-get-patient-data/launch.html</pre>				
+				<img width="800px" src="./img/confirm-002.JPG" />
+				<br/><br/>
+				
+				<!-- launch -->
+				<h2>Step 04: Launch the Application in the SmartHealthIt Test Application</h2>
+				The behavior of our application in an EMR can be tested 
+				by navigating to the SmartHealthIt test application 
+				and entering the URL of our application into the launch window. 
+				<br/>
+				Navigate to the SmartHealthIt test application at the URL below. 
+				<pre class="pre-scrollable">https://launch.smarthealthit.org/</pre>
+				Enter the URL of our application in the launch window.
+				<pre class="pre-scrollable">http://localhost:8080/smart-on-fhir-examples/003-get-patient-data/launch.html</pre>
+				<img class="bordered" width="800px" src="./img/launch-001.JPG" />
+				<br/>
+				<br/><br/>
+				
+				<!-- success -->
+				<h2>Step 05: Success!</h2>
+				When the Launch button is selected, you should see the sequence of screens shown below.  
+				Note that this version of the application will display several Javascript alerts.  
+				These alerts will alow you to follow the flow of the application in the source code.  
+				Example 004-get-patient-data-quietly is identical to this application 
+				with the exception that the alerts have been removed to provide a more realistic application flow.  
+				<img class="bordered" width="800px" src="./img/launch-002.JPG" />
+				<img class="bordered" width="800px" src="./img/launch-003.JPG" />
+				<img class="bordered" width="800px" src="./img/launch-004.JPG" />
+				<br/><br/>
+			
+			</p>
+			
+		</div>
+	</body>
+</html>
+

@@ -1,0 +1,110 @@
+<html>
+	
+	<!-- HEAD -->
+	
+	<head>
+		<!-- favicon link -->
+		<link rel="shortcut icon" type="image/x-icon" href="/hiv-cds/images/default.ico">
+		<link rel="icon" href="/hiv-cds/images/default.ico">
+		<!-- include lib code -->
+		<script src="/hiv-cds/site_libs/jquery-1.11.3/jquery.min.js"></script>
+		<div id="headerInclude"></div>
+		<script>$("#headerInclude").load("/hiv-cds/header.html");</script>
+	</head>
+
+	<!-- BODY -->
+	
+	<body>
+		<div class="container-fluid main-container">
+			
+			<div id="navbarInclude"></div>
+			<script>$("#navbarInclude").load("/hiv-cds/navbar.html");</script>
+			
+			<div align="center">
+				<h1>SMART on FHIR Examples</h1>
+			</div>
+
+			<!-- introduction -->
+
+			<h2>Introduction</h2>
+			<p>
+				As part of the NACHC hiv-cds project we are providing a series of example SMART on FHIR applications.  
+				These applications and the documentation here should enable a user to learn all of the basics to create a fully functional SMART on FHIR application.  
+				This tutorial assumes the user has a basic understanding of web development concepts including HTML, Javascript, etc.  
+			</p>
+			<p>
+				The follow examples build up from the simplest possible SMART on FHIR application upto a fully functional SMART on FHIR application.  
+			</p>
+			<p>
+				The link to each application will give instructions on how to deploy and test each SMART on FHIR application.  
+			</p>
+
+			<h2>List of Example Applications</h2>
+			
+			<table class="table">
+				<!-- bootstrap -->
+				<tr>
+					<td>
+						<a href="./000-bootstrapping/BootStrapping.html">000-bootstrapping</a>
+					</td>
+					<td>
+						Start here! This page will walk through the steps to download, build, and deploy the example applications.  
+					</td>
+				</tr>
+				<!-- 001-hello-world -->
+				<tr>
+					<td>
+						<a href="./001-hello-world/HelloWorld.html"><nobr>001-hello-world</nobr></a>
+					</td>
+					<td>
+						This is the simplest possible SMART on FHIR application.  
+						This application simply displays an HTML page that is launched from the EMR.  
+						This application does not authenticate to the EMR.  
+						This application does not get data from the EMR.  
+					</td>
+				</tr>
+				<!-- 002-authenticate -->
+				<tr>
+					<td>
+						<a href="./002-authenticate/Authenticate.html"><nobr>002-authenticate</nobr></a>
+					</td>
+					<td>
+						This is a basic SMART on FHIR application that adds the authentication step to the process.  
+						This application will authenticate to the EMR.  
+						This allows the EMR to forward the application from the initial launch (launch.html) page to a subsequent data (index.html) page.  
+						This application also uses FHIR to retrieve data from the EMR.  
+					</td>
+				</tr>
+				<!-- 003-get-patient-data -->
+				<tr>
+					<td>
+						<a href="./003-get-patient-data/GetPatientData.html"><nobr>003-get-patient-data</nobr></a>
+					</td>
+					<td>
+						This SMART on FHIR application authenticates to the EMR and pulls and displays data from the EMR using FHIR.  
+						This is our first truly SMART on FHIR application as it uses both SMART and FHIR.  
+						This application includes several Javascript "alert" (popup) messages to demonstrate the flow of the application.  
+					</td>
+				</tr>
+				<!-- 004-get-patient-data-quietly -->
+				<tr>
+					<td>
+						<a href="./004-get-patient-data-quietly/GetPatientDataQuietly.html"><nobr>004-get-patient-data-quietly</nobr></a>
+					</td>
+					<td>
+						This SMART on FHIR application extends the 003-get-patient-data application by removing the Javascript alerts.  
+						This application authenticates to the EMR and pulls and displays patient data from the EMR.  
+					</td>
+				</tr>
+				<!-- blank row left here intentionally to create bottom border of table -->
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+		
+			
+		</div>
+	</body>
+</html>
+

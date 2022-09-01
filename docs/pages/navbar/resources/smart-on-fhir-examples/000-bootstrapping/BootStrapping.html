@@ -1,0 +1,124 @@
+<html>
+	
+	<!-- HEAD -->
+	
+	<head>
+		<!-- favicon link -->
+		<link rel="shortcut icon" type="image/x-icon" href="/hiv-cds/images/default.ico">
+		<link rel="icon" href="/hiv-cds/images/default.ico">
+		<!-- include lib code -->
+		<script src="/hiv-cds/site_libs/jquery-1.11.3/jquery.min.js"></script>
+		<div id="headerInclude"></div>
+		<script>$("#headerInclude").load("/hiv-cds/header.html");</script>
+	</head>
+
+	<!-- BODY -->
+	
+	<body>
+		<div class="container-fluid main-container">
+			
+			<div id="navbarInclude"></div>
+			<script>$("#navbarInclude").load("/hiv-cds/navbar.html");</script>
+			
+			<div align="center">
+				<h1>
+					SMART on FHIR Examples: 000-Bootstrapping
+					<br/>
+					Install and Configure Tools Used for 
+					<br/>
+					SMART on FHIR Application Development and Deployment
+				</h1>
+			</div>
+
+			<!-- introduction -->
+			
+			<h2>Introduction</h2>
+			<p>
+				In order to develop and deploy SMART on FHIR applications we will need some basic tools.  
+				Specifically, we will need an integrated development environment (IDE), a web server, a way to manage our code base (version control), 
+				and the tools used to build our deployable SMART on FHIR application.    
+				For these examples we will be using the following:
+			</p>
+
+			<h2>Development Tools</h2>
+			<table class="table">
+				<tr>
+					<td>
+						<a href="./InstallJava.html">Java</a>
+					</td>
+					<td>
+						Java is a progamming language that will be used in our development of SMART on FHIR applications.  
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="./InstallEclipse.html">Eclipse</a>
+					</td>
+					<td>
+						Eclipse is a common IDE used for Java and other Software development
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="./InstallTomcat.html">Tomcat</a>
+					</td>
+					<td>
+						An open source web server maintained by Apache that can be integrated into Eclipse.  
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="./InstallGit.html"><nobr>Git and Github</nobr></a>
+					</td>
+					<td>
+						The source code we will be using is stored in Github.  
+						We will be using a github client to download and manage our SMART on FHIR examples.  
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<a href="./InstallMaven.html"><nobr>Maven (MVN)</nobr></a>
+						
+					</td>
+					<td>
+						Maven is a build tool often used for Java projects.  
+						We will be using Maven as our build tool.  
+					</td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+				</tr>
+			</table>
+
+			<h2>Download and Deploy the SMART on FHIR Examples application</h2>
+			<p>
+				The SMART on FHIR Examples Application (smart-on-fhir-examples) can be downloaded from Github here: 
+				<a href="https://github.com/NACHC-CAD/smart-on-fhir-examples">https://github.com/NACHC-CAD/smart-on-fhir-examples</a>.  
+				<br/>
+				<img width="800px" src="./deploy/github.JPG" />
+				<br/><br/>
+				To download the source code for smart-on-fhir-examples, create a folder on your local machine 
+				and then open a cmd window and navigate to that folder.  
+				Then execute the following command.
+				<br/>  
+				<pre class="pre-scrollable">git clone https://github.com/NACHC-CAD/smart-on-fhir-examples</pre>
+			</p>
+			
+
+		</div>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
