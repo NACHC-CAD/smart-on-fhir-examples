@@ -1,0 +1,81 @@
+http:\/\/fhir.org\/guides\/nachc\/hiv-cds\/ValueSet\/
+https:\/\/nachc-cad.github.io\/hiv-cds\/resources\/hiv-cds\/vocabulary\/valueset\/generated\/
+find . -type f -exec sed -i 's/http:\/\/fhir.org\/guides\/nachc\/hiv-cds\/ValueSet\//https:\/\/nachc-cad.github.io\/hiv-cds\/resources\/hiv-cds\/vocabulary\/valueset\/generated\//g' {} +
+
+https:\/\/nachc-cad.github.io\/hiv-cds\/resources\/hiv-cds\/vocabulary\/valueset\/generated\/valueset-[a-z][0-9]-de[0-9]*
+
+# search 
+grep -r "https://nachc-cad.github.io/hiv-cds/resources/hiv-cds/vocabulary/valueset/generated/valueset-nachc-[a-z][0-9]-de[0-9]*"
+
+# global search and replace
+find . -type f -exec sed -i 's/https:\/\/nachc-cad.github.io\/hiv-cds\/resources\/hiv-cds\/vocabulary\/valueset\/generated\/valueset-nachc-[a-z][0-9]-de[0-9]*/https:\/\/nachc-cad.github.io\/hiv-cds\/resources\/hiv-cds\/vocabulary\/valueset\/generated\/valueset-nachc-[a-z][0-9]-de[0-9]*.json/g' {} +
+
+# rename file to remove .json extension
+find . -name '*' -type f | while read NAME ; do mv "${NAME.json}" "${NAME%}" ; done
+
+for file in *; do echo mv -- "$file" "$file.json"; done
+
+
+grep -r "http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-[[:alnum]]"
+
+http:\/\/fhir.org\/guides\/nachc\/hiv-cds\/ValueSet\/nachc-[[:alnum]]+$
+
+find . -type f -exec sed -i 's/http:\/\/fhir.org\/guides\/nachc\/hiv-cds\/ValueSet\/nachc-[[:alnum]]+$/$\.json/g' {} + 
+
+find . -type f -exec sed -Ei.bak '\#http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-[[:alnum:]-]+$#s/$/.json/' {} +
+
+
+find . -type f -exec sed -i 's///g' {} +
+
+
+cd "D:\_WORKSPACES\_ECLIPSE_WORKSPACE\workspace\_HIV\_HIV_CDS\hiv-cds\docs\resources\cds\resources"
+
+
+find . -type f -exec sed -Ei.bak '\#http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-[[:alnum:]-]+$#s/$/.json/' {} +
+
+
+
+# POWERSHELL STUFF
+
+clear 
+$string = 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de56'
+$r = $string -replace '(http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-.*)','$1'
+$r 
+$r = $r + '.json'
+$r
+$string 
+$r = $string -replace '(http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-.*)','$r'
+$r 
+
+
+$string = 'hello, world, you sexy beast'
+$string -replace '(.*), (.*)','$2,$1'
+
+# this works
+
+clear 
+$string = 'http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-a0-de56'
+$string -replace '(http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-.*)', ('$1' + '.json')
+
+
+
+cd "C:\_WORKSPACES\_ECLIPSE_WORKSPACE\workspace\_HIV\_HIV_CDS\hiv-cds\docs\resources\cds\resources\questionnaire"
+
+get-childitem ./ -recurse -include *.json | 
+  select -expand fullname |
+    foreach {
+            (Get-Content $_) -replace '(http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-.*)', ('$1' + '.json') |
+             Set-Content $_
+    }
+
+
+clear
+get-childitem ./ -recurse -include *.json | 
+  select -expand fullname |
+    foreach {
+            (Get-Content $_) -replace '(")(http://fhir.org/guides/nachc/hiv-cds/ValueSet/nachc-[^"]*)(\")', ('"' + '$2' + '.json"') |
+             Set-Content $_
+    }
+
+
+
