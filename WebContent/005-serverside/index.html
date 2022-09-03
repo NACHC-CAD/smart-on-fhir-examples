@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<!-- title -->
+		<title>SMART on FHIR Example Application (index.html)</title>
+
+		<!-- favico -->
+		<link rel="shortcut icon" href="/smart-on-fhir-examples/static/img/icon/nachc-favico.png">
+		<link rel="icon" href="/smart-on-fhir-examples/static/img/icon/nachc-favico.png">
+
+		<!-- css -->
+		<link rel='stylesheet' type='text/css' href='/smart-on-fhir-examples/static/css/smart-on-fhir-examples.css'>
+
+		<!-- javascript libraries -->
+		<script src='/smart-on-fhir-examples/static/js/fhir-client-v0.1.12.js'></script>
+		<script src='/smart-on-fhir-examples/static/js/fhir-client-cerner-additions-1.0.0.js'></script>
+		<script src="/smart-on-fhir-examples/static/jquery-1.12.4/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+		<h1>Congratulations, you have successfully authenticated to the EMR!</h1>
+		<p>
+			If you are looking at this page in a browser, you did not authenticate, you are just looking at a static web page.  
+		</p>
+		<p>
+			If you launched launch.html in and EMR and you are now looking at this page, 
+			congratulations, You have successfully performed a SMART on FHIR authentication!
+		</p>
+
+		<div id="patientSuccessMsg"></div>
+		<br/>
+		
+		<h3>Raw Data</h3>
+		<p>
+			<textarea class="scrollable" id="patientJson"></textarea>
+		</p>
+		<br/>
+		<h3>Patient</h3>
+		<table border="2">
+			<tr>
+				<td>First&nbsp;Name:&nbsp;</td>
+				<td id="fname">Not Available</td>
+			</tr>
+			<tr>
+				<td>Last&nbsp;Name:&nbsp;</td>
+				<td id="lname">Not Available</td>
+			</tr>
+			<tr>
+				<td>Gender:&nbsp;</td>
+				<td id="gender">Not Available</td>
+			</tr>
+			<tr>
+				<td>Date&nbsp;Of&nbsp;Birth:&nbsp;</td>
+				<td id="dob">Not Available</td>
+			</tr>
+		</table>
+		
+		<script>
+			fhirOnReady = function(smart) {
+		        patient = smart.patient;
+		       	pt = patient.read();
+		       	
+		        var obv = smart.patient.api.fetchAll({
+	                type: 'Observation',
+	                query: {
+	                  code: {
+	                    $or: [
+	                      'http://loinc.org|8302-2', 
+	                      'http://loinc.org|8462-4',
+	                      'http://loinc.org|8480-6', 
+	                      'http://loinc.org|2085-9',
+	                      'http://loinc.org|2089-1', 
+	                      'http://loinc.org|55284-4'
+	                    ]
+	                  }
+	                }
+	              });
+
+		        var populatePatientData = function(patient) {
+		        	$("#fname").html(patient.name[0].given);
+		        	$("#lname").html(patient.name[0].family);
+		        	$("#gender").html(patient.gender);
+		        	$("#dob").html(patient.birthDate);
+		        }
+		        
+			    $.when(pt, obv).fail(fhirOnError);
+			
+			    $.when(pt, obv).done(
+			        function(patient, obv) {
+			        	populatePatientData(patient);
+			        	$("#patientJson").html(JSON.stringify(patient,undefined,2));
+			        	$("#patientSuccessMsg").html("<h1>Congratulations, you've also successfully loaded a patient using SMART on FHIR</h1>");
+			    	}
+			    );
+
+			};
+			fhirOnError = function() {
+	        	$("#patientJson").html("An error occurred.\nThis is expected if you are looking at this page from a browser.");
+			};
+			
+		    FHIR.oauth2.ready(fhirOnReady, fhirOnError);
+
+		</script>
+
+	</body>
+
+</html>
