@@ -8,6 +8,21 @@
 
 	<!-- 
 	* 
+	* servlets
+	*
+	-->
+
+	<servlet>
+		<servlet-name>Forward</servlet-name>
+		<servlet-class>org.nachc.smartonfhirexamples.servlet.forward.ForwardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Forward</servlet-name>
+		<url-pattern>/Forward</url-pattern>
+	</servlet-mapping>
+
+	<!-- 
+	* 
 	* welcome file list
 	*
 	-->
