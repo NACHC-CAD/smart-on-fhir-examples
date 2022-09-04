@@ -28,3 +28,14 @@ target/
 .project
 .settings/
 
+# logical link to enable local browsing of docs
+/_ETC/http-server/hiv-cds
+
+# java/eclipse files
+/target/
+/src/main/resources/auth/
+.classpath
+.project
+/.settings/
+
+
