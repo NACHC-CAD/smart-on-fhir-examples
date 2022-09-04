@@ -17,11 +17,11 @@
 		</tr>
 		<tr>
 			<td>Gender:&nbsp;</td>
-			<td id="gender">gender</td>
+			<td id="gender">${gender}</td>
 		</tr>
 		<tr>
 			<td>Date&nbsp;Of&nbsp;Birth:&nbsp;</td>
-			<td id="dob">dob</td>
+			<td id="dob">${dob}</td>
 		</tr>
 	</table>
 	

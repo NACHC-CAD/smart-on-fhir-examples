@@ -58,7 +58,6 @@
 	              });
 
 		        var populatePatientData = function(patient) {
-		        	alert(JSON.stringify(patient));
 					doPost("/smart-on-fhir-examples/Forward?actionName=example005.GetBasicPatientInfo","#patientInfo",patient);
 		        }
 		        
