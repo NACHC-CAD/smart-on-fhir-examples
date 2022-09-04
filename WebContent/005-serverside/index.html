@@ -16,6 +16,7 @@
 		<!-- javascript libraries -->
 		<script src='/smart-on-fhir-examples/static/js/fhir-client-v0.1.12.js'></script>
 		<script src='/smart-on-fhir-examples/static/js/fhir-client-cerner-additions-1.0.0.js'></script>
+		<script src='/smart-on-fhir-examples/static/js/smart-on-fhir-examples.js'></script>
 		<script src="/smart-on-fhir-examples/static/jquery-1.12.4/jquery.min.js"></script>
 
 	</head>
@@ -32,36 +33,9 @@
 
 		<div id="patientSuccessMsg"></div>
 		<br/>
-		
-		<h3>Raw Data</h3>
-		<p>
-			<textarea class="scrollable" id="patientJson"></textarea>
-		</p>
-		<br/>
-		<h3>Patient</h3>
-		<table border="2">
-			<tr>
-				<td>First&nbsp;Name:&nbsp;</td>
-				<td id="fname">Not Available</td>
-			</tr>
-			<tr>
-				<td>Last&nbsp;Name:&nbsp;</td>
-				<td id="lname">Not Available</td>
-			</tr>
-			<tr>
-				<td>Gender:&nbsp;</td>
-				<td id="gender">Not Available</td>
-			</tr>
-			<tr>
-				<td>Date&nbsp;Of&nbsp;Birth:&nbsp;</td>
-				<td id="dob">Not Available</td>
-			</tr>
-		</table>
-		
-		<script>
-		
-		</script>
-		
+
+		<div id="patientInfo"></div>		
+
 		<script>
 			fhirOnReady = function(smart) {
 		        patient = smart.patient;
@@ -84,10 +58,7 @@
 	              });
 
 		        var populatePatientData = function(patient) {
-		        	$("#fname").html(patient.name[0].given);
-		        	$("#lname").html(patient.name[0].family);
-		        	$("#gender").html(patient.gender);
-		        	$("#dob").html(patient.birthDate);
+					doGet("http://localhost:8080/smart-on-fhir-examples/Forward?actionName=hello.HelloWorldAction","#patientInfo");
 		        }
 		        
 			    $.when(pt, obv).fail(fhirOnError);
@@ -101,11 +72,13 @@
 			    );
 
 			};
+			
 			fhirOnError = function() {
-	        	$("#patientJson").html("An error occurred.\nThis is expected if you are looking at this page from a browser.");
+	        	$("#patientInfo").html("An error occurred.\nThis is expected if you are looking at this page from a browser.");
 			};
 			
 		    FHIR.oauth2.ready(fhirOnReady, fhirOnError);
+		
 		</script>
 
 	</body>
