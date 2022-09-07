@@ -10,6 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class HelloWorldAction extends AppAction {
 
+	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse resp) {
 		log.info("Doing hello world action");
 		log.info("Done");
