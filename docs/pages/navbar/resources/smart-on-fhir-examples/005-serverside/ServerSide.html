@@ -1,0 +1,96 @@
+<html>
+	
+	<!-- HEAD -->
+	
+	<head>
+		<!-- favicon link -->
+		<link rel="shortcut icon" type="image/x-icon" href="/smart-on-fhir-examples/images/default.ico">
+		<link rel="icon" href="/smart-on-fhir-examples/images/default.ico">
+		<!-- include lib code -->
+		<script src="/smart-on-fhir-examples/site_libs/jquery-1.11.3/jquery.min.js"></script>
+		<div id="headerInclude"></div>
+		<script>$("#headerInclude").load("/smart-on-fhir-examples/header.html");</script>
+	</head>
+
+	<!-- BODY -->
+	
+	<body>
+		<div class="container-fluid main-container">
+			
+			<div id="navbarInclude"></div>
+			<script>$("#navbarInclude").load("/smart-on-fhir-examples/navbar.html");</script>
+			
+			<div align="center">
+				<h1>
+					SMART on FHIR Examples: 005-serverside<br/>
+					A Simple Application to Show How to User Server Side Processing in a <br/>
+					SMART on FHIR Application 
+				</h1>
+			</div>
+
+			<!-- introduction -->
+			<h2>Introduction</h2>
+			<p>
+				This SMART on FHIR application demonstrates how to pass SMART on FHIR to a server application for processing
+				and then return a response to the SMART on FHIR application running inside the EMR. 
+				This example focuses on the serverside code and does not walk through the process to deploy the application seen in the previous examples.  
+				For an explaination of how to deploy the application, see one of the previous examples.   
+				To run this example you will need to deploy the smart-on-fhir-examples application to a Java enabled server.  
+				For the example we use an instance of Wildfly running in Eclipse.  
+				<br/><br/>
+				We have made available a complete installation of the development environment we use in this example here:
+				<a href="https://nachc-cad.github.io/fhir-to-omop/pages/navbar/how-tos/developer-how-tos/install-eclipse/InstallEclipse.html">https://nachc-cad.github.io/fhir-to-omop/pages/navbar/how-tos/developer-how-tos/install-eclipse/InstallEclipse.html</a>.  
+				<br/><br/>
+				Instructions on how to deploy a web application in this environment are here: 
+				<a href="https://nachc-cad.github.io/fhir-to-omop/pages/navbar/how-tos/developer-how-tos/install-eclipse/debug-web-application/DebugWebApplication.html">https://nachc-cad.github.io/fhir-to-omop/pages/navbar/how-tos/developer-how-tos/install-eclipse/debug-web-application/DebugWebApplication.html</a>
+			</p>
+			
+			<h2>Deploying the Application to a Web Server Example (Wildfly in Eclipse)</h2>
+			
+			To deploy the application to a web server, download the smart-on-fhir-examples application from github 
+			<a href="https://github.com/NACHC-CAD/smart-on-fhir-examples">here</a> 
+			using clone as shown below.  
+			<br/><br/>
+			<pre class="pre-scrollable">git clone https://github.com/NACHC-CAD/smart-on-fhir-examples</pre>		
+			Launch Eclipse, import the application using "Import Existing Maven Project".  
+			Start the server by selecting the Server tab, right click on the server, and select "Add" as shown below.  
+			<br/>
+			<img src="./img/start-server.jpg" />
+			<br/><br/>
+			Add the smart-on-fhir-examples application to the server as shown below.  
+			<img src="./img/add-application.JPG" />
+			<br/><br/>
+			Start the server by selecting the server, right click, and select "Start" (or "Start in Debug"). 
+			Note that there should be output indicating that the smart-on-fhir-examples application has been deployed.   
+			<img src="./img/server-started.jpg" />
+			<br/><br/>
+			You can then confirm that the application is running by navigating to this url: 
+			<a href="http://localhost:8080/smart-on-fhir-examples/Forward?actionName=hello.HelloWorldAction">http://localhost:8080/smart-on-fhir-examples/Forward?actionName=hello.HelloWorldAction</a>.  
+			If the application has been successfully deployed and the server is up and running, you should see something like what is shown below.  	
+			<img src="./img/hello-world-screen-shot.JPG" />
+			<br/><br/>
+			After visiting the <a href="http://localhost:8080/smart-on-fhir-examples/Forward?actionName=hello.HelloWorldAction">Hello World</a> page, you should see server output similar to what is shown below.  
+			Note the server output at the bottom of the screen.  
+			You can click the link in the server output and Eclipse will open up the class that generated the output at the line that generated the output.  
+			<img src="./img/hello-world-server-output.jpg" />
+			<br/><br/>
+			You are now ready to launch the server side application from an EMR or EMR sandbox.  
+			We can launch the server side application from the SmartHealthIt sandbox.  
+			Navigate to the SMART App Launcher at <a href="https://launch.smarthealthit.org/">https://launch.smarthealthit.org/</a>. 
+			Scroll to the bottom of the page and paste in the url below and then click the "Launch App" button.  
+			<pre class="prescrollable">http://localhost:8080/smart-on-fhir-examples/005-serverside/launch.html</pre>
+			<img src="./img/launch-from-emr.jpg" />
+			<br/><br/>
+			The application should launch and display a page similar to what is shown below.  
+			<img src="./img/success.JPG" />
+			<br/><br/>
+			We can then see the output from the server side processing in Eclipse as shown below.  
+			Note again that the output includes links to where the logging was generated.  
+			These links can be used to get to the code processed the SMART on FHIR resource and forwarded the user to the appropriate page.  
+			<img src="./img/success-server-output.jpg" />
+			<br/><br/>
+
+		</div>
+	</body>
+</html>
+			
