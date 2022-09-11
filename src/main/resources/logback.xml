@@ -8,6 +8,9 @@
 		</encoder>
 	</appender>
 
+	<logger name="ch.qos.logback" level="ERROR" />
+	<logger name="ca.uhn.fhir" level="ERROR" />
+	
 	<root level="info">
 		<appender-ref ref="STDOUT" />
 	</root>

@@ -17,6 +17,12 @@
 		  
 		<dependency>
 			<groupId>org.nachc.cad.tools</groupId>
+			<artifactId>fhirtoomop</artifactId>
+			<version>0.1.002-SNAPSHOT</version>
+		</dependency>
+<!--	
+		<dependency>
+			<groupId>org.nachc.cad.tools</groupId>
 			<artifactId>core</artifactId>
 			<version>0.1.002</version>
 		</dependency>
@@ -28,16 +34,11 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.nachc.cad.tools</groupId>
-			<artifactId>fhirtoomop</artifactId>
-			<version>0.0.15-SNAPSHOT</version>
-		</dependency>
-	
-		<dependency>
 			<groupId>org.nachc.cad</groupId>
 			<artifactId>curlew</artifactId>
 			<version>0.1.002</version>
 		</dependency>
+--> 
 	
 		<!-- LOMBOK (Lombok jar also needs to be added to Eclipse IDE) -->
         <dependency>

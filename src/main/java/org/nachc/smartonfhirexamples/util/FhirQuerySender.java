@@ -21,4 +21,11 @@ public class FhirQuerySender {
 		return response;
 	}
 
+	public static String getForUrl(String url) {
+		HttpRequestClient client = new HttpRequestClient(url);
+		client.doGet();
+		String response = client.getResponse();
+		return response;
+	}
+	
 }
