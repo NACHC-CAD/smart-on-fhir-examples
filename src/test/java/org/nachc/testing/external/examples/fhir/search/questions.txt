@@ -1,0 +1,5 @@
+Is there a way to do a distinct query?  
+You can get a list of patients that have DiagnosticReports with something like:
+https://r4.smarthealthit.org/DiagnosticReport?_summary=true
+However, a patient has multiple DiagnosticReport resources.  
+
