@@ -17,9 +17,9 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class A001b_SimpleSearchExampleIntegrationTest {
-	
+
 	/**
-	 * This search uses the FHIR search API to find a patient for a given ID.  
+	 * This search uses the FHIR search API to find a patient for a given ID.
 	 */
 	@Test
 	public void shouldGetResource() {

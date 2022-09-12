@@ -56,7 +56,7 @@ public class A002c_GetDiagnosticReportForPatientExampleIntegrationTest {
 		log.info("Next URL: \n" + nextUrl);
 		// get the next page for the Patient/$everything resource
 		String nextPageJson = FhirQuerySender.getForUrl(nextUrl);
-		log.info(nextPageJson);
+		log.info("\n\n------" + nextPageJson + "------\n\n");
 		String msg = "Response from server: \n\n" + nextPageJson + "\n";
 		Bundle bundle = FhirJsonParser.parse(nextPageJson, Bundle.class);
 		BundleParser parser = new BundleParser(bundle);
