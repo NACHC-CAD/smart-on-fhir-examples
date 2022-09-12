@@ -1,5 +1,7 @@
 package org.nachc.testing.external.examples.fhir.search;
 
+import static org.junit.Assert.assertTrue;
+
 import java.util.List;
 
 import org.hl7.fhir.r4.model.Bundle;
@@ -11,6 +13,7 @@ import org.nachc.smartonfhirexamples.util.FhirQuerySender;
 import org.nachc.tools.fhirtoomop.fhir.parser.r4.bundle.BundleParser;
 
 import com.nach.core.util.fhir.parser.FhirJsonParser;
+import com.nach.core.util.json.JsonUtil;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -53,12 +56,17 @@ public class A002c_GetDiagnosticReportForPatientExampleIntegrationTest {
 		log.info("Next URL: \n" + nextUrl);
 		// get the next page for the Patient/$everything resource
 		String nextPageJson = FhirQuerySender.getForUrl(nextUrl);
+		log.info(nextPageJson);
 		String msg = "Response from server: \n\n" + nextPageJson + "\n";
 		Bundle bundle = FhirJsonParser.parse(nextPageJson, Bundle.class);
 		BundleParser parser = new BundleParser(bundle);
 		List<DiagnosticReport> reports = parser.getResourceListForType(DiagnosticReport.class);
+		assertTrue(reports.size() == 4);
+		// display json for first DiagnosticReport
+		String reportJson = FhirJsonParser.serialize(reports.get(0));
+		reportJson = JsonUtil.prettyPrint(reportJson);
+		log.info("DiagnosticReport JSON: \n\n" + reportJson + "\n");
 		log.info("Got " + reports.size() + " reports.");
-		log.info(nextPageJson);
 		log.info("Done.");
 	}
 
