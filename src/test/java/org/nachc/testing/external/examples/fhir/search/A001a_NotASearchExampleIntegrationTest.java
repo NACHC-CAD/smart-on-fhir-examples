@@ -2,10 +2,10 @@ package org.nachc.testing.external.examples.fhir.search;
 
 import static org.junit.Assert.assertTrue;
 
-import org.hl7.fhir.dstu3.model.Patient;
+import org.hl7.fhir.r4.model.Patient;
 import org.junit.Test;
 import org.nachc.smartonfhirexamples.util.FhirQuerySender;
-import org.nachc.tools.fhirtoomop.fhir.parser.patient.PatientParser;
+import org.nachc.tools.fhirtoomop.fhir.parser.r4.patient.PatientParser;
 
 import com.nach.core.util.fhir.parser.FhirJsonParser;
 

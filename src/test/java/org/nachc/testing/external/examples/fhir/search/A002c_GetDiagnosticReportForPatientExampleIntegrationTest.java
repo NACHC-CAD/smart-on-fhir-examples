@@ -2,13 +2,13 @@ package org.nachc.testing.external.examples.fhir.search;
 
 import java.util.List;
 
-import org.hl7.fhir.dstu3.model.Bundle;
-import org.hl7.fhir.dstu3.model.DiagnosticReport;
-import org.hl7.fhir.dstu3.model.Patient;
+import org.hl7.fhir.r4.model.Bundle;
+import org.hl7.fhir.r4.model.DiagnosticReport;
+// import org.hl7.fhir.r4.model.Bundle;
+// import org.hl7.fhir.r4.model.DiagnosticReport;
 import org.junit.Test;
 import org.nachc.smartonfhirexamples.util.FhirQuerySender;
-import org.nachc.tools.fhirtoomop.fhir.parser.bundle.BundleParser;
-import org.nachc.tools.fhirtoomop.fhir.parser.patient.PatientParser;
+import org.nachc.tools.fhirtoomop.fhir.parser.r4.bundle.BundleParser;
 
 import com.nach.core.util.fhir.parser.FhirJsonParser;
 

@@ -3,7 +3,6 @@ package org.nachc.smartonfhirexamples.util;
 import org.nachc.smartonfhirexamples.properties.AppProperties;
 
 import com.nach.core.util.http.HttpRequestClient;
-import com.nach.core.util.json.JsonUtil;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -6,10 +6,10 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.io.IOUtils;
-import org.hl7.fhir.dstu3.model.HumanName;
-import org.hl7.fhir.dstu3.model.Patient;
+import org.hl7.fhir.r4.model.HumanName;
+import org.hl7.fhir.r4.model.Patient;
 import org.nachc.smartonfhirexamples.action.abs.AppAction;
-import org.nachc.tools.fhirtoomop.fhir.parser.patient.PatientParser;
+import org.nachc.tools.fhirtoomop.fhir.parser.r4.patient.PatientParser;
 
 import com.nach.core.util.fhir.parser.FhirJsonParser;
 import com.nach.core.util.file.FileUtil;
