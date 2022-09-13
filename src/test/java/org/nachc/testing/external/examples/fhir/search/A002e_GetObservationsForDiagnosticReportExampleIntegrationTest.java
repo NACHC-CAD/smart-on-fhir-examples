@@ -48,10 +48,12 @@ public class A002e_GetObservationsForDiagnosticReportExampleIntegrationTest {
 	}
 
 	private void showReport(DiagnosticReport report, FhirPatient patient) {
-		log.info("------------------------------------------");
+		// TODO: MOVE JOINING VALUE TO REPORT TO PARSER
 		List<Reference> results = report.getResult();
 		String msg = "\n\n";
+		msg += "------------------------------------------\n";
 		msg += "Diagnostic Report (" + report.getId() + ")\n";
+		msg += "------------------------------------------\n";
 		msg += "Observation ID\t\t\t\t\t\tName\t"; 
 		msg += "\n";
 		for(Reference result : results) {
@@ -64,7 +66,8 @@ public class A002e_GetObservationsForDiagnosticReportExampleIntegrationTest {
 			msg += obsId + "\t" + display + "\t" + val;
 			msg += "\n";
 		}
-		log.info("\n" + msg);
+		msg += "------------------------------------------\n";
+		log.info("REPORT:\n" + msg);
 	}
 	
 }
