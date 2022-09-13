@@ -9,6 +9,7 @@ import org.hl7.fhir.r4.model.DiagnosticReport;
 import org.hl7.fhir.r4.model.Observation;
 import org.hl7.fhir.r4.model.Reference;
 import org.junit.Test;
+import org.nachc.tools.fhirtoomop.fhir.parser.r4.observation.ObservationParser;
 import org.nachc.tools.fhirtoomop.fhir.patient.r4.FhirPatient;
 import org.nachc.tools.fhirtoomop.fhir.patient.r4.factory.FhirPatientFactory;
 
@@ -57,8 +58,10 @@ public class A002e_GetObservationsForDiagnosticReportExampleIntegrationTest {
 			String display = result.getDisplay();
 			String obsId = result.getReference();
 			Observation obs = patient.getResourceForType(Observation.class, obsId);
+			ObservationParser parser = new ObservationParser(obs, patient);
+			String val = parser.getValueDisplay();
 			patient.getPatient();
-			msg += obsId + "\t" + display + "\t" + obs;
+			msg += obsId + "\t" + display + "\t" + val;
 			msg += "\n";
 		}
 		log.info("\n" + msg);
