@@ -1,57 +1,64 @@
 package org.nachc.testing.external.examples.fhir.search;
 
-import static org.junit.Assert.assertTrue;
 
+
+import java.io.File;
 import java.util.List;
 
-import org.hl7.fhir.r4.model.Bundle;
 import org.hl7.fhir.r4.model.DiagnosticReport;
-import org.hl7.fhir.r4.model.Patient;
-// import org.hl7.fhir.r4.model.Bundle;
-// import org.hl7.fhir.r4.model.DiagnosticReport;
+import org.hl7.fhir.r4.model.Reference;
 import org.junit.Test;
-import org.nachc.smartonfhirexamples.util.FhirQuerySender;
-import org.nachc.tools.fhirtoomop.fhir.parser.r4.bundle.BundleParser;
-import org.nachc.tools.fhirtoomop.fhir.parser.r4.patient.PatientParser;
+import org.nachc.tools.fhirtoomop.fhir.patient.r4.FhirPatient;
+import org.nachc.tools.fhirtoomop.fhir.patient.r4.factory.FhirPatientFactory;
 
-import com.nach.core.util.fhir.parser.FhirJsonParser;
-import com.nach.core.util.json.JsonUtil;
+import com.nach.core.util.file.FileUtil;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 public class A002e_GetObservationsForDiagnosticReportExampleIntegrationTest {
 
+	private static final String PATIENT_DIR = "/src/test/java/org/nachc/testing/external/examples/fhir/downloadfhirpatient/patient/d78af07c-9cb9-4f31-9b11-c45a28f2eec8";
+	
 	/**
-	 * From the previous example we have an id for a DiangosticReport:
-	 * ca42703d-054c-4fc5-aaa5-c9d4f9688e89
+	 * In this example we will get a DiagnosticReport and get the Observations
+	 * associated with that DiagnosticReport.
 	 * 
-	 * We can now get this report using the id. This example does that.
+	 * We use a patient we have previously downloaded. This patient is different
+	 * that the one used in previous examples (the previous patient gave timeout
+	 * errors when we tried to download it).
 	 * 
-	 * After running this example, you will see that the DiagnosticReport does not
-	 * actually contain the Observersion (values) for the tests. The
-	 * DiagnosticReport contains references to the Observation resources that are
-	 * (for some reason) elsewhere in the Patient resource. In the next example we
-	 * will join the observations to the information in the diagnostic report. 
+	 * To see how the files were downloaded, look at the A001_DownloadAPatient.java file.  
 	 */
 	@Test
-	public void shouldGetResource() {
+	public void shouldMatchObservations() {
 		log.info("Starting test...");
-		// query the server and get the json response string
-		String reportId = "ca42703d-054c-4fc5-aaa5-c9d4f9688e89";
-		String path = "/DiagnosticReport/" + reportId;
-		String response = FhirQuerySender.get(path);
-		String msg = "";
-		msg += "\n\nDIAGNOSTIC REPORT";
-		msg += "\nResponse from server: \n\n" + response + "\n";
-		log.info(msg);
-		// crete a fhir object from the response json
-		DiagnosticReport report = FhirJsonParser.parse(response, DiagnosticReport.class);
-		String idFromResponse = report.getId();
-		log.info(reportId);
-		log.info(idFromResponse);
-		assertTrue(idFromResponse.contains(reportId));
+		// get the test patient
+		File dir = FileUtil.getFromProjectRoot(PATIENT_DIR);
+		FhirPatient patient = FhirPatientFactory.build(dir);
+		List<DiagnosticReport> reportList =  patient.getResourceListForType(DiagnosticReport.class);
+		log.info("Got patient: " + patient.getPatientId());
+		log.info("Got " + reportList.size() + " DiagnosticReport resoures");
+		for(DiagnosticReport report : reportList) {
+			showReport(report);
+		}
 		log.info("Done.");
 	}
 
+	private void showReport(DiagnosticReport report) {
+		log.info("------------------------------------------");
+		List<Reference> results = report.getResult();
+		String msg = "\n\n";
+		msg += "Diagnostic Report (" + report.getId() + ")\n";
+		msg += "Observation ID\t\t\t\t\t\tName\t"; 
+		msg += "\n";
+		for(Reference result : results) {
+			String display = result.getDisplay();
+			String obsId = result.getReference();
+			msg += obsId + "\t" + display;
+			msg += "\n";
+		}
+		log.info("\n" + msg);
+	}
+	
 }
