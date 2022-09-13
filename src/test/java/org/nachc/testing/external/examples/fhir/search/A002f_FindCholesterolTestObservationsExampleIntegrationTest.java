@@ -17,17 +17,18 @@ import com.nach.core.util.fhir.parser.FhirJsonParser;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class A002f_FindPatientsWithCholesterolTestExampleIntegrationTest {
+public class A002f_FindCholesterolTestObservationsExampleIntegrationTest {
 
 	/**
-	 * This search uses the FHIR search API to find a patient for a given ID.
+	 * This search uses the FHIR search API to find Observations for Total Cholesterol 
+	 * using the LOINC code for the Total Cholesterol test.  
 	 */
 	@Test
 	public void shouldGetResource() {
 		log.info("Starting test...");
 		// query the server and get the json response string
-		String requestedPatient = "2093-3";
-		String path = "/Observation/?code=" + requestedPatient;
+		String code = "2093-3";
+		String path = "/Observation/?code=" + code;
 		String response = FhirQuerySender.get(path);
 		String msg = "Response from server: \n\n" + response + "\n";
 		log.info(msg);
