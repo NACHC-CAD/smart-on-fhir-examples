@@ -6,6 +6,7 @@ import java.io.File;
 import java.util.List;
 
 import org.hl7.fhir.r4.model.DiagnosticReport;
+import org.hl7.fhir.r4.model.Observation;
 import org.hl7.fhir.r4.model.Reference;
 import org.junit.Test;
 import org.nachc.tools.fhirtoomop.fhir.patient.r4.FhirPatient;
@@ -40,12 +41,12 @@ public class A002e_GetObservationsForDiagnosticReportExampleIntegrationTest {
 		log.info("Got patient: " + patient.getPatientId());
 		log.info("Got " + reportList.size() + " DiagnosticReport resoures");
 		for(DiagnosticReport report : reportList) {
-			showReport(report);
+			showReport(report, patient);
 		}
 		log.info("Done.");
 	}
 
-	private void showReport(DiagnosticReport report) {
+	private void showReport(DiagnosticReport report, FhirPatient patient) {
 		log.info("------------------------------------------");
 		List<Reference> results = report.getResult();
 		String msg = "\n\n";
@@ -55,7 +56,9 @@ public class A002e_GetObservationsForDiagnosticReportExampleIntegrationTest {
 		for(Reference result : results) {
 			String display = result.getDisplay();
 			String obsId = result.getReference();
-			msg += obsId + "\t" + display;
+			Observation obs = patient.getResourceForType(Observation.class, obsId);
+			patient.getPatient();
+			msg += obsId + "\t" + display + "\t" + obs;
 			msg += "\n";
 		}
 		log.info("\n" + msg);
