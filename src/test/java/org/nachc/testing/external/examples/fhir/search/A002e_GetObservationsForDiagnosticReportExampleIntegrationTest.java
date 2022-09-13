@@ -54,7 +54,7 @@ public class A002e_GetObservationsForDiagnosticReportExampleIntegrationTest {
 		msg += "------------------------------------------\n";
 		msg += "Diagnostic Report (" + report.getId() + ")\n";
 		msg += "------------------------------------------\n";
-		msg += "Observation ID\t\t\t\t\t\tName\t"; 
+		msg += "Observation ID\t\t\t\t\t\tValue\t\t\tName\t"; 
 		msg += "\n";
 		for(Reference result : results) {
 			String display = result.getDisplay();
@@ -63,7 +63,7 @@ public class A002e_GetObservationsForDiagnosticReportExampleIntegrationTest {
 			ObservationParser parser = new ObservationParser(obs, patient);
 			String val = parser.getValueDisplay();
 			patient.getPatient();
-			msg += obsId + "\t" + display + "\t" + val;
+			msg += obsId + "\t" + val + "\t" + display;
 			msg += "\n";
 		}
 		msg += "------------------------------------------\n";
