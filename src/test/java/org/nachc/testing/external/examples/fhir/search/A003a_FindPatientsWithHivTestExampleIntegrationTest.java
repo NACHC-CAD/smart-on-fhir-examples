@@ -20,7 +20,7 @@ import lombok.extern.slf4j.Slf4j;
 public class A003a_FindPatientsWithHivTestExampleIntegrationTest {
 
 	/**
-	 * This search uses the FHIR search API to find a patient for a given ID.
+	 * This search uses the FHIR search API to find observations for a given code.
 	 * 
 	 * The hiv-cds project has a set of files that define ValueSet resources
 	 * associated with CDS HIV testing guidelines.
@@ -80,8 +80,8 @@ public class A003a_FindPatientsWithHivTestExampleIntegrationTest {
 	public void shouldGetResource() {
 		log.info("Starting test...");
 		// query the server and get the json response string
-		String requestedPatient = "2899083";
-		String path = "/Observation/?code=" + requestedPatient;
+		String code = "2899083";
+		String path = "/Observation/?code=" + code;
 		String response = FhirQuerySender.get(path);
 		String msg = "Response from server: \n\n" + response + "\n";
 		log.info(msg);

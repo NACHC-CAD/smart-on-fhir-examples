@@ -1,27 +1,42 @@
-package org.nachc.testing.external.examples.fhir.valueset;
+package org.nachc.testing.external.examples.fhir.search.synthea;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import org.hl7.fhir.r4.model.ValueSet;
 import org.junit.Test;
+import org.nachc.smartonfhirexamples.util.FhirQuerySender;
 import org.nachc.tools.fhirtoomop.fhir.parser.r4.valueset.ValueSetParser;
 
 import com.nach.core.util.fhir.parser.FhirJsonParser;
 import com.nach.core.util.file.FileUtil;
+import com.nach.core.util.json.JsonUtil;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class GetUrlsForHivTestingObservations {
+public class A003b_FindPatientsWithAnyHivTestExampleIntegrationTest {
 
 	private static final String DIR_PATH = "/docs/_ETC/hiv-cds/vocabulary/valueset/generated/";
 
-	private static final String URL = "https://r4.smarthealthit.org/Observation?code=";
+	private static final String URL = "https://syntheticmass.mitre.org/v1/fhir/Observation?code=";
 	
 	/**
-	 * This test generates a url for each of the four valuesets for hiv testing.  
+	 * This looks for any observations for an hiv test.  
 	 */
 	@Test
 	public void shouldGetUrls() {
 		log.info("Starting test...");
+		List<String> urls = getUrls();
+		for(String url : urls) {
+			String json = FhirQuerySender.getForUrl(url);
+			json = JsonUtil.prettyPrint(json);
+			log.info("\n" + json);
+		}
+		log.info("Done.");
+	}
+	
+	private List<String> getUrls() {
 		// HIV1HIV2AbAgtestsCodes
 		String HIV1HIV2AbAgtestsCodes = FileUtil.getAsString(FileUtil.getFromProjectRoot(DIR_PATH + "valueset-nachc-a2-de2.json"));
 		ValueSet valueset1 = FhirJsonParser.parse(HIV1HIV2AbAgtestsCodes, ValueSet.class);
@@ -44,7 +59,12 @@ public class GetUrlsForHivTestingObservations {
 		ValueSetParser parser4 = new ValueSetParser(valueset4);
 		String url4 = URL + parser4.getCodesAsCsv();
 		log.info("URLS: \n" + url1 + "\n" + url2 + "\n" + url3 + "\n" + url4 + "\n");
-		log.info("Done.");
+		ArrayList<String> rtn = new ArrayList<String>();
+		rtn.add(url1);
+		rtn.add(url2);
+		rtn.add(url3);
+		rtn.add(url4);
+		return rtn;
 	}
 
 }
