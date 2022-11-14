@@ -11,7 +11,7 @@ import lombok.extern.slf4j.Slf4j;
 public class FhirQuerySender {
 
 	public static String get(String path) {
-		String baseUrl = AppProperties.getFhirServerUrl();
+		String baseUrl = AppProperties.getFhirPatientServerUrl();
 		String url = baseUrl + path;
 		log.info("FHIR Server: " + url);
 		log.info("URL: \n" + url);

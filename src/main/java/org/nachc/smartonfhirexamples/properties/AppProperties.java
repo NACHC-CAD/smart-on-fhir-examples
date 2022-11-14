@@ -8,7 +8,7 @@ import com.nach.core.util.props.PropertiesUtil;
 
 public class AppProperties {
 	
-	private static final String PROPS_FILE_NAME = "/app-params.properties";
+	private static final String PROPS_FILE_NAME = "/auth/app.properties";
 	
 	private static final Properties PROPS;
 	
@@ -25,8 +25,8 @@ public class AppProperties {
 		return PROPS.getProperty(name);
 	}
 	
-	public static String getFhirServerUrl() {
-		return get("fhirServerUrl");
+	public static String getFhirPatientServerUrl() {
+		return get("fhirPatientServerUrl");
 	}
 	
 }
