@@ -33,7 +33,6 @@ target/
 
 # java/eclipse files
 /target/
-/src/main/resources/auth/
 .classpath
 .project
 /.settings/

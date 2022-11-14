@@ -4,6 +4,7 @@ import static org.junit.Assert.assertTrue;
 
 import org.hl7.fhir.r4.model.Patient;
 import org.junit.Test;
+import org.nachc.smartonfhirexamples.properties.AppProperties;
 import org.nachc.smartonfhirexamples.util.FhirQuerySender;
 import org.nachc.tools.fhirtoomop.fhir.parser.r4.patient.PatientParser;
 
@@ -28,7 +29,7 @@ public class A001a_NotASearchExampleSYNTHEAIntegrationTest {
 	public void shouldGetResource() {
 		log.info("Starting test...");
 		// query the server and get the json response string
-		String requestedPatient = "0823143f-91dc-4dd3-b4bb-f4d9165773ea";
+		String requestedPatient = AppProperties.get("patientId");
 		String path = "/Patient/" + requestedPatient;
 		log.info("PatientID: " + requestedPatient);
 		String response = FhirQuerySender.get(path);
