@@ -1,22 +1,15 @@
 package org.nachc.smartonfhirexamples.action.example005;
 
-import java.util.List;
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.commons.io.IOUtils;
-import org.hl7.fhir.r4.model.HumanName;
 import org.hl7.fhir.r4.model.Patient;
 import org.nachc.smartonfhirexamples.action.abs.AppAction;
 import org.nachc.tools.fhirtoomop.fhir.parser.r4.patient.PatientParser;
 
 import com.nach.core.util.fhir.parser.FhirJsonParser;
-import com.nach.core.util.file.FileUtil;
-import com.nach.core.util.http.HttpClientFactory;
-import com.nach.core.util.http.HttpRequestClient;
 import com.nach.core.util.json.JsonUtil;
-import com.nach.core.util.string.StringUtil;
 
 import lombok.extern.slf4j.Slf4j;
 
