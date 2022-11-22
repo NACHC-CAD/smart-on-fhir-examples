@@ -35,50 +35,41 @@
 
 		<div id="patientInfo"></div>		
 
-		<script>
-			fhirOnReady = function(smart) {
-		        patient = smart.patient;
-		       	pt = patient.read();
-		       	
-		        var obv = smart.patient.api.fetchAll({
-	                type: 'Observation',
-	                query: {
-	                  code: {
-	                    $or: [
-	                      'http://loinc.org|8302-2', 
-	                      'http://loinc.org|8462-4',
-	                      'http://loinc.org|8480-6', 
-	                      'http://loinc.org|2085-9',
-	                      'http://loinc.org|2089-1', 
-	                      'http://loinc.org|55284-4'
-	                    ]
-	                  }
-	                }
-	              });
+<script>
 
-		        var populatePatientData = function(patient) {
-					doPost("/smart-on-fhir-examples/Forward?actionName=example005.GetBasicPatientInfo","#patientInfo",patient);
-		        }
-		        
-			    $.when(pt, obv).fail(fhirOnError);
-			
-			    $.when(pt, obv).done(
-			        function(patient, obv) {
-			        	populatePatientData(patient);
-			        	$("#patientJson").html(JSON.stringify(patient,undefined,2));
-			        	$("#patientSuccessMsg").html("<h1>Congratulations, you've also successfully sent a patient resource to the server where it was then processed.</h1>");
-			    	}
-			    );
+	fhirOnReady = function(smart) {
+        patient = smart.patient;
+       	pt = patient.read();
 
-			};
-			
-			fhirOnError = function() {
-	        	$("#patientInfo").html("An error occurred.\nThis is expected if you are looking at this page from a browser.");
-			};
-			
-		    FHIR.oauth2.ready(fhirOnReady, fhirOnError);
-		
-		</script>
+       	var obv = smart.patient.api.fetchAll({
+               type: 'Patient'
+        });
+
+        var populatePatientData = function(patient) {
+			doPost("/smart-on-fhir-examples/Forward?actionName=example005.GetBasicPatientInfo","#patientInfo",patient);
+        }
+        
+	    $.when(pt, obv).fail(fhirOnError);
+	
+	    $.when(pt, obv).done(
+	        function(patient, obv) {
+	        	populatePatientData(patient);
+	        	$("#patientJson").html(JSON.stringify(patient,undefined,2));
+	        	$("#patientSuccessMsg").html(
+	        		"<h1>Congratulations, " + 
+	        		"you've also successfully sent a patient resource to the server where it was then processed.</h1>");
+	    	}
+	    );
+
+	};
+	
+	fhirOnError = function() {
+       	$("#patientInfo").html("An error occurred.\nThis is expected if you are looking at this page from a browser.");
+	};
+	
+    FHIR.oauth2.ready(fhirOnReady, fhirOnError);
+
+</script>
 
 	</body>
 
