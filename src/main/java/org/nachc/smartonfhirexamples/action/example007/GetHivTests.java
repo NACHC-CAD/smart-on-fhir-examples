@@ -1,4 +1,7 @@
-package org.nachc.smartonfhirexamples.action.example005;
+package org.nachc.smartonfhirexamples.action.example007;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -6,15 +9,18 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.commons.io.IOUtils;
 import org.hl7.fhir.r4.model.Patient;
 import org.nachc.smartonfhirexamples.action.abs.AppAction;
+import org.nachc.tools.fhirtoomop.fhir.parser.r4.diagnosticreport.DiagnosticReportParser;
 import org.nachc.tools.fhirtoomop.fhir.parser.r4.patient.PatientParser;
 
 import com.nach.core.util.fhir.parser.FhirJsonParser;
 import com.nach.core.util.json.JsonUtil;
+import com.nachc.hivcds.util.valueset.hivtest.HivTestCodes;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class GetBasicPatientInfo extends AppAction {
+public class GetHivTests extends AppAction {
+
 
 	@Override
 	public void execute(HttpServletRequest req, HttpServletResponse resp) {
@@ -50,12 +56,11 @@ public class GetBasicPatientInfo extends AppAction {
 			String dob = parser.getBirthDateAsString();
 			req.setAttribute("dob", dob);
 			log.info("Patient DOB: " + dob);
-			// get the id
-			String patientId = parser.getId();
-			req.setAttribute("patientId", patientId);
-			log.info("Patient ID: " + patientId);
 			// done
 			this.forward(req, resp, "/WEB-INF/jsp/pages/005-serverside/impl/PatientInfo.jsp");
+			// get the diagnostic reports
+			List<String> hivTestCodes = HivTestCodes.get();
+			List<DiagnosticReportParser> hivReports = new ArrayList<DiagnosticReportParser>();
 			log.info("Done");
 		} catch(Exception exp) {
 			throw new RuntimeException(exp);

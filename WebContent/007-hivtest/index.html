@@ -32,6 +32,7 @@
 		</p>
 
 		<div id="patientSuccessMsg"></div>
+		<br/>
 
 		<div id="patientInfo"></div>		
 
@@ -56,8 +57,14 @@
 	                }
 	              });
 
+		        var diagnosticReportList = smart.patient.api.fetchAll({
+	                type: 'DiagnosticReport'
+	            });
+
+		        alert("Diagnostic Reports\n" + JSON.stringify(diagnosticReportList,undefined,2));
+		        
 		        var populatePatientData = function(patient) {
-					doPost("/smart-on-fhir-examples/Forward?actionName=example005.GetBasicPatientInfo","#patientInfo",patient);
+					doPost("/smart-on-fhir-examples/Forward?actionName=example005.GetBasicPatientInfo", "#patientInfo", patient);
 		        }
 		        
 			    $.when(pt, obv).fail(fhirOnError);

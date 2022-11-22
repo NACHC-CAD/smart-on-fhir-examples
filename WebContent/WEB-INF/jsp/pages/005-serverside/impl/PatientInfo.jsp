@@ -4,9 +4,12 @@
 	<p>
 		<textarea class="scrollable" id="patientJson">${patientJson}</textarea>
 	</p>
-	<br/>
 	<h3>Patient</h3>
 	<table border="2">
+		<tr>
+			<td>Patient&nbsp;ID:&nbsp;</td>
+			<td id="patientId">${patientId}</td>
+		</tr>
 		<tr>
 			<td>First&nbsp;Name:&nbsp;</td>
 			<td id="fname">${fname}</td>
