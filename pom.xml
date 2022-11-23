@@ -6,7 +6,7 @@
 	
 	<groupId>com.curlewconsulting.examples.fhir.smart</groupId>
 	<artifactId>SmartOnFhirExamples</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.001</version>
 	
 	<packaging>war</packaging>
 	
