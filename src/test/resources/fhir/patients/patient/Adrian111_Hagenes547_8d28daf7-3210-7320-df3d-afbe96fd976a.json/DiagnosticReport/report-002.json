@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999931394",
+    "display": "Dr. Mariette443 Rau926"
+  }],
+  "effectiveDateTime": "1994-06-15T08:25:26-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:8d28daf7-3210-7320-df3d-afbe96fd976a"},
+  "presentedForm": [{
+    "data": "DQoxOTk0LTA2LTE1DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQotIEh1bmdlcg0KLSBUaGlyc3QNCi0gRmF0aWd1ZQ0KLSBGcmVxdWVudCBVcmluYXRpb24NCg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZHJpYW4xMTENCiBpcyBhIDE5IHllYXItb2xkIG5vbi1oaXNwYW5pYyB3aGl0ZSBtYWxlLiBQYXRpZW50IGhhcyBhIGhpc3Rvcnkgb2YgZnVsbC10aW1lIGVtcGxveW1lbnQgKGZpbmRpbmcpLCBzdHJlc3MgKGZpbmRpbmcpLg0KDQojIFNvY2lhbCBIaXN0b3J5DQpQYXRpZW50IGlzIHNpbmdsZS4gUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KIFBhdGllbnQgaWRlbnRpZmllcyBhcyBoZXRlcm9zZXh1YWwuDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIGhpZ2ggc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLg0KIFBhdGllbnQgaGFzIGNvbXBsZXRlZCBzb21lIGNvbGxlZ2UgY291cnNlcy4NClBhdGllbnQgY3VycmVudGx5IGhhcyBDaWduYSBIZWFsdGguDQoNCiMgQWxsZXJnaWVzDQpObyBLbm93biBBbGxlcmdpZXMuDQoNCiMgTWVkaWNhdGlvbnMNCk5vIEFjdGl2ZSBNZWRpY2F0aW9ucy4NCg0KIyBBc3Nlc3NtZW50IGFuZCBQbGFuDQpQYXRpZW50IGlzIHByZXNlbnRpbmcgd2l0aCBmdWxsLXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIHRyYW5zcG9ydCBwcm9ibGVtcyAoZmluZGluZykuIA0KDQojIyBQbGFuDQoNCg==",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:949bfa17-bce8-405a-f1e7-66cad1cb4c96"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "1994-06-15T08:25:26.699-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

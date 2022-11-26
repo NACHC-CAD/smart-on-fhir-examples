@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999992396",
+    "display": "Dr. Antwan357 Lindgren255"
+  }],
+  "effectiveDateTime": "2013-02-12T08:44:03-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:532a2187-2b0d-55ae-9db9-c071ef543674"},
+  "presentedForm": [{
+    "data": "DQoyMDEzLTAyLTEyDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBYnJhbTUzDQogaXMgYSAyMyB5ZWFyLW9sZCBub24taGlzcGFuaWMgYmxhY2sgbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIHBhcnQtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgZnVsbC10aW1lIGVtcGxveW1lbnQgKGZpbmRpbmcpLCBzdHJlc3MgKGZpbmRpbmcpLg0KDQojIFNvY2lhbCBIaXN0b3J5DQpQYXRpZW50IGlzIG1hcnJpZWQuIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4NCiBQYXRpZW50IGlkZW50aWZpZXMgYXMgaGV0ZXJvc2V4dWFsLg0KDQpQYXRpZW50IGNvbWVzIGZyb20gYSBtaWRkbGUgc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLg0KIFBhdGllbnQgaXMgYSBjb2xsZWdlIGdyYWR1YXRlLg0KUGF0aWVudCBjdXJyZW50bHkgaGFzIENpZ25hIEhlYWx0aC4NCg0KIyBBbGxlcmdpZXMNCk5vIEtub3duIEFsbGVyZ2llcy4NCg0KIyBNZWRpY2F0aW9ucw0KYW1sb2RpcGluZSAyLjUgbWcgb3JhbCB0YWJsZXQNCg0KIyBBc3Nlc3NtZW50IGFuZCBQbGFuDQoNCg0KIyMgUGxhbg0KUGF0aWVudCB3YXMgZ2l2ZW4gdGhlIGZvbGxvd2luZyBpbW11bml6YXRpb25zOiBpbmZsdWVuemEsIHNlYXNvbmFsLCBpbmplY3RhYmxlLCBwcmVzZXJ2YXRpdmUgZnJlZS4gDQo=",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:083f65ab-9652-11ec-dcbb-97c313ec36e7"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2013-02-12T08:44:03.917-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

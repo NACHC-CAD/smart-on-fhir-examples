@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999944892",
+    "display": "Dr. Estella474 O'Hara248"
+  }],
+  "effectiveDateTime": "1992-02-05T15:57:37-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:196dc8df-c16b-adc2-c2e9-ba46ba87752f"},
+  "presentedForm": [{
+    "data": "DQoxOTkyLTAyLTA1DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZGVsaW5hNjgyIFdhbjcyNA0KIGlzIGEgMjcgeWVhci1vbGQgbm9uLWhpc3BhbmljIGFzaWFuIGZlbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIHN0cmVzcyAoZmluZGluZykuDQoNCiMgU29jaWFsIEhpc3RvcnkNClBhdGllbnQgaXMgbWFycmllZC4gUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KIFBhdGllbnQgaWRlbnRpZmllcyBhcyBoZXRlcm9zZXh1YWwuDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIGhpZ2ggc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLg0KIFBhdGllbnQgaXMgYSBjb2xsZWdlIGdyYWR1YXRlLg0KUGF0aWVudCBjdXJyZW50bHkgaGFzIFVuaXRlZEhlYWx0aGNhcmUuDQoNCiMgQWxsZXJnaWVzDQpObyBLbm93biBBbGxlcmdpZXMuDQoNCiMgTWVkaWNhdGlvbnMNCmxpc2lub3ByaWwgMTAgbWcgb3JhbCB0YWJsZXQ7IGh5ZHJvY2hsb3JvdGhpYXppZGUgMjUgbWcgb3JhbCB0YWJsZXQ7IGFtbG9kaXBpbmUgMi41IG1nIG9yYWwgdGFibGV0DQoNCiMgQXNzZXNzbWVudCBhbmQgUGxhbg0KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggbWlzdXNlcyBkcnVncyAoZmluZGluZykuIA0KDQojIyBQbGFuDQoNClRoZSBwYXRpZW50IHdhcyBwcmVzY3JpYmVkIHRoZSBmb2xsb3dpbmcgbWVkaWNhdGlvbnM6DQotIGh5ZHJvY2hsb3JvdGhpYXppZGUgMjUgbWcgb3JhbCB0YWJsZXQNCi0gbGlzaW5vcHJpbCAxMCBtZyBvcmFsIHRhYmxldA0KLSBhbWxvZGlwaW5lIDIuNSBtZyBvcmFsIHRhYmxldA0K",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:cf3a7bff-d661-270e-2c02-cd7e6a431196"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "1992-02-05T15:57:37.496-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999997791",
+    "display": "Dr. Tracey100 Hamill307"
+  }],
+  "effectiveDateTime": "2022-07-24T17:50:10-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:c630ca79-9433-eb66-3320-7bd6b843ffeb"},
+  "presentedForm": [{
+    "data": "DQoyMDIyLTA3LTI0DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZGVsYWlkZTk4MSBDb3JhbGllNzg3DQogaXMgYSAyOCB5ZWFyLW9sZCBub24taGlzcGFuaWMgd2hpdGUgZmVtYWxlLiBQYXRpZW50IGhhcyBhIGhpc3Rvcnkgb2Ygd2hpcGxhc2ggaW5qdXJ5IHRvIG5lY2ssIGZhdGlndWUgKGZpbmRpbmcpLCBwZXJlbm5pYWwgYWxsZXJnaWMgcmhpbml0aXMsIHNvcmUgdGhyb2F0IHN5bXB0b20gKGZpbmRpbmcpLCBtaXN1c2VzIGRydWdzIChmaW5kaW5nKSwgc3VzcGVjdGVkIGNvdmlkLTE5LCBjaGlsZGhvb2QgYXN0aG1hLCBzZXZlcmUgYW54aWV0eSAocGFuaWMpIChmaW5kaW5nLCBjb3ZpZC0xOSwgbm9ybWFsIHByZWduYW5jeSwgcGFydC10aW1lIGVtcGxveW1lbnQgKGZpbmRpbmcpLCBmZXZlciAoZmluZGluZyksIGJsaWdodGVkIG92dW0sIGxpbWl0ZWQgc29jaWFsIGNvbnRhY3QgKGZpbmRpbmcpLCBub3QgaW4gbGFib3IgZm9yY2UgKGZpbmRpbmcpLCBmdWxsLXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIGNvdWdoIChmaW5kaW5nKSwgc29jaWFsIGlzb2xhdGlvbiAoZmluZGluZyksIHN0cmVzcyAoZmluZGluZykuDQoNCiMgU29jaWFsIEhpc3RvcnkNClBhdGllbnQgaXMgbWFycmllZC4gUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KIFBhdGllbnQgaWRlbnRpZmllcyBhcyBoZXRlcm9zZXh1YWwuDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQogUGF0aWVudCBoYXMgY29tcGxldGVkIHNvbWUgY29sbGVnZSBjb3Vyc2VzLg0KUGF0aWVudCBjdXJyZW50bHkgaGFzIEFldG5hLg0KDQojIEFsbGVyZ2llcw0KTm8gS25vd24gQWxsZXJnaWVzLg0KDQojIE1lZGljYXRpb25zDQpuZGEwMjA1MDMgMjAwIGFjdHVhdCBhbGJ1dGVyb2wgMC4wOSBtZy9hY3R1YXQgbWV0ZXJlZCBkb3NlIGluaGFsZXI7IGFjZXRhbWlub3BoZW4gMzI1IG1nIG9yYWwgdGFibGV0OyAxNjggaHIgZXRoaW55bCBlc3RyYWRpb2wgMC4wMDE0NiBtZy9ociAvIG5vcmVsZ2VzdHJvbWluIDAuMDA2MjUgbWcvaHIgdHJhbnNkZXJtYWwgc3lzdGVtOyBudXZhcmluZyAwLjEyLzAuMDE1IG1nIHBlciAyNGhyIDIxIGRheSB2YWdpbmFsIHJpbmc7IGVycmluIDI4IGRheSBwYWNrOyAxMjAgYWN0dWF0IGZsdXRpY2Fzb25lIHByb3Bpb25hdGUgMC4wNDQgbWcvYWN0dWF0IG1ldGVyZWQgZG9zZSBpbmhhbGVyIFtmbG92ZW50XTsgdHJpbmVzc2EgMjggZGF5IHBhY2s7IGxldm9yYSAwLjE1LzMwIDI4IGRheSBwYWNrDQoNCiMgQXNzZXNzbWVudCBhbmQgUGxhbg0KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggY3lzdGl0aXMuIA0KDQojIyBQbGFuDQoNClRoZSBwYXRpZW50IHdhcyBwcmVzY3JpYmVkIHRoZSBmb2xsb3dpbmcgbWVkaWNhdGlvbnM6DQotIG5pdHJvZnVyYW50b2luIDUgbWcvbWwgb3JhbCBzdXNwZW5zaW9uDQotIHBoZW5hem9weXJpZGluZSBoeWRyb2NobG9yaWRlIDEwMCBtZyBvcmFsIHRhYmxldA0KVGhlIHBhdGllbnQgd2FzIHBsYWNlZCBvbiBhIGNhcmVwbGFuOg0KLSB1cm9sb2d5IGNhcmUgcGxhbiAocmVjb3JkIGFydGlmYWN0KQ0K",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:b1301d6b-9c35-de9e-849f-8fa84e4690ee"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2022-07-24T17:50:10.945-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

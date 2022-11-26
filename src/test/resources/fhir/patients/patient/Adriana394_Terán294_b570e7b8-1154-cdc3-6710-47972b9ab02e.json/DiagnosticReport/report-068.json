@@ -1,0 +1,60 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:202d35fb-dc07-4cb4-7897-5e3773e7b722",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:f3d563d3-9123-83c3-8ff7-e2eebc2e8269",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:ed017d2c-791b-caf4-9c25-d836e76b29db",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:f74d06c3-eb93-cb9b-2d2f-aa797882f95b",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:02b0076d-34c1-f653-d601-d618694facb1",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:346eeeee-8735-aa10-8351-82f9c9ec3ec1",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:d8e7872b-95f0-3873-6796-d4459ea2f7ff",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:add95383-e319-5b60-5bf5-f06e5c097022",
+      "display": "Carbon Dioxide"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "51990-0",
+      "display": "Basic Metabolic Panel"
+    }],
+    "text": "Basic Metabolic Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|331ce1f8-f83d-32cf-bcbd-3ae3601e3a9a",
+    "display": "PRIMARY NP ASSOCIATES"
+  }],
+  "effectiveDateTime": "2021-04-08T01:46:54-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:b570e7b8-1154-cdc3-6710-47972b9ab02e"},
+  "encounter": {"reference": "urn:uuid:7af6bac6-66d9-67d1-6c6c-735fa92e5a3b"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2021-04-08T01:46:54.192-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

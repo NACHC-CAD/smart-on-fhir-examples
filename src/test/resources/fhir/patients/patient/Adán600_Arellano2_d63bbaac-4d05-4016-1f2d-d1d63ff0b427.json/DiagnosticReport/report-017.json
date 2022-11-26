@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999954594",
+    "display": "Dr. Janine159 Gulgowski816"
+  }],
+  "effectiveDateTime": "2017-11-01T21:46:07-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:d63bbaac-4d05-4016-1f2d-d1d63ff0b427"},
+  "presentedForm": [{
+    "data": "DQoyMDE3LTExLTAxDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZMOhbjYwMA0KIGlzIGEgMyB5ZWFyLW9sZCBub24taGlzcGFuaWMgYmxhY2sgbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIHZpcmFsIHNpbnVzaXRpcyAoZGlzb3JkZXIpLg0KDQojIFNvY2lhbCBIaXN0b3J5DQogUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQoNClBhdGllbnQgY3VycmVudGx5IGhhcyBBbnRoZW0uDQoNCiMgQWxsZXJnaWVzDQpObyBLbm93biBBbGxlcmdpZXMuDQoNCiMgTWVkaWNhdGlvbnMNCmFtb3hpY2lsbGluIDI1MCBtZyAvIGNsYXZ1bGFuYXRlIDEyNSBtZyBvcmFsIHRhYmxldA0KDQojIEFzc2Vzc21lbnQgYW5kIFBsYW4NCg0KDQojIyBQbGFuDQpQYXRpZW50IHdhcyBnaXZlbiB0aGUgZm9sbG93aW5nIGltbXVuaXphdGlvbnM6IGluZmx1ZW56YSwgc2Vhc29uYWwsIGluamVjdGFibGUsIHByZXNlcnZhdGl2ZSBmcmVlLiANClRoZSBmb2xsb3dpbmcgcHJvY2VkdXJlcyB3ZXJlIGNvbmR1Y3RlZDoNCi0gbWVkaWNhdGlvbiByZWNvbmNpbGlhdGlvbiAocHJvY2VkdXJlKQ0K",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:16ca6833-dd74-617a-1a81-12e06fdfe02b"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2017-11-01T21:46:07.259-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

@@ -1,0 +1,88 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:45a1ff96-daba-bc79-4e8d-3266ef11d8f0",
+      "display": "Glucose [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:7f1dff92-e087-6732-5e93-cd5dda894f0b",
+      "display": "Urea nitrogen [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:a50e6659-120e-203f-3195-2d26c65651e5",
+      "display": "Creatinine [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:10fd3542-3a25-1c1e-450c-d62d146ec704",
+      "display": "Calcium [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:9e7f5dfc-d028-47f2-540e-4921462fcea1",
+      "display": "Sodium [Moles/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:78d328c6-242d-85a8-c0ba-f65505a3d666",
+      "display": "Potassium [Moles/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:474249d7-c2fe-065b-38d3-924a19d09479",
+      "display": "Chloride [Moles/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:218b5a1f-a760-66f9-e731-9f8690bb2eb9",
+      "display": "Carbon dioxide, total [Moles/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:599da732-28d5-7326-136f-41ac6ff11246",
+      "display": "Glomerular filtration rate/1.73 sq M.predicted"
+    },
+    {
+      "reference": "urn:uuid:bd2d8e80-5da3-b260-96d0-adc59c483f46",
+      "display": "Protein [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:d756d7c7-e52c-2363-9ae3-cbe2bb720ce6",
+      "display": "Albumin [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:03e5c2ce-7a44-c9ce-107f-dde93227a99f",
+      "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:da36bc4a-d9fb-f206-ae18-3fa33067dbba",
+      "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:d027ee25-33f1-4f59-d7f2-941bdeb1c615",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:a5971ede-9ca0-5866-fd01-f4301ba0b527",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "24323-8",
+      "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+    }],
+    "text": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|738473c4-2720-38de-9b79-463729b2bb51",
+    "display": "VITALITY WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2011-06-04T19:02:01-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:5825b911-6636-4328-50e7-c2e7f7013dbe"},
+  "encounter": {"reference": "urn:uuid:fd371c1a-d9c4-fc0b-5318-1a3b0b49583d"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2011-06-04T19:02:01.042-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

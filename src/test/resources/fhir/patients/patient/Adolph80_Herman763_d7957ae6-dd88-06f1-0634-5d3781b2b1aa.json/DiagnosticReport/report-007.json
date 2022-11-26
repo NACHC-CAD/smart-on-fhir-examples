@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999990796",
+    "display": "Dr. Guillermo498 Fay398"
+  }],
+  "effectiveDateTime": "1990-06-09T23:18:58-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:d7957ae6-dd88-06f1-0634-5d3781b2b1aa"},
+  "presentedForm": [{
+    "data": "DQoxOTkwLTA2LTA5DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZG9scGg4MA0KIGlzIGEgMjggeWVhci1vbGQgbm9uLWhpc3BhbmljIHdoaXRlIG1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBmdWxsLXRpbWUgZW1wbG95bWVudCAoZmluZGluZykuDQoNCiMgU29jaWFsIEhpc3RvcnkNClBhdGllbnQgaXMgbWFycmllZC4gUGF0aWVudCBoYXMgYSBkb2N1bWVudGVkIGhpc3Rvcnkgb2Ygb3Bpb2lkIGFkZGljdGlvbi4gUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KIFBhdGllbnQgaWRlbnRpZmllcyBhcyBoZXRlcm9zZXh1YWwuDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIGxvdyBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQogUGF0aWVudCBkaWQgbm90IGZpbmlzaCBoaWdoIHNjaG9vbC4NClBhdGllbnQgY3VycmVudGx5IGhhcyBOTyBJTlNVUkFOQ0UuDQoNCiMgQWxsZXJnaWVzDQpObyBLbm93biBBbGxlcmdpZXMuDQoNCiMgTWVkaWNhdGlvbnMNCk5vIEFjdGl2ZSBNZWRpY2F0aW9ucy4NCg0KIyBBc3Nlc3NtZW50IGFuZCBQbGFuDQpQYXRpZW50IGlzIHByZXNlbnRpbmcgd2l0aCBjaHJvbmljIHNpbnVzaXRpcyAoZGlzb3JkZXIpLiANCg0KIyMgUGxhbg0KDQo=",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:44d7c673-a946-ebcc-4144-ab3aac9cf9a3"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "1990-06-09T23:18:58.633-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

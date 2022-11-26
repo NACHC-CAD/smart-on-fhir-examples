@@ -1,0 +1,30 @@
+{
+  "result": [{
+    "reference": "urn:uuid:5e79ea68-0015-5157-8272-cbfabf6c3231",
+    "display": "Ferritin [Mass/volume] in Serum or Plasma"
+  }],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "75689-0",
+      "display": "Iron panel - Serum or Plasma"
+    }],
+    "text": "Iron panel - Serum or Plasma"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|738473c4-2720-38de-9b79-463729b2bb51",
+    "display": "VITALITY WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2015-07-14T16:57:37-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:196dc8df-c16b-adc2-c2e9-ba46ba87752f"},
+  "encounter": {"reference": "urn:uuid:a1031281-1fc9-b004-1753-2d0d384f9c7c"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2015-07-14T16:57:37.496-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

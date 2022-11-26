@@ -1,0 +1,72 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:9af77e69-cc5e-91cd-a149-20455ff89a81",
+      "display": "Leukocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:a1c02cb9-799f-f1c8-b9d5-f9d23d20c4f9",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:6149b4e4-9614-d1e9-79a6-33ad84ba74b4",
+      "display": "Hemoglobin [Mass/volume] in Blood"
+    },
+    {
+      "reference": "urn:uuid:da4bec21-52ff-34e1-0e91-b4d2308331b5",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:5073c61e-7547-86a4-e482-d47ea30e3c44",
+      "display": "MCV [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:1d7916ae-7ce9-6739-0073-2e8232d005df",
+      "display": "MCH [Entitic mass] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:4c9c49aa-0ae1-ced0-f5aa-f7b8ddb3c56f",
+      "display": "MCHC [Mass/volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:2c6d3515-84d2-df19-9202-96d55cf99abb",
+      "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:9f2a6981-c402-f5d3-039e-855fea0ef521",
+      "display": "Platelets [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:1d1aa4b2-59a1-d4a2-9b99-bd00f1fa3182",
+      "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:fe384a81-2597-f225-5d93-34fe810da37e",
+      "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "58410-2",
+      "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+    }],
+    "text": "Complete blood count (hemogram) panel - Blood by Automated count"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|2e4d47f8-eccd-3ca9-81cb-617b90253521",
+    "display": "PATHWAY TO WELLNESS HEALTHCARE CENTER"
+  }],
+  "effectiveDateTime": "2019-02-18T16:18:58-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:d7957ae6-dd88-06f1-0634-5d3781b2b1aa"},
+  "encounter": {"reference": "urn:uuid:f450efad-cf54-505f-3a64-28f69ca1beab"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2019-02-18T16:18:58.633-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

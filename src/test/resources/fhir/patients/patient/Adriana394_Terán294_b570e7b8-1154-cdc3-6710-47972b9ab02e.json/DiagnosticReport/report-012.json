@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:9541eb02-997e-14bd-fae7-0f319770fbbc",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:866dfe2d-0bf9-75f0-6167-a65ee141478f",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:c2bef06b-ca22-3579-f10e-1b4bad505b8f",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:ecd6acb7-1e83-3c2d-bfd3-0d77b4338b35",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|331ce1f8-f83d-32cf-bcbd-3ae3601e3a9a",
+    "display": "PRIMARY NP ASSOCIATES"
+  }],
+  "effectiveDateTime": "2013-06-13T01:46:54-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:b570e7b8-1154-cdc3-6710-47972b9ab02e"},
+  "encounter": {"reference": "urn:uuid:67dde2a5-0ac5-0559-3403-7d3bf2f7c182"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2013-06-13T01:46:54.192-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

@@ -1,0 +1,20 @@
+{
+  "result": [{
+    "reference": "urn:uuid:ac9d4698-1d48-99fd-108b-afcbb3e954d8",
+    "display": "Total score [DAST-10]"
+  }],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "82666-9",
+      "display": "Drug Abuse Screening Test-10 [DAST-10]"
+    }],
+    "text": "Drug Abuse Screening Test-10 [DAST-10]"
+  },
+  "effectiveDateTime": "2015-01-23T07:49:41-05:00",
+  "subject": {"reference": "urn:uuid:8be7167b-3cef-5c95-51e8-aad473f34891"},
+  "encounter": {"reference": "urn:uuid:5d784b7b-46ba-440d-e107-623de3dca29c"},
+  "issued": "2015-01-23T07:49:41.708-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

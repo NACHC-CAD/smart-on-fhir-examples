@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999995191",
+    "display": "Dr. Chang901 Kutch271"
+  }],
+  "effectiveDateTime": "2017-05-27T21:46:07-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:d63bbaac-4d05-4016-1f2d-d1d63ff0b427"},
+  "presentedForm": [{
+    "data": "DQoyMDE3LTA1LTI3DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZMOhbjYwMA0KIGlzIGEgMyB5ZWFyLW9sZCBub24taGlzcGFuaWMgYmxhY2sgbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIHZpcmFsIHNpbnVzaXRpcyAoZGlzb3JkZXIpLg0KDQojIFNvY2lhbCBIaXN0b3J5DQogUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQoNClBhdGllbnQgY3VycmVudGx5IGhhcyBBbnRoZW0uDQoNCiMgQWxsZXJnaWVzDQpObyBLbm93biBBbGxlcmdpZXMuDQoNCiMgTWVkaWNhdGlvbnMNCmFtb3hpY2lsbGluIDI1MCBtZyAvIGNsYXZ1bGFuYXRlIDEyNSBtZyBvcmFsIHRhYmxldA0KDQojIEFzc2Vzc21lbnQgYW5kIFBsYW4NClBhdGllbnQgaXMgcHJlc2VudGluZyB3aXRoIGF0b3BpYyBkZXJtYXRpdGlzLiANCg0KIyMgUGxhbg0KDQpUaGUgcGF0aWVudCB3YXMgcGxhY2VkIG9uIGEgY2FyZXBsYW46DQotIHNraW4gY29uZGl0aW9uIGNhcmUNCg==",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:3b637b72-fc92-fefa-0f01-3d84bf25c138"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2017-05-27T21:46:07.259-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

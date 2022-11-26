@@ -1,0 +1,72 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:c2bfd656-e356-ae4f-9049-22a6a8787ecc",
+      "display": "Leukocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:f3463d86-c83d-5890-49cc-cbada8a32957",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:58d16499-f0f3-fb43-0897-93995850f1ff",
+      "display": "Hemoglobin [Mass/volume] in Blood"
+    },
+    {
+      "reference": "urn:uuid:65487b57-d303-923c-5d1b-7da101ead804",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:f9ec8531-cc44-c7bb-e07e-c5dbf810bec5",
+      "display": "MCV [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:2c7a873e-ab75-2426-76ec-e8e1e227069a",
+      "display": "MCH [Entitic mass] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:d234127f-fdc3-04f8-54fe-01b32de45ee0",
+      "display": "MCHC [Mass/volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:466fae6b-03ad-8ef9-d69b-a1d7a2222554",
+      "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:dc66e7a6-dbb5-0faf-9298-87c6e082e6a4",
+      "display": "Platelets [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:8b100713-782b-8214-c9a2-d78ab0a7d443",
+      "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:722db50b-ce3c-2a88-9f8e-b9a3a1e7437c",
+      "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "58410-2",
+      "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+    }],
+    "text": "Complete blood count (hemogram) panel - Blood by Automated count"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|fba5ba15-af84-379b-a5aa-187830b981d6",
+    "display": "NEXUS FAMILY WELLNESS LLC"
+  }],
+  "effectiveDateTime": "2017-01-31T21:46:24-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:a59be9bd-4e5f-923a-cf7e-4bebc84cd510"},
+  "encounter": {"reference": "urn:uuid:07a99e0e-2b23-36bd-80fe-6d60ea79a76f"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2017-01-31T21:46:24.156-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

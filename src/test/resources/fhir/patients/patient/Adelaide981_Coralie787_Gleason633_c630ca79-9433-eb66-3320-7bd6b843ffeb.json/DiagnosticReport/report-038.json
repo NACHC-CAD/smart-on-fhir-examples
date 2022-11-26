@@ -1,0 +1,72 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:a592048d-10f3-f6b1-c11e-6f415930ffab",
+      "display": "Leukocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:ba64337d-a707-0281-3d06-c6b1e4edfa4e",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:a6b8d871-175c-6d80-308c-d35f2216aa62",
+      "display": "Hemoglobin [Mass/volume] in Blood"
+    },
+    {
+      "reference": "urn:uuid:822f1687-34c8-44b6-0110-c21dcffc46a9",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:87e13df4-174f-11e0-e172-fd2c0b8a2181",
+      "display": "MCV [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:75e0c1f1-77d6-cc50-9f07-953f79c15e68",
+      "display": "MCH [Entitic mass] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:96a719f6-d37b-7412-ed2e-a7da90fbfbc2",
+      "display": "MCHC [Mass/volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:26170228-8fef-bb50-9adc-56e420b034da",
+      "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:7d6ccf10-ddf4-61f7-eef0-25738b798026",
+      "display": "Platelets [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:3c33c88e-0a77-2799-b5e4-cdee47bcadce",
+      "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:1b41c00c-ec94-7794-825e-e552ec90ea6f",
+      "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "58410-2",
+      "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+    }],
+    "text": "Complete blood count (hemogram) panel - Blood by Automated count"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|c52a4eb3-7ebe-3f37-9494-5d7ff6694c08",
+    "display": "HARFORD HEALTH AND WELLNESS"
+  }],
+  "effectiveDateTime": "2015-02-26T05:50:10-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:c630ca79-9433-eb66-3320-7bd6b843ffeb"},
+  "encounter": {"reference": "urn:uuid:7079e293-de79-739d-4bd7-22d2715ea433"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2015-02-26T05:50:10.945-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

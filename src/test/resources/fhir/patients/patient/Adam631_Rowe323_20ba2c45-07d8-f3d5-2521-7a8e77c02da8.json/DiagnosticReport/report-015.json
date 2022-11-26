@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999939595",
+    "display": "Dr. Anita473 Urbina137"
+  }],
+  "effectiveDateTime": "2018-12-21T08:53:14-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:20ba2c45-07d8-f3d5-2521-7a8e77c02da8"},
+  "presentedForm": [{
+    "data": "DQoyMDE4LTEyLTIxDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZGFtNjMxDQogaXMgYSAxMSB5ZWFyLW9sZCBub24taGlzcGFuaWMgYXNpYW4gbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIHN0cmVwdG9jb2NjYWwgc29yZSB0aHJvYXQgKGRpc29yZGVyKSwgb3RpdGlzIG1lZGlhLCB2aXJhbCBzaW51c2l0aXMgKGRpc29yZGVyKS4NCg0KIyBTb2NpYWwgSGlzdG9yeQ0KIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4NCg0KDQpQYXRpZW50IGNvbWVzIGZyb20gYSBtaWRkbGUgc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLg0KDQpQYXRpZW50IGN1cnJlbnRseSBoYXMgTWVkaWNhaWQuDQoNCiMgQWxsZXJnaWVzDQpObyBLbm93biBBbGxlcmdpZXMuDQoNCiMgTWVkaWNhdGlvbnMNCnBlbmljaWxsaW4gdiBwb3Rhc3NpdW0gMjUwIG1nIG9yYWwgdGFibGV0OyBhbW94aWNpbGxpbiA1MDAgbWcgb3JhbCB0YWJsZXQ7IGlidXByb2ZlbiAxMDAgbWcgb3JhbCB0YWJsZXQ7IGFtb3hpY2lsbGluIDI1MCBtZyAvIGNsYXZ1bGFuYXRlIDEyNSBtZyBvcmFsIHRhYmxldDsgZGlhemVwYW0gNSBtZyBvcmFsIHRhYmxldDsgY2FyYmFtYXplcGluZVt0ZWdyZXRvbF0NCg0KIyBBc3Nlc3NtZW50IGFuZCBQbGFuDQoNCg0KIyMgUGxhbg0KUGF0aWVudCB3YXMgZ2l2ZW4gdGhlIGZvbGxvd2luZyBpbW11bml6YXRpb25zOiB0ZGFwLCBpbmZsdWVuemEsIHNlYXNvbmFsLCBpbmplY3RhYmxlLCBwcmVzZXJ2YXRpdmUgZnJlZSwgaHB2LCBxdWFkcml2YWxlbnQsIG1lbmluZ29jb2NjYWwgbWN2NHAuIA0KVGhlIGZvbGxvd2luZyBwcm9jZWR1cmVzIHdlcmUgY29uZHVjdGVkOg0KLSBtZWRpY2F0aW9uIHJlY29uY2lsaWF0aW9uIChwcm9jZWR1cmUpDQpUaGUgcGF0aWVudCB3YXMgcHJlc2NyaWJlZCB0aGUgZm9sbG93aW5nIG1lZGljYXRpb25zOg0KLSBjbG9uYXplcGFtIDAuMjUgbWcgb3JhbCB0YWJsZXQNCg==",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:f44aa8fa-8d37-376c-0d4e-05f463de62a1"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2018-12-21T08:53:14.975-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

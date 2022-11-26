@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:be5d2a2b-efe2-ff45-c151-15cdfbe2db60",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:d5431ea7-f597-8579-2372-67825740fe92",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:7f9cf3d6-96fb-ecb4-9c73-73eb8a1a6de3",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:d1acd1ed-133c-31ea-918a-45be457ef383",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|b6cdf58a-b333-3246-a604-ccb8dc388ce9",
+    "display": "MEDSTAR SOUTHERN MARYLAND HOSPITAL CENTER INC."
+  }],
+  "effectiveDateTime": "2016-05-20T00:27:33-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:e4981475-7b76-fee1-15af-07afdd1239bb"},
+  "encounter": {"reference": "urn:uuid:10a184d6-a61e-3349-457d-04ec57f87efb"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2016-05-20T00:27:33.929-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

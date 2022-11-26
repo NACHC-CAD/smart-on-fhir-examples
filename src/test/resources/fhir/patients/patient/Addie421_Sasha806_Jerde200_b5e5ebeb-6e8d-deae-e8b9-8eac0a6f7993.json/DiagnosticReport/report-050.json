@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999993592",
+    "display": "Dr. Carroll471 Eichmann909"
+  }],
+  "effectiveDateTime": "2014-03-01T02:12:33-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:b5e5ebeb-6e8d-deae-e8b9-8eac0a6f7993"},
+  "presentedForm": [{
+    "data": "DQoyMDE0LTAzLTAxDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZGRpZTQyMSBTYXNoYTgwNg0KIGlzIGEgNDIgeWVhci1vbGQgbm9uLWhpc3BhbmljIGJsYWNrIGZlbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIHR1YmFsIHByZWduYW5jeSwgcGFydC10aW1lIGVtcGxveW1lbnQgKGZpbmRpbmcpLCBsaW1pdGVkIHNvY2lhbCBjb250YWN0IChmaW5kaW5nKSwgc2ludXNpdGlzIChkaXNvcmRlciksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgc3RyZXNzIChmaW5kaW5nKSwgc29jaWFsIGlzb2xhdGlvbiAoZmluZGluZykuDQoNCiMgU29jaWFsIEhpc3RvcnkNClBhdGllbnQgaXMgbWFycmllZC4gUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KIFBhdGllbnQgaWRlbnRpZmllcyBhcyBoZXRlcm9zZXh1YWwuDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIGhpZ2ggc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLg0KIFBhdGllbnQgaGFzIGNvbXBsZXRlZCBzb21lIGNvbGxlZ2UgY291cnNlcy4NClBhdGllbnQgY3VycmVudGx5IGhhcyBBZXRuYS4NCg0KIyBBbGxlcmdpZXMNCk5vIEtub3duIEFsbGVyZ2llcy4NCg0KIyBNZWRpY2F0aW9ucw0KZXRvbm9nZXN0cmVsIDY4IG1nIGRydWcgaW1wbGFudDsgZXJyaW4gMjggZGF5IHBhY2s7IGlidXByb2ZlbiA0MDAgbWcgb3JhbCB0YWJsZXQgW2lidV07IGFtbG9kaXBpbmUgMi41IG1nIG9yYWwgdGFibGV0OyBjYW1pbGEgMjggZGF5IHBhY2sNCg0KIyBBc3Nlc3NtZW50IGFuZCBQbGFuDQoNCg0KIyMgUGxhbg0KDQpUaGUgZm9sbG93aW5nIHByb2NlZHVyZXMgd2VyZSBjb25kdWN0ZWQ6DQotIGNvZ25pdGl2ZSBhbmQgYmVoYXZpb3JhbCB0aGVyYXB5IChyZWdpbWUvdGhlcmFweSkNCg==",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:ed3a428f-b510-04d4-ef1a-fb466506391f"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2014-03-01T02:12:33.372-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

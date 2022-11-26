@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999987792",
+    "display": "Dr. Delois358 Langosh790"
+  }],
+  "effectiveDateTime": "1987-04-11T00:46:11-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:be759523-c1ce-45a5-38e5-6991a60e4d36"},
+  "presentedForm": [{
+    "data": "DQoxOTg3LTA0LTExDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQotIEh1bmdlcg0KLSBUaGlyc3QNCi0gRmF0aWd1ZQ0KLSBGcmVxdWVudCBVcmluYXRpb24NCg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZGFsYmVydG85MTYNCiBpcyBhIDI3IHllYXItb2xkIG5vbi1oaXNwYW5pYyB3aGl0ZSBtYWxlLg0KDQojIFNvY2lhbCBIaXN0b3J5DQpQYXRpZW50IGlzIG1hcnJpZWQuIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4NCiBQYXRpZW50IGlkZW50aWZpZXMgYXMgaGV0ZXJvc2V4dWFsLg0KDQpQYXRpZW50IGNvbWVzIGZyb20gYSBtaWRkbGUgc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLg0KIFBhdGllbnQgaGFzIGEgaGlnaCBzY2hvb2wgZWR1Y2F0aW9uLg0KUGF0aWVudCBjdXJyZW50bHkgaGFzIFVuaXRlZEhlYWx0aGNhcmUuDQoNCiMgQWxsZXJnaWVzDQpObyBLbm93biBBbGxlcmdpZXMuDQoNCiMgTWVkaWNhdGlvbnMNCk5vIEFjdGl2ZSBNZWRpY2F0aW9ucy4NCg0KIyBBc3Nlc3NtZW50IGFuZCBQbGFuDQpQYXRpZW50IGlzIHByZXNlbnRpbmcgd2l0aCBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZykuIA0KDQojIyBQbGFuDQoNCg==",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:946454f9-cff4-a9ae-047f-6daa47a54f9a"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "1987-04-11T00:46:11.061-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

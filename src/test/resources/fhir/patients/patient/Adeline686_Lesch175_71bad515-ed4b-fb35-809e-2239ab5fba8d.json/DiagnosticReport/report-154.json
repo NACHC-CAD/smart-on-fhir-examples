@@ -1,0 +1,72 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:481d5c93-54a4-a82e-ad4b-04984bee44d0",
+      "display": "Leukocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:62db1ffb-229f-16b9-b1d0-6db8c6ae8519",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:72c31c86-ea10-f8d4-c51c-cb827a3d0abc",
+      "display": "Hemoglobin [Mass/volume] in Blood"
+    },
+    {
+      "reference": "urn:uuid:1e97d81d-c245-c911-38bd-927494e43a4d",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:9950b959-30e6-0689-1fcf-41dfc87ac5fb",
+      "display": "MCV [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:50d47a42-d726-2a57-1b72-1e3ec3bce227",
+      "display": "MCH [Entitic mass] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:8ea18360-7aeb-004a-c4e5-adde312baf3a",
+      "display": "MCHC [Mass/volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:1d7272f0-0a0e-56d5-94cc-dbc24898ecb3",
+      "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:330d5473-f92a-3a4a-82d6-e4c96452497e",
+      "display": "Platelets [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:c3504c71-5300-2f47-ce27-730fd640e58c",
+      "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:5976bc73-04f5-2070-1f9a-8b93d186d89f",
+      "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "58410-2",
+      "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+    }],
+    "text": "Complete blood count (hemogram) panel - Blood by Automated count"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|3b625f3d-f279-36bd-9954-a42359d3ef99",
+    "display": "MOUNT WASHINGTON PEDIATRIC HOSPITAL"
+  }],
+  "effectiveDateTime": "2010-11-04T14:24:33-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:71bad515-ed4b-fb35-809e-2239ab5fba8d"},
+  "encounter": {"reference": "urn:uuid:b7b5394d-40f3-a93e-d517-f472bbc21866"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2010-11-04T14:24:33.335-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

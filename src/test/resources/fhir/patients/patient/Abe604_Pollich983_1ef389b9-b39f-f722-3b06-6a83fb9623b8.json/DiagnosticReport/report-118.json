@@ -1,0 +1,64 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:74d7b047-a760-6bf1-a91a-c264b629465d",
+      "display": "Leukocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:34ae0a0d-8483-8128-fc8f-a85a558b5cce",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:7472d3e4-d583-035a-0c2f-2fa1598a957b",
+      "display": "Hemoglobin [Mass/volume] in Blood"
+    },
+    {
+      "reference": "urn:uuid:21dbb117-7dbc-36fb-7ec1-9c5cfda5f74e",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:9fa9794d-a23b-a717-43ab-a4b99e9a99ca",
+      "display": "MCV [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:10f411b2-5480-8adf-e305-421d47ff702b",
+      "display": "MCH [Entitic mass] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:1a324335-3ad2-7f63-67af-e19c923022cc",
+      "display": "MCHC [Mass/volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:7db8222c-9792-99a0-66ba-a7b05ec19ac7",
+      "display": "Erythrocyte distribution width [Ratio] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:01fbdb21-cffd-14bd-011a-bb28d84123e2",
+      "display": "Platelets [#/volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "58410-2",
+      "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+    }],
+    "text": "Complete blood count (hemogram) panel - Blood by Automated count"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|738473c4-2720-38de-9b79-463729b2bb51",
+    "display": "VITALITY WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2020-02-14T08:25:22-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:1ef389b9-b39f-f722-3b06-6a83fb9623b8"},
+  "encounter": {"reference": "urn:uuid:d76789f2-9830-b308-d301-1131593a2956"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2020-02-14T08:25:22.987-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

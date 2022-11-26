@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:f7407e35-e35f-6530-b68c-691e2bce573e",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:aefb8a5d-2a3b-9bb6-f684-461d78522dbd",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:980c095b-5de9-6b19-49e2-993b0218efc0",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:fd7ae5c8-0e0d-54da-dd61-066a9c3c4fc3",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|a5774fcb-ef5f-3196-92eb-872094e8d9fc",
+    "display": "CORDIAL HEALTH CARE CONSORTIUM OF PROVIDERS INC"
+  }],
+  "effectiveDateTime": "2022-08-04T11:07:14-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:2eeda53f-e8fa-8219-c7c7-2da6636d3c4e"},
+  "encounter": {"reference": "urn:uuid:469747da-796e-17af-6950-b42c5bb1e0ea"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2022-08-04T11:07:14.605-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

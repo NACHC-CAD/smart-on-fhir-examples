@@ -1,0 +1,36 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:499d1715-0945-cff7-7cfb-d074ae8b0cfd",
+      "display": "Prothrombin time (PT)"
+    },
+    {
+      "reference": "urn:uuid:d383ff84-6199-2749-d649-2063fb47d594",
+      "display": "INR in Platelet poor plasma by Coagulation assay"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "34528-0",
+      "display": "PT panel - Platelet poor plasma by Coagulation assay"
+    }],
+    "text": "PT panel - Platelet poor plasma by Coagulation assay"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ffccea13-6c0f-3626-8161-b88a16f01c50",
+    "display": "Silver Spring Vet Center"
+  }],
+  "effectiveDateTime": "2021-04-15T23:54:17-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:be759523-c1ce-45a5-38e5-6991a60e4d36"},
+  "encounter": {"reference": "urn:uuid:455a89da-fd20-32e1-9e99-1092c42686ac"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2021-04-15T23:54:17.061-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

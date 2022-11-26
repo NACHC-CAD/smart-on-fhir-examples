@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:6c49fb08-39b2-ea77-d5d0-061b5839420e",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:b1536553-68b1-9a71-a25a-d9c4e4cbf2c5",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:b7a6881a-5f13-ed82-bbd7-db3fedb9c531",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:c3141700-720a-4a82-c638-a820ac6ede97",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|fcad17f1-886b-3780-a894-2caf6d85fdb4",
+    "display": "HOMA FAMILY MEDICINE LLC"
+  }],
+  "effectiveDateTime": "2010-05-26T16:57:37-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:196dc8df-c16b-adc2-c2e9-ba46ba87752f"},
+  "encounter": {"reference": "urn:uuid:b3a1bb10-9800-8f8b-17a3-9ea1d02c12c3"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2010-05-26T16:57:37.496-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

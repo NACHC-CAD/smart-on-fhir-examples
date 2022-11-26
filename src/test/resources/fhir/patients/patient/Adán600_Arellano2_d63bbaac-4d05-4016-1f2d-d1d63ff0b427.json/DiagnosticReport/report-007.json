@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999954594",
+    "display": "Dr. Janine159 Gulgowski816"
+  }],
+  "effectiveDateTime": "2014-08-06T21:46:07-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:d63bbaac-4d05-4016-1f2d-d1d63ff0b427"},
+  "presentedForm": [{
+    "data": "DQoyMDE0LTA4LTA2DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZMOhbjYwMA0KIGlzIGEgOCBtb250aC1vbGQgbm9uLWhpc3BhbmljIGJsYWNrIG1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiB2aXJhbCBzaW51c2l0aXMgKGRpc29yZGVyKS4NCg0KIyBTb2NpYWwgSGlzdG9yeQ0KIFBhdGllbnQgaGFzIG5ldmVyIHNtb2tlZC4NCg0KDQpQYXRpZW50IGNvbWVzIGZyb20gYSBtaWRkbGUgc29jaW9lY29ub21pYyBiYWNrZ3JvdW5kLg0KDQpQYXRpZW50IGN1cnJlbnRseSBoYXMgQW50aGVtLg0KDQojIEFsbGVyZ2llcw0KTm8gS25vd24gQWxsZXJnaWVzLg0KDQojIE1lZGljYXRpb25zDQphbW94aWNpbGxpbiAyNTAgbWcgLyBjbGF2dWxhbmF0ZSAxMjUgbWcgb3JhbCB0YWJsZXQNCg0KIyBBc3Nlc3NtZW50IGFuZCBQbGFuDQoNCg0KIyMgUGxhbg0KUGF0aWVudCB3YXMgZ2l2ZW4gdGhlIGZvbGxvd2luZyBpbW11bml6YXRpb25zOiBpcHYsIGluZmx1ZW56YSwgc2Vhc29uYWwsIGluamVjdGFibGUsIHByZXNlcnZhdGl2ZSBmcmVlLCBkdGFwLCBwbmV1bW9jb2NjYWwgY29uanVnYXRlIHBjdiAxMywgaGVwIGIsIGFkb2xlc2NlbnQgb3IgcGVkaWF0cmljLiANCg==",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:5238d8bf-8a77-ce98-a00a-1c0bb5e542dd"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2014-08-06T21:46:07.259-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

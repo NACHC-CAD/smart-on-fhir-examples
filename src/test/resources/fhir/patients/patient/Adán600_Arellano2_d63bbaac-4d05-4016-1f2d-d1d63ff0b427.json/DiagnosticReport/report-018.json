@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999995191",
+    "display": "Dr. Chang901 Kutch271"
+  }],
+  "effectiveDateTime": "2018-07-12T21:46:07-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:d63bbaac-4d05-4016-1f2d-d1d63ff0b427"},
+  "presentedForm": [{
+    "data": "DQoyMDE4LTA3LTEyDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZMOhbjYwMA0KIGlzIGEgNCB5ZWFyLW9sZCBub24taGlzcGFuaWMgYmxhY2sgbWFsZS4gUGF0aWVudCBoYXMgYSBoaXN0b3J5IG9mIHZpcmFsIHNpbnVzaXRpcyAoZGlzb3JkZXIpLg0KDQojIFNvY2lhbCBIaXN0b3J5DQogUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQoNClBhdGllbnQgY3VycmVudGx5IGhhcyBNZWRpY2FyZS4NCg0KIyBBbGxlcmdpZXMNCk5vIEtub3duIEFsbGVyZ2llcy4NCg0KIyBNZWRpY2F0aW9ucw0KYW1veGljaWxsaW4gMjUwIG1nIC8gY2xhdnVsYW5hdGUgMTI1IG1nIG9yYWwgdGFibGV0DQoNCiMgQXNzZXNzbWVudCBhbmQgUGxhbg0KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggcGVyZW5uaWFsIGFsbGVyZ2ljIHJoaW5pdGlzLiANCg0KIyMgUGxhbg0KDQpUaGUgcGF0aWVudCB3YXMgcHJlc2NyaWJlZCB0aGUgZm9sbG93aW5nIG1lZGljYXRpb25zOg0KLSBjZXRpcml6aW5lIGh5ZHJvY2hsb3JpZGUgNSBtZyBvcmFsIHRhYmxldA0K",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:8aab3f64-d92f-ff88-52b0-cebcee8d77f9"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2018-07-12T21:46:07.259-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

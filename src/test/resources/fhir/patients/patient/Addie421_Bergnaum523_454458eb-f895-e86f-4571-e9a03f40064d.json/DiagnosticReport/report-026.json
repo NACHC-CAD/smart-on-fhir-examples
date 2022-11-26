@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:7033aea3-d596-28c4-1688-131250107c50",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:6740e9c9-90fe-f5f8-5c18-973d17dff18e",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:cd2efd43-d611-b20e-611d-d0a0107d7fc2",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:4e930982-4370-5eb8-aad9-f47bc57a686b",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|a3fd674c-c078-33bd-850f-92e3e4ea3d01",
+    "display": "COMMUNITY CLINIC, INC"
+  }],
+  "effectiveDateTime": "2015-10-04T09:25:31-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:454458eb-f895-e86f-4571-e9a03f40064d"},
+  "encounter": {"reference": "urn:uuid:c41bafde-3478-17b6-9689-d381c399c007"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2015-10-04T09:25:31.182-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999929190",
+    "display": "Dr. Garrett899 Volkman526"
+  }],
+  "effectiveDateTime": "1980-03-03T16:18:58-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:d7957ae6-dd88-06f1-0634-5d3781b2b1aa"},
+  "presentedForm": [{
+    "data": "DQoxOTgwLTAzLTAzDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZG9scGg4MA0KIGlzIGEgMTggeWVhci1vbGQgbm9uLWhpc3BhbmljIHdoaXRlIG1hbGUuDQoNCiMgU29jaWFsIEhpc3RvcnkNCiBQYXRpZW50IGhhcyBhIGRvY3VtZW50ZWQgaGlzdG9yeSBvZiBvcGlvaWQgYWRkaWN0aW9uLiBQYXRpZW50IGhhcyBuZXZlciBzbW9rZWQuDQogUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4NCg0KUGF0aWVudCBjb21lcyBmcm9tIGEgbG93IHNvY2lvZWNvbm9taWMgYmFja2dyb3VuZC4NCiBQYXRpZW50IGRpZCBub3QgZmluaXNoIGhpZ2ggc2Nob29sLg0KUGF0aWVudCBjdXJyZW50bHkgaGFzIE1lZGljYWlkLg0KDQojIEFsbGVyZ2llcw0KTm8gS25vd24gQWxsZXJnaWVzLg0KDQojIE1lZGljYXRpb25zDQpObyBBY3RpdmUgTWVkaWNhdGlvbnMuDQoNCiMgQXNzZXNzbWVudCBhbmQgUGxhbg0KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggb25seSByZWNlaXZlZCBwcmltYXJ5IHNjaG9vbCBlZHVjYXRpb24gKGZpbmRpbmcpLCB0cmFuc3BvcnQgcHJvYmxlbXMgKGZpbmRpbmcpLCBoYXMgYSBjcmltaW5hbCByZWNvcmQgKGZpbmRpbmcpLiANCg0KIyMgUGxhbg0KDQo=",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:5317b21a-7f9b-7b84-cc92-3e0f6ca5d4d1"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "1980-03-03T16:18:58.633-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

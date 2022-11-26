@@ -1,0 +1,68 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:ee932dc1-cdcd-1f0a-1b44-ac5008fe178e",
+      "display": "Neutrophils/100 leukocytes in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:04ae69b8-7160-643f-ae6c-474dd5b0114f",
+      "display": "Lymphocytes/100 leukocytes in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:8435e0cf-dd00-4685-15bc-00736be5d519",
+      "display": "Monocytes/100 leukocytes in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:13219713-a861-e0fe-3fc7-833e2b8a5f31",
+      "display": "Eosinophils/100 leukocytes in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:2b8355e0-2340-d1c4-b501-61f3260a0bc3",
+      "display": "Basophils/100 leukocytes in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:08354c5c-71a0-2a1d-7f20-13c2e1d7243b",
+      "display": "Neutrophils [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:1cb3b445-fa2d-aded-6b52-3129dd196dd3",
+      "display": "Lymphocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:3c657ef4-6355-166b-af4f-9297aeaf8d6c",
+      "display": "Monocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:c7544e98-aa38-4c17-ba0b-35536fc254a1",
+      "display": "Eosinophils [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:5b943fc6-289c-cbeb-66a4-0a9af3974c19",
+      "display": "Basophils [#/volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57023-4",
+      "display": "Auto Differential panel - Blood"
+    }],
+    "text": "Auto Differential panel - Blood"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ffccea13-6c0f-3626-8161-b88a16f01c50",
+    "display": "Silver Spring Vet Center"
+  }],
+  "effectiveDateTime": "2021-04-10T07:32:17-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:be759523-c1ce-45a5-38e5-6991a60e4d36"},
+  "encounter": {"reference": "urn:uuid:455a89da-fd20-32e1-9e99-1092c42686ac"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2021-04-10T07:32:17.061-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

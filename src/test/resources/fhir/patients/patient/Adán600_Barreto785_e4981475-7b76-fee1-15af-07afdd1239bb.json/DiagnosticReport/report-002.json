@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994798",
+    "display": "Dr. Margene509 Schamberger479"
+  }],
+  "effectiveDateTime": "1963-12-09T23:27:33-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:e4981475-7b76-fee1-15af-07afdd1239bb"},
+  "presentedForm": [{
+    "data": "DQoxOTYzLTEyLTA5DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQotIEhlYWRhY2hlDQotIFNpbnVzIFBhaW4NCi0gU29yZSBUaHJvYXQNCi0gUGFpbiB3aXRoIEJyaWdodCBMaWdodHMNCi0gQ291Z2gNCi0gRmV2ZXINCg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZMOhbjYwMA0KIGlzIGEgMTYgeWVhci1vbGQgbm9uLWhpc3BhbmljIGJsYWNrIG1hbGUuDQoNCiMgU29jaWFsIEhpc3RvcnkNCiBQYXRpZW50IHF1aXQgc21va2luZyBhdCBhZ2UgMTYuDQogUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4NCg0KUGF0aWVudCBjb21lcyBmcm9tIGEgbWlkZGxlIHNvY2lvZWNvbm9taWMgYmFja2dyb3VuZC4NCg0KUGF0aWVudCBjdXJyZW50bHkgaGFzIEFudGhlbS4NCg0KIyBBbGxlcmdpZXMNCk5vIEtub3duIEFsbGVyZ2llcy4NCg0KIyBNZWRpY2F0aW9ucw0KYXNwaXJpbiA4MSBtZyBvcmFsIHRhYmxldA0KDQojIEFzc2Vzc21lbnQgYW5kIFBsYW4NCg0KDQojIyBQbGFuDQoNClRoZSBwYXRpZW50IHdhcyBwcmVzY3JpYmVkIHRoZSBmb2xsb3dpbmcgbWVkaWNhdGlvbnM6DQotIGFzcGlyaW4gODEgbWcgb3JhbCB0YWJsZXQNCg==",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:276b7c6f-ce8f-4ee0-bd7c-36394b879a8f"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "1963-12-09T23:27:33.929-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

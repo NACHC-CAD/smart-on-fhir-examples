@@ -1,0 +1,72 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:1e4951f6-9a6b-39f9-1815-0d117347b00d",
+      "display": "Leukocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:b23f85c4-de24-7ae9-6269-dd3f2880a72b",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:908ea43b-66e3-0081-8166-359b59e3b795",
+      "display": "Hemoglobin [Mass/volume] in Blood"
+    },
+    {
+      "reference": "urn:uuid:0905da73-9318-ecd8-795a-211f6d633efb",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:b0670001-f121-1a4c-d67e-3e3205efee5e",
+      "display": "MCV [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:38127f21-adff-b1a3-7d08-03f493d3c6d6",
+      "display": "MCH [Entitic mass] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:a08d0c2f-f213-7e73-f6ac-88dd3c399e8f",
+      "display": "MCHC [Mass/volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:a764e05c-d45d-a5c4-0d70-9e813c397214",
+      "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:e7236b9d-bf3b-a2f3-a23e-56b3a28205cf",
+      "display": "Platelets [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:a953b1e6-98c9-aed8-94a5-45d5b53c9bd0",
+      "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:6674c799-6be1-f52b-f1ac-1666904fc1cd",
+      "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "58410-2",
+      "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+    }],
+    "text": "Complete blood count (hemogram) panel - Blood by Automated count"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|a5774fcb-ef5f-3196-92eb-872094e8d9fc",
+    "display": "CORDIAL HEALTH CARE CONSORTIUM OF PROVIDERS INC"
+  }],
+  "effectiveDateTime": "2018-07-12T11:07:14-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:2eeda53f-e8fa-8219-c7c7-2da6636d3c4e"},
+  "encounter": {"reference": "urn:uuid:a263cdbe-2eb7-f55e-23ad-f8e499e97b43"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2018-07-12T11:07:14.605-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

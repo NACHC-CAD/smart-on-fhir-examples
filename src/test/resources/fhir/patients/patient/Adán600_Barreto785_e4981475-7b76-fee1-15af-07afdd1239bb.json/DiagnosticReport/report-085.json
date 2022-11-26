@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999890194",
+    "display": "Dr. Rodney21 Hettinger594"
+  }],
+  "effectiveDateTime": "2012-11-10T23:27:33-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:e4981475-7b76-fee1-15af-07afdd1239bb"},
+  "presentedForm": [{
+    "data": "DQoyMDEyLTExLTEwDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQotIEhlYWRhY2hlDQotIFNpbnVzIFBhaW4NCi0gU29yZSBUaHJvYXQNCi0gUGFpbiB3aXRoIEJyaWdodCBMaWdodHMNCi0gQ291Z2gNCi0gRmV2ZXINCg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZMOhbjYwMA0KIGlzIGEgNjUgeWVhci1vbGQgbm9uLWhpc3BhbmljIGJsYWNrIG1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiBmdWxsLXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIHZpcmFsIHNpbnVzaXRpcyAoZGlzb3JkZXIpLCBzb2NpYWwgaXNvbGF0aW9uIChmaW5kaW5nKS4NCg0KIyBTb2NpYWwgSGlzdG9yeQ0KUGF0aWVudCBpcyBtYXJyaWVkLiBQYXRpZW50IHF1aXQgc21va2luZyBhdCBhZ2UgMTYuDQogUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4NCg0KUGF0aWVudCBjb21lcyBmcm9tIGEgbWlkZGxlIHNvY2lvZWNvbm9taWMgYmFja2dyb3VuZC4NCiBQYXRpZW50IGhhcyBjb21wbGV0ZWQgc29tZSBjb2xsZWdlIGNvdXJzZXMuDQpQYXRpZW50IGN1cnJlbnRseSBoYXMgTWVkaWNhcmUuDQoNCiMgQWxsZXJnaWVzDQpObyBLbm93biBBbGxlcmdpZXMuDQoNCiMgTWVkaWNhdGlvbnMNCmxpc2lub3ByaWwgMTAgbWcgb3JhbCB0YWJsZXQ7IHNpbXZhc3RhdGluIDEwIG1nIG9yYWwgdGFibGV0OyBoeWRyb2NobG9yb3RoaWF6aWRlIDI1IG1nIG9yYWwgdGFibGV0OyBhbWxvZGlwaW5lIDIuNSBtZyBvcmFsIHRhYmxldDsgYXNwaXJpbiA4MSBtZyBvcmFsIHRhYmxldA0KDQojIEFzc2Vzc21lbnQgYW5kIFBsYW4NCg0KDQojIyBQbGFuDQoNClRoZSBmb2xsb3dpbmcgcHJvY2VkdXJlcyB3ZXJlIGNvbmR1Y3RlZDoNCi0gbnVyc2luZyBjYXJlL3N1cHBsZW1lbnRhcnkgc3VydmVpbGxhbmNlIChyZWdpbWUvdGhlcmFweSkNCi0gbnVyc2luZyBjYXJlL3N1cHBsZW1lbnRhcnkgc3VydmVpbGxhbmNlIChyZWdpbWUvdGhlcmFweSkNCi0gbnVyc2luZyBjYXJlL3N1cHBsZW1lbnRhcnkgc3VydmVpbGxhbmNlIChyZWdpbWUvdGhlcmFweSkNCi0gcHJvZmVzc2lvbmFsIC8gYW5jaWxsYXJ5IHNlcnZpY2VzIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBwcmUtZGlzY2hhcmdlIGFzc2Vzc21lbnQgKHByb2NlZHVyZSkNCi0gZGlzY2hhcmdlIGZyb20gc2tpbGxlZCBudXJzaW5nIGZhY2lsaXR5IChwcm9jZWR1cmUpDQo=",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:cef62fdb-8d90-899e-6b37-e413682ad519"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2012-11-10T23:27:33.929-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

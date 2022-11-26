@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999997494",
+    "display": "Dr. Hank686 Yost751"
+  }],
+  "effectiveDateTime": "2013-03-10T09:53:14-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:20ba2c45-07d8-f3d5-2521-7a8e77c02da8"},
+  "presentedForm": [{
+    "data": "DQoyMDEzLTAzLTEwDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZGFtNjMxDQogaXMgYSA1IHllYXItb2xkIG5vbi1oaXNwYW5pYyBhc2lhbiBtYWxlLg0KDQojIFNvY2lhbCBIaXN0b3J5DQogUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQoNClBhdGllbnQgY3VycmVudGx5IGhhcyBNZWRpY2FpZC4NCg0KIyBBbGxlcmdpZXMNCk5vIEtub3duIEFsbGVyZ2llcy4NCg0KIyBNZWRpY2F0aW9ucw0KTm8gQWN0aXZlIE1lZGljYXRpb25zLg0KDQojIEFzc2Vzc21lbnQgYW5kIFBsYW4NClBhdGllbnQgaXMgcHJlc2VudGluZyB3aXRoIG90aXRpcyBtZWRpYS4gDQoNCiMjIFBsYW4NCg0KVGhlIHBhdGllbnQgd2FzIHByZXNjcmliZWQgdGhlIGZvbGxvd2luZyBtZWRpY2F0aW9uczoNCi0gYW1veGljaWxsaW4gNTAwIG1nIG9yYWwgdGFibGV0DQotIGlidXByb2ZlbiAxMDAgbWcgb3JhbCB0YWJsZXQNCg==",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:278cfcba-8e67-5826-d851-23cf87ecea7f"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2013-03-10T09:53:14.975-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

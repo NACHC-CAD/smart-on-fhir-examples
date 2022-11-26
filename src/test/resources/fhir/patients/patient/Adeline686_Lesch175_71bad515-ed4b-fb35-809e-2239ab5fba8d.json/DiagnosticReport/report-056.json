@@ -1,0 +1,60 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:cf5b3429-0e9a-fced-9218-ce14146adb8b",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:1e64cb1f-c92a-f73b-5292-05eae7d7a047",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:0af6b736-1d70-57ea-0605-a3305deca4d8",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:e2e29756-4dc0-7b81-f810-9dc200e9a0d5",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:ef225923-9ed4-ff9f-b443-54c16b2ffbad",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:1aa5c620-5f4f-3353-b573-da53ae0f271f",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:4b893f04-8891-b8ab-b602-b7a572d7acef",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:50724971-c19a-2b8a-15d9-6d304624e3d6",
+      "display": "Carbon Dioxide"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "51990-0",
+      "display": "Basic Metabolic Panel"
+    }],
+    "text": "Basic Metabolic Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|3b625f3d-f279-36bd-9954-a42359d3ef99",
+    "display": "MOUNT WASHINGTON PEDIATRIC HOSPITAL"
+  }],
+  "effectiveDateTime": "2004-12-23T09:23:26-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:71bad515-ed4b-fb35-809e-2239ab5fba8d"},
+  "encounter": {"reference": "urn:uuid:bc491045-b198-b1b8-e7f7-fe465bc023a3"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2004-12-23T09:23:26.335-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

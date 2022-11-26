@@ -1,0 +1,72 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:d82faeea-d2e4-e71a-9ba6-3b384fca32d0",
+      "display": "Leukocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:27289a24-8e3e-fda5-0632-20fcdf1a4002",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:b1d82fa1-cced-8890-2565-daf372c03db3",
+      "display": "Hemoglobin [Mass/volume] in Blood"
+    },
+    {
+      "reference": "urn:uuid:f5d8d322-28b7-ea95-d277-49e8704e7199",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:a00542b1-8691-473f-ade0-6742374963ba",
+      "display": "MCV [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:07344553-2e99-36c0-98ac-4e447ff7e866",
+      "display": "MCH [Entitic mass] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:38ae1fda-1b53-6302-8cb5-158efcd55567",
+      "display": "MCHC [Mass/volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:7589f416-2b13-61fb-ab27-3cebc5d55676",
+      "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:425f6e37-009b-6145-f2a7-b34813ac14ef",
+      "display": "Platelets [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:aa9b646d-18c1-76ed-58c5-b8fef544a6c8",
+      "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:cc8c4ccf-03d8-ab8a-3d32-225ccdbaf8bf",
+      "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "58410-2",
+      "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+    }],
+    "text": "Complete blood count (hemogram) panel - Blood by Automated count"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|178fc292-6d28-3f85-b8d6-dec8a75de1a7",
+    "display": "INFINITE GROWTH, LIFE AND WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2021-09-17T19:23:05-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:3a3e6944-8977-5fd2-2139-0e90558443ea"},
+  "encounter": {"reference": "urn:uuid:7bc76445-2318-35c0-b1af-305022c0d04e"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2021-09-17T19:23:05.855-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

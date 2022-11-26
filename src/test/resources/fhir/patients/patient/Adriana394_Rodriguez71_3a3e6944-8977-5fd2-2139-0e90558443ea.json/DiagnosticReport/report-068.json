@@ -1,0 +1,72 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:72dbfb22-04a8-c79f-0ee8-613dd0b774ba",
+      "display": "Hemoglobin [Mass/volume] in Blood"
+    },
+    {
+      "reference": "urn:uuid:29a3641f-abce-2b65-50c1-e63dac07a81c",
+      "display": "Hematocrit [Volume Fraction] of Blood"
+    },
+    {
+      "reference": "urn:uuid:4e215477-1695-4c7e-f321-82b4a120f8ff",
+      "display": "WBC Auto (Bld) [#/Vol]"
+    },
+    {
+      "reference": "urn:uuid:fb7a65a2-7c9c-8047-e5e2-75a4e7e5913e",
+      "display": "RBC Auto (Bld) [#/Vol]"
+    },
+    {
+      "reference": "urn:uuid:f2470783-ea11-1002-2fdb-0153ba98836b",
+      "display": "MCV [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:fc0c96ab-e2ee-cbc6-9fe5-352d722e98e2",
+      "display": "MCH [Entitic mass] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:e53b12da-7fb1-58b6-808f-f1e31b956d1b",
+      "display": "MCHC [Mass/volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:f87139c1-be0f-ae75-a999-8bdb83006a40",
+      "display": "RDW - Erythrocyte distribution width Auto (RBC) [Entitic vol]"
+    },
+    {
+      "reference": "urn:uuid:29a10a0e-eced-77d9-9087-afcbbb307aff",
+      "display": "Platelets [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:e0caf2a9-b535-4ade-48c6-6d9ed0a485a0",
+      "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:a2a6323a-b509-ebdc-e5f2-8d9b20ee0459",
+      "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "58410-2",
+      "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+    }],
+    "text": "Complete blood count (hemogram) panel - Blood by Automated count"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|d180a129-0c68-3d9e-b0aa-456e514ca10f",
+    "display": "UNIVERSITY OF MARYLAND ST JOSEPH MEDICAL CENTER LLC"
+  }],
+  "effectiveDateTime": "2018-09-14T19:23:05-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:3a3e6944-8977-5fd2-2139-0e90558443ea"},
+  "encounter": {"reference": "urn:uuid:d08f8577-a4d4-f30e-f337-ae4e073032d6"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2018-09-14T19:23:05.855-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

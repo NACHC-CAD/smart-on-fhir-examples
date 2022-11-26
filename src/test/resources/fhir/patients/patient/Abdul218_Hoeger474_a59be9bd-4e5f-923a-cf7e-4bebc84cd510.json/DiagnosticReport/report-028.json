@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999998393",
+    "display": "Dr. Shirly501 Kuphal363"
+  }],
+  "effectiveDateTime": "2021-11-02T22:46:24-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:a59be9bd-4e5f-923a-cf7e-4bebc84cd510"},
+  "presentedForm": [{
+    "data": "DQoyMDIxLTExLTAyDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQotIENoZXN0IFByZXNzdXJlDQotIFNob3J0bmVzcyBvZiBCcmVhdGgNCg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBYmR1bDIxOA0KIGlzIGEgMTUgeWVhci1vbGQgbm9uLWhpc3BhbmljIHdoaXRlIG1hbGUuIFBhdGllbnQgaGFzIGEgaGlzdG9yeSBvZiByaXNrIGFjdGl2aXR5IGludm9sdmVtZW50IChmaW5kaW5nKSwgYWN1dGUgdmlyYWwgcGhhcnluZ2l0aXMgKGRpc29yZGVyKS4NCg0KIyBTb2NpYWwgSGlzdG9yeQ0KIFBhdGllbnQgcXVpdCBzbW9raW5nIGF0IGFnZSAxNi4NCg0KDQpQYXRpZW50IGNvbWVzIGZyb20gYSBoaWdoIHNvY2lvZWNvbm9taWMgYmFja2dyb3VuZC4NCg0KUGF0aWVudCBjdXJyZW50bHkgaGFzIEFudGhlbS4NCg0KIyBBbGxlcmdpZXMNCk5vIEtub3duIEFsbGVyZ2llcy4NCg0KIyBNZWRpY2F0aW9ucw0KbmRhMDIwNTAzIDIwMCBhY3R1YXQgYWxidXRlcm9sIDAuMDkgbWcvYWN0dWF0IG1ldGVyZWQgZG9zZSBpbmhhbGVyOyBidWRlc29uaWRlIDAuMjUgbWcvbWwgaW5oYWxhdGlvbiBzdXNwZW5zaW9uDQoNCiMgQXNzZXNzbWVudCBhbmQgUGxhbg0KDQoNCiMjIFBsYW4NClBhdGllbnQgd2FzIGdpdmVuIHRoZSBmb2xsb3dpbmcgaW1tdW5pemF0aW9uczogc2Fycy1jb3YtMiAoY292aWQtMTkpIHZhY2NpbmUsIG1ybmEsIHNwaWtlIHByb3RlaW4sIGxucCwgcHJlc2VydmF0aXZlIGZyZWUsIDMwIG1jZy8wLjNtbCBkb3NlLiANCg==",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:51fc5422-a8b6-2c9d-cb68-c322b78d5bfe"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2021-11-02T22:46:24.156-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999999292",
+    "display": "Dr. Otha286 Roberts511"
+  }],
+  "effectiveDateTime": "1963-02-27T17:34:56-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:1ef389b9-b39f-f722-3b06-6a83fb9623b8"},
+  "presentedForm": [{
+    "data": "DQoxOTYzLTAyLTI3DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBYmU2MDQNCiBpcyBhIDIgeWVhci1vbGQgbm9uLWhpc3BhbmljIGJsYWNrIG1hbGUuDQoNCiMgU29jaWFsIEhpc3RvcnkNCiBQYXRpZW50IHF1aXQgc21va2luZyBhdCBhZ2UgMTYuDQoNCg0KUGF0aWVudCBjb21lcyBmcm9tIGEgaGlnaCBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQoNClBhdGllbnQgY3VycmVudGx5IGhhcyBBZXRuYS4NCg0KIyBBbGxlcmdpZXMNCmhvdXNlIGR1c3QgbWl0ZSAob3JnYW5pc20pLCBhbmltYWwgZGFuZGVyIChzdWJzdGFuY2UpLCBjZWZkaW5pciwgZmlzaCAoc3Vic3RhbmNlKSwgZ3Jhc3MgcG9sbGVuIChzdWJzdGFuY2UpLCBtb2xkIChvcmdhbmlzbSkNCg0KIyBNZWRpY2F0aW9ucw0KTm8gQWN0aXZlIE1lZGljYXRpb25zLg0KDQojIEFzc2Vzc21lbnQgYW5kIFBsYW4NCg0KDQojIyBQbGFuDQoNClRoZSBwYXRpZW50IHdhcyBwcmVzY3JpYmVkIHRoZSBmb2xsb3dpbmcgbWVkaWNhdGlvbnM6DQotIGNobG9ycGhlbmlyYW1pbmUgbWFsZWF0ZSAyIG1nL21sIG9yYWwgc29sdXRpb24NCg==",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:5581ca0f-a2cf-31fb-bd9b-fbc39c32a7e2"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "1963-02-27T17:34:56.987-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

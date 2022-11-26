@@ -1,0 +1,64 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:40fd1204-2f48-8c64-bfb9-00973b2d0015",
+      "display": "Glucose [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:e6383153-c11a-e356-e458-b7a67c64a52f",
+      "display": "Bilirubin.total [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:1c406fc8-be64-03f8-3dce-21de6704f83b",
+      "display": "Ketones [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:7babece6-9348-c6ac-e736-cd61dd781563",
+      "display": "Specific gravity of Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:6ec2ec92-209d-e0bd-f8a5-00bba102c693",
+      "display": "pH of Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:9d9933e3-f78a-e2a3-baa7-15cc4f0d7560",
+      "display": "Protein [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:059fdf40-1b68-5686-5af5-0ffbd3efd725",
+      "display": "Nitrite [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:c03605a6-e982-c300-53a4-e1b7f188b76f",
+      "display": "Hemoglobin [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:fd4fbd49-70c4-9627-8759-151cc89d849a",
+      "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "24356-8",
+      "display": "Urinalysis complete panel - Urine"
+    }],
+    "text": "Urinalysis complete panel - Urine"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|738473c4-2720-38de-9b79-463729b2bb51",
+    "display": "VITALITY WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2020-02-09T06:31:31-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:1ef389b9-b39f-f722-3b06-6a83fb9623b8"},
+  "encounter": {"reference": "urn:uuid:059b3c78-6489-38cb-0676-d3e234eccce5"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2020-02-09T06:31:31.987-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

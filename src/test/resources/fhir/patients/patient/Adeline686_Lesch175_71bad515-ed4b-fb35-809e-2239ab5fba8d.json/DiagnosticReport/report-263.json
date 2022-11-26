@@ -1,0 +1,20 @@
+{
+  "result": [{
+    "reference": "urn:uuid:93bbc03b-cd6a-8f83-1888-fd0df4540992",
+    "display": "Cause of Death [US Standard Certificate of Death]"
+  }],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "69409-1",
+      "display": "U.S. standard certificate of death - 2003 revision"
+    }],
+    "text": "U.S. standard certificate of death - 2003 revision"
+  },
+  "effectiveDateTime": "2012-06-21T10:23:26-04:00",
+  "subject": {"reference": "urn:uuid:71bad515-ed4b-fb35-809e-2239ab5fba8d"},
+  "encounter": {"reference": "urn:uuid:73f0d96e-a811-a3fe-e57b-84545ab9729a"},
+  "issued": "2012-06-21T10:23:26.335-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

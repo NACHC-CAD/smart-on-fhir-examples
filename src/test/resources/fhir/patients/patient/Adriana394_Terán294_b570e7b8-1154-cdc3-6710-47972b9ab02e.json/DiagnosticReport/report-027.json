@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:e4fd3190-d611-992e-ac61-9a65e3a0f207",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:8163161a-8711-7734-c7a6-e22bd76f81f5",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:3ccd03c3-9ad8-783e-0e2f-b294dc5a5119",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:54aeac5a-b1b8-ff09-f5d3-8fb1215abde2",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|628abce9-82c0-31f7-9591-59379133b34f",
+    "display": "CROSS ROADS SPEECH AND HERARING"
+  }],
+  "effectiveDateTime": "2016-06-16T01:46:54-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:b570e7b8-1154-cdc3-6710-47972b9ab02e"},
+  "encounter": {"reference": "urn:uuid:b3442584-3350-c2fe-0066-545ed1d36144"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2016-06-16T01:46:54.192-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

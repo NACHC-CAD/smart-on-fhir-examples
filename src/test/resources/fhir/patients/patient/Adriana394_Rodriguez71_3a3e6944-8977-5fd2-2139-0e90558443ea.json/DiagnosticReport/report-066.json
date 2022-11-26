@@ -1,0 +1,60 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:5e5720cf-0d89-1504-1678-8f2f5a942d04",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:261cea85-471f-bdd5-478c-0fc66532c2cc",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:bb691431-bcfc-d807-048d-a42d6bfad5f8",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:b41455f2-513a-365d-b38b-7a40d8fb05a2",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:d70fa57c-a475-aef0-f604-f5d32ac08e8b",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:48ae8f64-005c-351f-0465-f586e1e8782e",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:0667609a-6b78-1ec4-52f7-01fe32edff12",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:ecade434-9682-08a8-7d7e-cb36c0c4d05f",
+      "display": "Carbon Dioxide"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "51990-0",
+      "display": "Basic Metabolic Panel"
+    }],
+    "text": "Basic Metabolic Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|178fc292-6d28-3f85-b8d6-dec8a75de1a7",
+    "display": "INFINITE GROWTH, LIFE AND WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2018-09-14T19:23:05-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:3a3e6944-8977-5fd2-2139-0e90558443ea"},
+  "encounter": {"reference": "urn:uuid:8aac23d0-c744-2b0c-0fe6-9faaa25b5b56"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2018-09-14T19:23:05.855-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

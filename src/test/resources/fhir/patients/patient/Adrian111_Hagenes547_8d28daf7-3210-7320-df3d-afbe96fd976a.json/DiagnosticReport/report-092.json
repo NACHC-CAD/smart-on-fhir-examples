@@ -1,0 +1,96 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:e4f02b2a-b042-5de2-dd92-182efaa62402",
+      "display": "Appearance of Urine"
+    },
+    {
+      "reference": "urn:uuid:d64499a1-c6d7-f693-9b21-0d0fe7919611",
+      "display": "Odor of Urine"
+    },
+    {
+      "reference": "urn:uuid:9ac2c62a-e6f3-925c-441e-06807d02bd7b",
+      "display": "Clarity of Urine"
+    },
+    {
+      "reference": "urn:uuid:64d48ff6-0b64-4f71-a57a-e10af59a83c9",
+      "display": "Color of Urine"
+    },
+    {
+      "reference": "urn:uuid:6d9447f5-9c94-daf1-3e51-e2092cd48cb0",
+      "display": "Glucose [Mass/volume] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:4fdf5f0b-c123-ee34-f2dc-8c68b1f7e585",
+      "display": "Glucose [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:ad635262-e4f6-cd67-357c-7daf6f1eb7f0",
+      "display": "Bilirubin.total [Mass/volume] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:0d627a1d-1bdc-9b5b-e306-973efef9f3e0",
+      "display": "Bilirubin.total [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:70a49e2e-3ef2-9699-7bc0-f7da9cd124be",
+      "display": "Ketones [Mass/volume] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:fee17587-de66-93b9-6a88-8968d58de5e4",
+      "display": "Ketones [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:a6317377-8d36-48f3-279b-26f979a5aa50",
+      "display": "Specific gravity of Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:56f3874e-af5f-3ef6-f0cf-9f076dabcb94",
+      "display": "pH of Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:6c5cb243-e5dc-7af8-cdd5-15fbb5811411",
+      "display": "Protein [Mass/volume] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:a5d09798-e40c-360e-a8a7-8cf9c3b53864",
+      "display": "Protein [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:15706afa-e8e9-35bd-70ff-90d8b701f41f",
+      "display": "Nitrite [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:773fe12e-1928-99d0-d95f-556aba0ebdbb",
+      "display": "Hemoglobin [Presence] in Urine by Test strip"
+    },
+    {
+      "reference": "urn:uuid:481606e9-7706-336b-0dbf-c107592745cd",
+      "display": "Leukocyte esterase [Presence] in Urine by Test strip"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "24357-6",
+      "display": "Urinalysis macro (dipstick) panel - Urine"
+    }],
+    "text": "Urinalysis macro (dipstick) panel - Urine"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|53de83f2-b417-382f-94e1-41e7bc259605",
+    "display": "MEDSTAR UNION MEMORIAL HOSPITAL"
+  }],
+  "effectiveDateTime": "2015-02-25T07:25:26-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:8d28daf7-3210-7320-df3d-afbe96fd976a"},
+  "encounter": {"reference": "urn:uuid:3ff517fb-3e90-5eb9-5845-8ffdf3ddd0bc"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2015-02-25T07:25:26.699-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

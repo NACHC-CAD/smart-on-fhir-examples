@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999897397",
+    "display": "Dr. Concepción765 Téllez750"
+  }],
+  "effectiveDateTime": "2014-06-13T09:53:14-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:20ba2c45-07d8-f3d5-2521-7a8e77c02da8"},
+  "presentedForm": [{
+    "data": "DQoyMDE0LTA2LTEzDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZGFtNjMxDQogaXMgYSA2IHllYXItb2xkIG5vbi1oaXNwYW5pYyBhc2lhbiBtYWxlLiBQYXRpZW50IGhhcyBhIGhpc3Rvcnkgb2Ygc3RyZXB0b2NvY2NhbCBzb3JlIHRocm9hdCAoZGlzb3JkZXIpLCBvdGl0aXMgbWVkaWEsIHZpcmFsIHNpbnVzaXRpcyAoZGlzb3JkZXIpLg0KDQojIFNvY2lhbCBIaXN0b3J5DQogUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQoNClBhdGllbnQgY3VycmVudGx5IGhhcyBNZWRpY2FpZC4NCg0KIyBBbGxlcmdpZXMNCk5vIEtub3duIEFsbGVyZ2llcy4NCg0KIyBNZWRpY2F0aW9ucw0KcGVuaWNpbGxpbiB2IHBvdGFzc2l1bSAyNTAgbWcgb3JhbCB0YWJsZXQ7IGFtb3hpY2lsbGluIDUwMCBtZyBvcmFsIHRhYmxldDsgaWJ1cHJvZmVuIDEwMCBtZyBvcmFsIHRhYmxldDsgYW1veGljaWxsaW4gMjUwIG1nIC8gY2xhdnVsYW5hdGUgMTI1IG1nIG9yYWwgdGFibGV0DQoNCiMgQXNzZXNzbWVudCBhbmQgUGxhbg0KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggc2VpenVyZSBkaXNvcmRlciwgaGlzdG9yeSBvZiBzaW5nbGUgc2VpenVyZSAoc2l0dWF0aW9uKS4gDQoNCiMjIFBsYW4NCg0KVGhlIGZvbGxvd2luZyBwcm9jZWR1cmVzIHdlcmUgY29uZHVjdGVkOg0KLSBzZWl6dXJlIGNvdW50IGNlcmVicmFsIGNvcnRleCBlbGVjdHJvZW5jZXBoYWxvZ3JhbSAoZWVnKQ0KVGhlIHBhdGllbnQgd2FzIHByZXNjcmliZWQgdGhlIGZvbGxvd2luZyBtZWRpY2F0aW9uczoNCi0gZGlhemVwYW0gNSBtZyBvcmFsIHRhYmxldA0K",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:adc58059-a701-7cd7-75c9-acf11a11e75e"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2014-06-13T09:53:14.975-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

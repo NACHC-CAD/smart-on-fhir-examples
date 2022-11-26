@@ -1,0 +1,64 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:047a1ded-df97-ab25-bf06-1c51f8b3d3d1",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:6c1bc806-8338-bda1-184b-2901c8228954",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:f922fb69-3277-43ca-80ed-6a47cd03ac8e",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:54bf7dd6-a9b5-ea7f-3ed8-2d8097ec5fae",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:d66f261e-1afd-08a4-52be-0eed7d40a0b7",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:e45bfc58-7dbb-7412-9576-dd8f3f1c2997",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:6f459a6f-6f8b-31cf-a9fd-59579060bd79",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:ba8190df-9394-757e-a308-2f846dcb7757",
+      "display": "Carbon Dioxide"
+    },
+    {
+      "reference": "urn:uuid:3716d3c1-78dc-a419-a50b-d9423df7edd2",
+      "display": "Glomerular filtration rate/1.73 sq M.predicted"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "24321-2",
+      "display": "Basic Metabolic 2000 Panel"
+    }],
+    "text": "Basic Metabolic 2000 Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|53de83f2-b417-382f-94e1-41e7bc259605",
+    "display": "MEDSTAR UNION MEMORIAL HOSPITAL"
+  }],
+  "effectiveDateTime": "2015-07-22T08:25:26-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:8d28daf7-3210-7320-df3d-afbe96fd976a"},
+  "encounter": {"reference": "urn:uuid:0f437e8a-b22b-9831-5210-bbe0345d998f"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2015-07-22T08:25:26.699-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

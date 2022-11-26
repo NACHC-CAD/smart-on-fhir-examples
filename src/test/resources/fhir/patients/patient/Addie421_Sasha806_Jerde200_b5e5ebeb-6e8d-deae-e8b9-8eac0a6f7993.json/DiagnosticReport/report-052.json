@@ -1,0 +1,72 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:cea321ac-17d3-1e06-e9f2-e09da495b8bc",
+      "display": "Leukocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:4876fbdb-c5ec-94d7-d48a-990d9b63bbf8",
+      "display": "Erythrocytes [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:61feba28-8022-8606-bfe0-17d22e5dcac7",
+      "display": "Hemoglobin [Mass/volume] in Blood"
+    },
+    {
+      "reference": "urn:uuid:5201ebcb-c8c9-f678-1d0e-e276debf6d6d",
+      "display": "Hematocrit [Volume Fraction] of Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:e98762e1-0377-de11-dad9-af05d7b4a5b8",
+      "display": "MCV [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:2de59a26-921a-9421-33dd-c9651783f29a",
+      "display": "MCH [Entitic mass] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:434d3302-c2d9-0f1e-5bcc-eafc2c1c78f6",
+      "display": "MCHC [Mass/volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:e96ecfca-1379-eb94-c37a-689b0a1d65be",
+      "display": "Erythrocyte distribution width [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:6e2dce3e-84bf-6e58-60f2-da9a3928dd3d",
+      "display": "Platelets [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:8965a659-d544-f603-e2a3-a340baa60bb1",
+      "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:98dff14b-033d-8f9e-5509-f76a063b2b1c",
+      "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "58410-2",
+      "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+    }],
+    "text": "Complete blood count (hemogram) panel - Blood by Automated count"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|c9b2ee7c-05d1-3bea-be80-27c659256ecc",
+    "display": "KLEESE FAMILY CARE LLC"
+  }],
+  "effectiveDateTime": "2014-08-03T22:22:32-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:b5e5ebeb-6e8d-deae-e8b9-8eac0a6f7993"},
+  "encounter": {"reference": "urn:uuid:f2add871-8725-2952-82d8-145887e94e9c"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2014-08-03T22:22:32.372-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

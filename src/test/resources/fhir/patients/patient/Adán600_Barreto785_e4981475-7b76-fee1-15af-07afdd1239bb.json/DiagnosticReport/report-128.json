@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:b7cfde9d-083c-3ebd-e9ef-9307796d5aca",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:47c54325-4069-3e0b-e617-50059d6d37bc",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:c22b0e44-f2a9-5219-17fc-a9dd1a6dc210",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:92adf109-c496-cbd1-19e0-3bd5d106e4af",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|738473c4-2720-38de-9b79-463729b2bb51",
+    "display": "VITALITY WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2016-12-05T23:42:52-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:e4981475-7b76-fee1-15af-07afdd1239bb"},
+  "encounter": {"reference": "urn:uuid:740c1efe-892e-7e78-80f2-06862f637714"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2016-12-05T23:42:52.929-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

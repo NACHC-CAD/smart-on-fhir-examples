@@ -1,0 +1,60 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:6de54024-bbf2-dde7-ee25-7c71ca16f792",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:ee735e6f-d9a5-df6b-e0d7-2b51e52bb9f9",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:e747a301-75e6-72ef-5014-96bfe975e277",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:cb7ce279-02db-fdd7-bc4a-caa526a3533f",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:2b5d96f8-7a89-c9c3-4f40-a231b5f519c7",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:173b11c1-c638-7f6c-bbca-8c2422cf17be",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:4f53a31e-697b-fab3-263f-cf4861e4c73d",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:b218dc80-c6b9-cbf7-3b61-1340bcf18e3c",
+      "display": "Carbon Dioxide"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "51990-0",
+      "display": "Basic Metabolic Panel"
+    }],
+    "text": "Basic Metabolic Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|e2202b65-c93e-32cf-af6b-76321e58dd7c",
+    "display": "MERCY FAMILY HEALTH CLINIC, LLC"
+  }],
+  "effectiveDateTime": "2014-09-10T08:25:26-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:8d28daf7-3210-7320-df3d-afbe96fd976a"},
+  "encounter": {"reference": "urn:uuid:16aa817e-aeea-f2df-dbcf-0c1ac70ed8d1"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2014-09-10T08:25:26.699-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

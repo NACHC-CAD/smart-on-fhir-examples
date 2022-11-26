@@ -1,0 +1,60 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:1d3d93e9-8373-531a-5360-933e2df3d20e",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:bb976020-716f-d7bd-dbf8-818874d69e58",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:390ae207-27da-3858-e04b-f19229c598d2",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:dae0f94e-36c5-666f-e754-f5b338105e1d",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:e1180b4a-623e-65a5-cfd2-04c337855bce",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:7d00cd3f-ef77-82b7-bffb-9802eed0e286",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:c066eee2-abfb-85ab-955b-4338aaf2c53f",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:413b691b-34a5-5348-0639-ab1f229e19e9",
+      "display": "Carbon Dioxide"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "51990-0",
+      "display": "Basic Metabolic Panel"
+    }],
+    "text": "Basic Metabolic Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|e57352c9-685f-30e6-8cf2-5bcc6a370819",
+    "display": "JOHNS HOPKINS UNIVERSITY"
+  }],
+  "effectiveDateTime": "2013-01-14T16:18:58-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:d7957ae6-dd88-06f1-0634-5d3781b2b1aa"},
+  "encounter": {"reference": "urn:uuid:3d1df0e1-bb00-a69b-9b42-2e7de85eb266"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2013-01-14T16:18:58.633-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

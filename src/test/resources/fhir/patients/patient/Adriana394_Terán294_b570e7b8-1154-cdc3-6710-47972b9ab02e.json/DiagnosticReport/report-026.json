@@ -1,0 +1,60 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:5d1ad2ad-df26-ac3b-923c-2bac4ce808d3",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:b0c7dcca-7b31-26ca-5ed8-c53016266a71",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:4c66f964-cb58-4bdd-0e8c-88d203249844",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:968de37b-e213-bac6-13c0-8a81b8bfa63f",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:5bea9a5a-6d57-a8d0-ed14-dbf29581d340",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:20faf217-1f44-016f-d6cf-fac51c38c661",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:e08e2861-53a8-d5b8-9754-7ce55f21cd8e",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:7644817e-471d-cf13-db1a-9f341682f158",
+      "display": "Carbon Dioxide"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "51990-0",
+      "display": "Basic Metabolic Panel"
+    }],
+    "text": "Basic Metabolic Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|628abce9-82c0-31f7-9591-59379133b34f",
+    "display": "CROSS ROADS SPEECH AND HERARING"
+  }],
+  "effectiveDateTime": "2016-06-16T01:46:54-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:b570e7b8-1154-cdc3-6710-47972b9ab02e"},
+  "encounter": {"reference": "urn:uuid:b3442584-3350-c2fe-0066-545ed1d36144"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2016-06-16T01:46:54.192-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

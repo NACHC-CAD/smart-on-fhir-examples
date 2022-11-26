@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999999292",
+    "display": "Dr. Otha286 Roberts511"
+  }],
+  "effectiveDateTime": "2021-04-29T18:34:56-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:1ef389b9-b39f-f722-3b06-6a83fb9623b8"},
+  "presentedForm": [{
+    "data": "DQoyMDIxLTA0LTI5DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBYmU2MDQNCiBpcyBhIDYxIHllYXItb2xkIG5vbi1oaXNwYW5pYyBibGFjayBtYWxlLiBQYXRpZW50IGhhcyBhIGhpc3Rvcnkgb2Ygc3RyZXB0b2NvY2NhbCBzb3JlIHRocm9hdCAoZGlzb3JkZXIpLCBwYXJ0LXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIGFjdXRlIGJyb25jaGl0aXMgKGRpc29yZGVyKSwgbGltaXRlZCBzb2NpYWwgY29udGFjdCAoZmluZGluZyksIGZ1bGwtdGltZSBlbXBsb3ltZW50IChmaW5kaW5nKSwgdmlyYWwgc2ludXNpdGlzIChkaXNvcmRlciksIHNwcmFpbiBvZiB3cmlzdCwgc3RyZXNzIChmaW5kaW5nKS4NCg0KIyBTb2NpYWwgSGlzdG9yeQ0KUGF0aWVudCBpcyBtYXJyaWVkLiBQYXRpZW50IHF1aXQgc21va2luZyBhdCBhZ2UgMTYuDQogUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4NCg0KUGF0aWVudCBjb21lcyBmcm9tIGEgaGlnaCBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQogUGF0aWVudCBpcyBhIGNvbGxlZ2UgZ3JhZHVhdGUuDQpQYXRpZW50IGN1cnJlbnRseSBoYXMgQWV0bmEuDQoNCiMgQWxsZXJnaWVzDQpObyBLbm93biBBbGxlcmdpZXMuDQoNCiMgTWVkaWNhdGlvbnMNCmFjZXRhbWlub3BoZW4gMzI1IG1nIG9yYWwgdGFibGV0OyBpc29mbHVyYW5lIDk5OSBtZy9tbCBpbmhhbGFudCBzb2x1dGlvbjsgMiBtbCBvbmRhbnNldHJvbiAyIG1nL21sIGluamVjdGlvbjsgNzIgaHIgZmVudGFueWwgMC4wMjUgbWcvaHIgdHJhbnNkZXJtYWwgc3lzdGVtOyBtaWRhem9sYW0gMSBtZy9tbCBpbmplY3RhYmxlIHNvbHV0aW9uOyAxMDAgbWwgcHJvcG9mb2wgMTAgbWcvbWwgaW5qZWN0aW9uOyByb2N1cm9uaXVtIGJyb21pZGUgMTAgbWcvbWwgaW5qZWN0YWJsZSBzb2x1dGlvbjsgaHlkcm9jaGxvcm90aGlhemlkZSAyNSBtZyBvcmFsIHRhYmxldDsgcGVuaWNpbGxpbiB2IHBvdGFzc2l1bSA1MDAgbWcgb3JhbCB0YWJsZXQ7IDEgbWwgaGVwYXJpbiBzb2RpdW0sIHBvcmNpbmUgNTAwMCB1bnQvbWwgaW5qZWN0aW9uOyAyNSBtbCBwcm90YW1pbmUgc3VsZmF0ZSAodXNwKSAxMCBtZy9tbCBpbmplY3Rpb247IGlidXByb2ZlbiAyMDAgbWcgb3JhbCB0YWJsZXQ7IGNlZmF6b2xpbiAyMDAwIG1nIGluamVjdGlvbjsgNSBtbCBzdWZlbnRhbmlsIDAuMDUgbWcvbWwgaW5qZWN0aW9uOyBhY2V0YW1pbm9waGVuIDMwMCBtZyAvIGh5ZHJvY29kb25lIGJpdGFydHJhdGUgNSBtZyBvcmFsIHRhYmxldA0KDQojIEFzc2Vzc21lbnQgYW5kIFBsYW4NCg0KDQojIyBQbGFuDQpQYXRpZW50IHdhcyBnaXZlbiB0aGUgZm9sbG93aW5nIGltbXVuaXphdGlvbnM6IHNhcnMtY292LTIgKGNvdmlkLTE5KSB2YWNjaW5lLCBtcm5hLCBzcGlrZSBwcm90ZWluLCBsbnAsIHByZXNlcnZhdGl2ZSBmcmVlLCAzMCBtY2cvMC4zbWwgZG9zZS4gDQo=",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:f1b798db-5d03-604b-d03a-5315213e60a9"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2021-04-29T18:34:56.987-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

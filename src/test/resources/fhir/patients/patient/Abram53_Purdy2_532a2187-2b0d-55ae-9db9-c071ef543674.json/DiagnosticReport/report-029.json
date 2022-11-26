@@ -1,0 +1,20 @@
+{
+  "result": [{
+    "reference": "urn:uuid:9f03788b-f46f-41dc-d371-8d65ed09b3fc",
+    "display": "Patient Health Questionnaire 2 item (PHQ-2) total score [Reported]"
+  }],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "55757-9",
+      "display": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+    }],
+    "text": "Patient Health Questionnaire 2 item (PHQ-2) [Reported]"
+  },
+  "effectiveDateTime": "2019-05-28T10:55:44-04:00",
+  "subject": {"reference": "urn:uuid:532a2187-2b0d-55ae-9db9-c071ef543674"},
+  "encounter": {"reference": "urn:uuid:3b1b5819-ac1c-d579-4a3a-1fe4628204d7"},
+  "issued": "2019-05-28T10:55:44.917-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

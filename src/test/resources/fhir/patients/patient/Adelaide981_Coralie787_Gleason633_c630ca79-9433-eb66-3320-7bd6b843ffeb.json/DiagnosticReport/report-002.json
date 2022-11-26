@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999997791",
+    "display": "Dr. Tracey100 Hamill307"
+  }],
+  "effectiveDateTime": "1995-04-27T01:50:10-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:c630ca79-9433-eb66-3320-7bd6b843ffeb"},
+  "presentedForm": [{
+    "data": "DQoxOTk1LTA0LTI3DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZGVsYWlkZTk4MSBDb3JhbGllNzg3DQogaXMgYSAxIHllYXItb2xkIG5vbi1oaXNwYW5pYyB3aGl0ZSBmZW1hbGUuDQoNCiMgU29jaWFsIEhpc3RvcnkNCiBQYXRpZW50IGhhcyBuZXZlciBzbW9rZWQuDQoNCg0KUGF0aWVudCBjb21lcyBmcm9tIGEgbWlkZGxlIHNvY2lvZWNvbm9taWMgYmFja2dyb3VuZC4NCg0KUGF0aWVudCBjdXJyZW50bHkgaGFzIE1lZGljYXJlLg0KDQojIEFsbGVyZ2llcw0KTm8gS25vd24gQWxsZXJnaWVzLg0KDQojIE1lZGljYXRpb25zDQpObyBBY3RpdmUgTWVkaWNhdGlvbnMuDQoNCiMgQXNzZXNzbWVudCBhbmQgUGxhbg0KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggbW9sZCAob3JnYW5pc20pLCBhbmltYWwgZGFuZGVyIChzdWJzdGFuY2UpLCBncmFzcyBwb2xsZW4gKHN1YnN0YW5jZSksIHRyZWUgcG9sbGVuIChzdWJzdGFuY2UpLCBhc3BpcmluLCBlZ2dzIChlZGlibGUpIChzdWJzdGFuY2UpLCBmaXNoIChzdWJzdGFuY2UpLiANCg0KIyMgUGxhbg0KDQpUaGUgcGF0aWVudCB3YXMgcHJlc2NyaWJlZCB0aGUgZm9sbG93aW5nIG1lZGljYXRpb25zOg0KLSBsb3JhdGFkaW5lIDUgbWcgY2hld2FibGUgdGFibGV0DQotIG5kYTAyMDgwMCAwLjMgbWwgZXBpbmVwaHJpbmUgMSBtZy9tbCBhdXRvLWluamVjdG9yDQo=",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:2c951c86-2d4b-fecf-5f8d-2c8dd92a4c68"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "1995-04-27T01:50:10.945-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

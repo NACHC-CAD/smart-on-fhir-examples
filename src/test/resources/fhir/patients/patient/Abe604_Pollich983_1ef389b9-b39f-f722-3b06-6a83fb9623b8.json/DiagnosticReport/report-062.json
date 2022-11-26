@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:a8ae4744-d0b8-b92e-7c6d-bffb096e8c40",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:fc49837b-7b8d-d044-879f-1853299b4156",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:c6496b1a-458e-9565-b64a-16665e1fa729",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:a2338e68-e4d6-cc5d-7975-1d38a83a73a3",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|90f245df-e943-343a-aaf1-a9267980caf7",
+    "display": "TRUMEDIS HEALTHCARE SERVICES"
+  }],
+  "effectiveDateTime": "2015-01-01T17:34:56-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:1ef389b9-b39f-f722-3b06-6a83fb9623b8"},
+  "encounter": {"reference": "urn:uuid:f4e4a660-683f-06f8-b424-7f985fd0311a"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2015-01-01T17:34:56.987-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

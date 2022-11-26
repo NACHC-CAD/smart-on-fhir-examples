@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:ef566200-19a6-f122-9121-0966e2c100d4",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:fb3d38b7-8502-4fe0-9002-b4b7dada83f7",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:b7ee45d1-d6a6-31c1-cca5-52d5ad2d1d3b",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:77378cef-1afa-38c0-ebe2-394653559b03",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|2e4d47f8-eccd-3ca9-81cb-617b90253521",
+    "display": "PATHWAY TO WELLNESS HEALTHCARE CENTER"
+  }],
+  "effectiveDateTime": "2018-02-12T16:18:58-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:d7957ae6-dd88-06f1-0634-5d3781b2b1aa"},
+  "encounter": {"reference": "urn:uuid:aaef87fb-51a0-c79d-123e-45f99cd6d4c7"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2018-02-12T16:18:58.633-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

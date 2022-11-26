@@ -1,0 +1,40 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:8a88072e-d3fa-3571-f36f-b39e627653af",
+      "display": "Iron [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:fe7fa90e-2f08-e57a-2998-d5d71317c727",
+      "display": "Iron binding capacity [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:1079a19d-fd63-1ad2-f3af-b0ec99c0d672",
+      "display": "Iron saturation [Mass Fraction] in Serum or Plasma"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "50190-8",
+      "display": "Iron and Iron binding capacity panel - Serum or Plasma"
+    }],
+    "text": "Iron and Iron binding capacity panel - Serum or Plasma"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|738473c4-2720-38de-9b79-463729b2bb51",
+    "display": "VITALITY WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2015-07-14T16:57:37-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:196dc8df-c16b-adc2-c2e9-ba46ba87752f"},
+  "encounter": {"reference": "urn:uuid:a1031281-1fc9-b004-1753-2d0d384f9c7c"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2015-07-14T16:57:37.496-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

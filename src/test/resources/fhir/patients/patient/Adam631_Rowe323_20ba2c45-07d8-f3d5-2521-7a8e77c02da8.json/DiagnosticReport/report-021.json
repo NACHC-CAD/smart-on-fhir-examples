@@ -1,0 +1,30 @@
+{
+  "result": [{
+    "reference": "urn:uuid:653a070c-092f-4eb2-75aa-6ff682d09761",
+    "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+  }],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "94531-1",
+      "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+    }],
+    "text": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|4c773498-c69a-3f71-b613-f0288ba43f0c",
+    "display": "JAMES LAWRENCE KERNAN HOSPITAL, INC."
+  }],
+  "effectiveDateTime": "2020-11-24T09:49:17-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:20ba2c45-07d8-f3d5-2521-7a8e77c02da8"},
+  "encounter": {"reference": "urn:uuid:2547f51e-4cb8-545c-3019-6140c34f4f0c"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2020-11-24T09:49:17.975-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

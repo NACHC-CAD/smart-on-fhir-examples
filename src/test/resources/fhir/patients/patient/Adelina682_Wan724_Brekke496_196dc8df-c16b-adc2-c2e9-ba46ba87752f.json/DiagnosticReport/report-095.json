@@ -1,0 +1,36 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:1e91056a-0a53-0237-d2b8-8fc86352cb8d",
+      "display": "Functional capacity NYHA"
+    },
+    {
+      "reference": "urn:uuid:5dbd239e-5995-6b6b-c88e-2ac633e9e2e4",
+      "display": "Objective assessment of cardiovascular disease NYHA"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "93124-6",
+      "display": "New York Heart Association Functional Classification panel"
+    }],
+    "text": "New York Heart Association Functional Classification panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|738473c4-2720-38de-9b79-463729b2bb51",
+    "display": "VITALITY WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2015-07-14T17:26:15-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:196dc8df-c16b-adc2-c2e9-ba46ba87752f"},
+  "encounter": {"reference": "urn:uuid:a1031281-1fc9-b004-1753-2d0d384f9c7c"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2015-07-14T17:26:15.496-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

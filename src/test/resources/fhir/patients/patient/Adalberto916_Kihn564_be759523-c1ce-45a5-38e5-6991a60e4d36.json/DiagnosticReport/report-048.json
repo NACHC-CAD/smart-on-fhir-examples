@@ -1,0 +1,30 @@
+{
+  "result": [{
+    "reference": "urn:uuid:8d3e74cb-09e9-53f9-baa8-986593b02da8",
+    "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+  }],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "94531-1",
+      "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+    }],
+    "text": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ffccea13-6c0f-3626-8161-b88a16f01c50",
+    "display": "Silver Spring Vet Center"
+  }],
+  "effectiveDateTime": "2021-04-02T02:24:38-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:be759523-c1ce-45a5-38e5-6991a60e4d36"},
+  "encounter": {"reference": "urn:uuid:db145545-28a5-1c5f-3127-a70bf3f7ea19"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2021-04-02T02:24:38.061-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

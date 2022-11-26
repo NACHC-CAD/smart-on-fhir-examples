@@ -1,0 +1,41 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999994897",
+    "display": "Dr. Ciara810 Gibson10"
+  }],
+  "effectiveDateTime": "2012-05-25T13:00:33-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "urn:uuid:71bad515-ed4b-fb35-809e-2239ab5fba8d"},
+  "presentedForm": [{
+    "data": "DQoyMDEyLTA1LTI1DQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpBZGVsaW5lNjg2DQogaXMgYSA2NSB5ZWFyLW9sZCBub24taGlzcGFuaWMgYmxhY2sgZmVtYWxlLiBQYXRpZW50IGhhcyBhIGhpc3Rvcnkgb2YgYWN1dGUgYnJvbmNoaXRpcyAoZGlzb3JkZXIpLCBsaW1pdGVkIHNvY2lhbCBjb250YWN0IChmaW5kaW5nKSwgbm90IGluIGxhYm9yIGZvcmNlIChmaW5kaW5nKSwgcmVwb3J0cyBvZiB2aW9sZW5jZSBpbiB0aGUgZW52aXJvbm1lbnQgKGZpbmRpbmcpLCBmdWxsLXRpbWUgZW1wbG95bWVudCAoZmluZGluZyksIGFjdXRlIHZpcmFsIHBoYXJ5bmdpdGlzIChkaXNvcmRlciksIHZpY3RpbSBvZiBpbnRpbWF0ZSBwYXJ0bmVyIGFidXNlIChmaW5kaW5nKSwgaW5qdXJ5IG9mIHRlbmRvbiBvZiB0aGUgcm90YXRvciBjdWZmIG9mIHNob3VsZGVyLCBzdHJlc3MgKGZpbmRpbmcpLCBzb2NpYWwgaXNvbGF0aW9uIChmaW5kaW5nKS4NCg0KIyBTb2NpYWwgSGlzdG9yeQ0KUGF0aWVudCBpcyBtYXJyaWVkLiBQYXRpZW50IHF1aXQgc21va2luZyBhdCBhZ2UgMTYuDQogUGF0aWVudCBpZGVudGlmaWVzIGFzIGhldGVyb3NleHVhbC4NCg0KUGF0aWVudCBjb21lcyBmcm9tIGEgaGlnaCBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQogUGF0aWVudCBpcyBhIGNvbGxlZ2UgZ3JhZHVhdGUuDQpQYXRpZW50IGN1cnJlbnRseSBoYXMgTWVkaWNhcmUuDQoNCiMgQWxsZXJnaWVzDQpObyBLbm93biBBbGxlcmdpZXMuDQoNCiMgTWVkaWNhdGlvbnMNCmxpc2lub3ByaWwgMTAgbWcgb3JhbCB0YWJsZXQ7IGFjZXRhbWlub3BoZW4gMzI1IG1nIG9yYWwgdGFibGV0OyBhY2V0YW1pbm9waGVuIDIxLjcgbWcvbWwgLyBkZXh0cm9tZXRob3JwaGFuIGh5ZHJvYnJvbWlkZSAxIG1nL21sIC8gZG94eWxhbWluZSBzdWNjaW5hdGUgMC40MTcgbWcvbWwgb3JhbCBzb2x1dGlvbjsgZXRvcG9zaWRlIDEwMCBtZyBpbmplY3Rpb247IGFtbG9kaXBpbmUgMi41IG1nIG9yYWwgdGFibGV0OyBjaXNwbGF0aW4gNTAgbWcgaW5qZWN0aW9uDQoNCiMgQXNzZXNzbWVudCBhbmQgUGxhbg0KDQoNCiMjIFBsYW4NCg0KVGhlIGZvbGxvd2luZyBwcm9jZWR1cmVzIHdlcmUgY29uZHVjdGVkOg0KLSBoZWFyaW5nIGV4YW1pbmF0aW9uIChwcm9jZWR1cmUpDQotIGNvbWJpbmVkIGNoZW1vdGhlcmFweSBhbmQgcmFkaWF0aW9uIHRoZXJhcHkgKHByb2NlZHVyZSkNCi0gaGlnaCByZXNvbHV0aW9uIGNvbXB1dGVkIHRvbW9ncmFwaHkgb2YgY2hlc3Qgd2l0aG91dCBjb250cmFzdCAocHJvY2VkdXJlKQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBob3NwaWNlIGNhcmUgKHJlZ2ltZS90aGVyYXB5KQ0KLSBwYXRpZW50IGRpc2NoYXJnZSAocHJvY2VkdXJlKQ0KVGhlIHBhdGllbnQgd2FzIHByZXNjcmliZWQgdGhlIGZvbGxvd2luZyBtZWRpY2F0aW9uczoNCi0gY2lzcGxhdGluIDUwIG1nIGluamVjdGlvbg0KLSBldG9wb3NpZGUgMTAwIG1nIGluamVjdGlvbg0K",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "encounter": {"reference": "urn:uuid:25e6377e-f966-9553-3ca4-651e18607426"},
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "2012-05-25T13:00:33.335-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

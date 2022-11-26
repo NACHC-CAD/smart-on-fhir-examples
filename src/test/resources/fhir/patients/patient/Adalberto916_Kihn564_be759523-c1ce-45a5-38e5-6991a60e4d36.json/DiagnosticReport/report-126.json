@@ -1,0 +1,38 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:d3a898a4-35fe-9b23-e64d-7c329e87bc29",
+      "display": "pH of Arterial blood"
+    },
+    {
+      "reference": "urn:uuid:e1b6ba1a-9a20-169c-10f9-8eb02997adbf",
+      "display": "Carbon dioxide [Partial pressure] in Arterial blood"
+    },
+    {
+      "reference": "urn:uuid:98b3ff78-1202-8ea5-891b-f19cf0828e0b",
+      "display": "Oxygen [Partial pressure] in Arterial blood"
+    },
+    {
+      "reference": "urn:uuid:fdabf86d-43dc-77fe-5310-f987acd141e8",
+      "display": "Bicarbonate [Moles/volume] in Arterial blood"
+    },
+    {
+      "reference": "urn:uuid:9c6860ac-93d3-d6b7-a385-333cd19f8e37",
+      "display": "Oxygen saturation in Arterial blood"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "24336-0",
+      "display": "Gas panel - Arterial blood"
+    }],
+    "text": "Gas panel - Arterial blood"
+  },
+  "effectiveDateTime": "2021-04-13T17:08:17-04:00",
+  "subject": {"reference": "urn:uuid:be759523-c1ce-45a5-38e5-6991a60e4d36"},
+  "encounter": {"reference": "urn:uuid:455a89da-fd20-32e1-9e99-1092c42686ac"},
+  "issued": "2021-04-13T17:08:17.061-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

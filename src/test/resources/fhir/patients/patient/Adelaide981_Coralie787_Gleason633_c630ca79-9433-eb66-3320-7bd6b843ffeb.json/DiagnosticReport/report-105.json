@@ -1,0 +1,30 @@
+{
+  "result": [{
+    "reference": "urn:uuid:594fba3d-4d8c-1d2b-c901-e732b19f6596",
+    "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+  }],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "94531-1",
+      "display": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+    }],
+    "text": "SARS-CoV-2 RNA Pnl Resp NAA+probe"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|444fb108-ee38-3d34-bffb-c1f297522e84",
+    "display": "UPPER CHESAPEAKE MEDICAL CENTER INC"
+  }],
+  "effectiveDateTime": "2021-08-19T07:46:17-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:c630ca79-9433-eb66-3320-7bd6b843ffeb"},
+  "encounter": {"reference": "urn:uuid:077ca761-b1f8-c201-815a-4a70bda52f94"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2021-08-19T07:46:17.945-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

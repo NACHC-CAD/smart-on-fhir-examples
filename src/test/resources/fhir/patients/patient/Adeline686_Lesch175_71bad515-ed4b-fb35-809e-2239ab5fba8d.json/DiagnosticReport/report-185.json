@@ -1,0 +1,92 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:5652eec4-4de4-67b2-8670-a85bfaaba536",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:a5148cb3-347a-8836-376b-c7e2754bc72f",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:4c35565c-e0c1-44f6-b213-b813379d0bc9",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:412ab97c-9f1a-f297-132d-53352df62402",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:52a6750b-ce9f-9de7-bfff-1fc1b21fd173",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:d69c08c2-214e-1f0d-9e67-35918db5cea0",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:c3af18dc-8e5e-ac02-0c87-d139133d6891",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:9a3dca20-2607-9e3f-2f1f-39ae5d139da1",
+      "display": "Carbon Dioxide"
+    },
+    {
+      "reference": "urn:uuid:62e65a1d-cddc-5fb8-77c5-dc2bb11dd595",
+      "display": "Glomerular filtration rate/1.73 sq M.predicted"
+    },
+    {
+      "reference": "urn:uuid:f09777b8-22f9-b308-6297-c25ba34586ef",
+      "display": "Protein [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:e72f1fe2-82b1-caed-fb7c-c6b2b8785d84",
+      "display": "Albumin [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:2da402ae-6e9d-e4f5-0095-2b18b56bb64c",
+      "display": "Globulin [Mass/volume] in Serum by calculation"
+    },
+    {
+      "reference": "urn:uuid:17f1b482-fd22-5b79-9786-75cb38fb8479",
+      "display": "Bilirubin.total [Mass/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:e9c02fab-d6cd-62ca-d0be-b880dee9f3ca",
+      "display": "Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:4b436a18-e2c7-e5aa-4c82-a5d19e465c20",
+      "display": "Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+    },
+    {
+      "reference": "urn:uuid:de58035f-6c13-34fe-93fd-18d6ec175a51",
+      "display": "Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "24323-8",
+      "display": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+    }],
+    "text": "Comprehensive metabolic 2000 panel - Serum or Plasma"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|3b625f3d-f279-36bd-9954-a42359d3ef99",
+    "display": "MOUNT WASHINGTON PEDIATRIC HOSPITAL"
+  }],
+  "effectiveDateTime": "2011-05-01T22:25:33-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:71bad515-ed4b-fb35-809e-2239ab5fba8d"},
+  "encounter": {"reference": "urn:uuid:185020cc-6ad5-3ef7-6b8d-908cdfc03a63"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2011-05-01T22:25:33.335-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

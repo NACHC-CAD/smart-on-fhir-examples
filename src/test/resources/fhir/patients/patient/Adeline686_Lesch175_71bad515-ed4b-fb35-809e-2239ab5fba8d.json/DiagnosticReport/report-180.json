@@ -1,0 +1,60 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:b6e603ca-d75b-986c-1cbc-45d131223b9c",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:9a300854-5aea-465b-95e8-6df4c4ccbf18",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:8a21f134-0f17-ca2a-02aa-3d9463116c97",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:8243b84a-1ae1-222e-85cb-621b6887737d",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:39f13858-7c72-1f6d-655d-b11382ed458e",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:0307ef0a-4920-9950-bb13-e3ccb2b5d3c4",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:43205b36-b43a-a897-93f7-e935cf6c4462",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:9a087b64-9889-1d8c-c319-f20eea547648",
+      "display": "Carbon Dioxide"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "51990-0",
+      "display": "Basic Metabolic Panel"
+    }],
+    "text": "Basic Metabolic Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|c193da94-6696-33d6-b892-e5cca394b12a",
+    "display": "SPRINGFORTH HEALTH AND WELLNESS CENTER LLC"
+  }],
+  "effectiveDateTime": "2011-04-14T10:23:26-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:71bad515-ed4b-fb35-809e-2239ab5fba8d"},
+  "encounter": {"reference": "urn:uuid:246f9367-e562-c60a-69d0-8c42c6466214"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2011-04-14T10:23:26.335-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

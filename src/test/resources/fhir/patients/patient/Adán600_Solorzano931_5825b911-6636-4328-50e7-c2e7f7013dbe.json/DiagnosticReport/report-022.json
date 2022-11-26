@@ -1,0 +1,60 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:b0bfbb69-15a7-b6f3-ffd7-7e37123ad629",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:c19988fc-adec-c80e-e2dc-5abf6bb374f5",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:807dd6a4-19d2-48f9-b5bc-f2d739f71f9e",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:b022f539-6ea7-248d-7db8-81beb36a3588",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:dc641779-5a85-d20f-4679-b494a181bf55",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:e3d906d5-91d2-cb6c-5de0-1d5363c098d2",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:0773d189-f235-a3c6-3bf9-60fb4442d513",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:af02c5ee-7f2e-822f-7fa2-950fc158c0dc",
+      "display": "Carbon Dioxide"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "51990-0",
+      "display": "Basic Metabolic Panel"
+    }],
+    "text": "Basic Metabolic Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|5fbe5695-f890-39b1-addb-b5dba1f08eac",
+    "display": "ADVENTIST HEALTHCARE SHADY GROVE MEDICAL CENTER"
+  }],
+  "effectiveDateTime": "2004-12-11T18:02:01-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:5825b911-6636-4328-50e7-c2e7f7013dbe"},
+  "encounter": {"reference": "urn:uuid:66ec96c1-26bb-93c0-49b7-98773226b305"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2004-12-11T18:02:01.042-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

@@ -1,0 +1,60 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:0e80aaaa-23e0-a775-2c4a-40fdf0b0068e",
+      "display": "Glucose"
+    },
+    {
+      "reference": "urn:uuid:5904c1fd-43c7-d605-8f5d-490ea52dcc8f",
+      "display": "Urea Nitrogen"
+    },
+    {
+      "reference": "urn:uuid:dc8308e4-e94f-149f-4f0b-35529dd04a1d",
+      "display": "Creatinine"
+    },
+    {
+      "reference": "urn:uuid:be2a442d-4931-9cf0-98b4-3ad600c660e3",
+      "display": "Calcium"
+    },
+    {
+      "reference": "urn:uuid:e1a01a67-100a-1ab3-03e4-d29e5811534a",
+      "display": "Sodium"
+    },
+    {
+      "reference": "urn:uuid:b5b203eb-3cfc-7568-41c8-535716898752",
+      "display": "Potassium"
+    },
+    {
+      "reference": "urn:uuid:91d6b71e-ffc6-0143-eef9-013239ec22a5",
+      "display": "Chloride"
+    },
+    {
+      "reference": "urn:uuid:2aa394f7-4feb-4b67-6f66-b8093a1dd3e9",
+      "display": "Carbon Dioxide"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "51990-0",
+      "display": "Basic Metabolic Panel"
+    }],
+    "text": "Basic Metabolic Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|b9b9bee2-8fe0-3611-80ce-e90bcf38f8a9",
+    "display": "SWIFTCARE FAMILY CLINIC AND WELLNESS INC"
+  }],
+  "effectiveDateTime": "2020-02-21T04:35:46-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:8be7167b-3cef-5c95-51e8-aad473f34891"},
+  "encounter": {"reference": "urn:uuid:9e5d3b08-ea1f-bda1-ac5f-abcc7a22f5e8"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2020-02-21T04:35:46.708-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

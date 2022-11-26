@@ -1,0 +1,36 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:f5e63f44-6895-e8e6-45d4-b66cde8050e2",
+      "display": "Prothrombin time (PT)"
+    },
+    {
+      "reference": "urn:uuid:40eadbb0-43b2-7bb4-a95e-d363aa74b5ac",
+      "display": "INR in Platelet poor plasma by Coagulation assay"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "34528-0",
+      "display": "PT panel - Platelet poor plasma by Coagulation assay"
+    }],
+    "text": "PT panel - Platelet poor plasma by Coagulation assay"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|738473c4-2720-38de-9b79-463729b2bb51",
+    "display": "VITALITY WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2020-02-13T20:25:22-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:1ef389b9-b39f-f722-3b06-6a83fb9623b8"},
+  "encounter": {"reference": "urn:uuid:d76789f2-9830-b308-d301-1131593a2956"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2020-02-13T20:25:22.987-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

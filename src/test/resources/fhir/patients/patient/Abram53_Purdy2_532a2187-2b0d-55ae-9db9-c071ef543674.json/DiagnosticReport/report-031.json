@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:0ff6ec28-729f-44ad-d5a7-6d0e7317a2cc",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:863b7c8b-0e66-1e7f-3775-7d4bd664f84c",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:74e05f04-16d9-cf07-5b7a-9371827c8de6",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:a2b2f4cc-b277-ad25-164f-4d4c44454d73",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|ce9cb415-b09f-3be4-9420-42442e016ff8",
+    "display": "JACKSON FAMILY MEDICINE, LLC"
+  }],
+  "effectiveDateTime": "2020-06-02T09:44:03-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:532a2187-2b0d-55ae-9db9-c071ef543674"},
+  "encounter": {"reference": "urn:uuid:8c6fc75a-1ac7-216e-4d05-df1e2b7a5ac7"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2020-06-02T09:44:03.917-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

@@ -1,0 +1,30 @@
+{
+  "result": [{
+    "reference": "urn:uuid:dc234112-6aee-9520-d46d-b4b2cea78a9c",
+    "display": "Left ventricular Ejection fraction"
+  }],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "55405-5",
+      "display": "Heartfailure Tracking Panel"
+    }],
+    "text": "Heartfailure Tracking Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|738473c4-2720-38de-9b79-463729b2bb51",
+    "display": "VITALITY WELLNESS, LLC"
+  }],
+  "effectiveDateTime": "2018-01-15T16:26:15-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:196dc8df-c16b-adc2-c2e9-ba46ba87752f"},
+  "encounter": {"reference": "urn:uuid:02ee26dc-73a5-a47a-4eb9-eac154a8ad33"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2018-01-15T16:26:15.496-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

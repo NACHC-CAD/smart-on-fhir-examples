@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:5114a845-7f43-5854-0492-9ee08f64695a",
+      "display": "Total Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:c71c3c90-2c93-c8f1-10b5-5aacd27af90e",
+      "display": "Triglycerides"
+    },
+    {
+      "reference": "urn:uuid:cc099242-69df-26d0-c9f8-7e4c59f9a302",
+      "display": "Low Density Lipoprotein Cholesterol"
+    },
+    {
+      "reference": "urn:uuid:068f8dba-2122-c272-14f1-024a1437000b",
+      "display": "High Density Lipoprotein Cholesterol"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "57698-3",
+      "display": "Lipid Panel"
+    }],
+    "text": "Lipid Panel"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|c9b2ee7c-05d1-3bea-be80-27c659256ecc",
+    "display": "KLEESE FAMILY CARE LLC"
+  }],
+  "effectiveDateTime": "2014-08-03T22:22:32-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:b5e5ebeb-6e8d-deae-e8b9-8eac0a6f7993"},
+  "encounter": {"reference": "urn:uuid:f2add871-8725-2952-82d8-145887e94e9c"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2014-08-03T22:22:32.372-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}

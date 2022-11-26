@@ -1,0 +1,72 @@
+{
+  "result": [
+    {
+      "reference": "urn:uuid:cd0204f4-9561-f82e-a378-c2f3b219b3a9",
+      "display": "Hemoglobin [Mass/volume] in Blood"
+    },
+    {
+      "reference": "urn:uuid:7c3c84fe-65ae-bef2-aa05-58431428bd23",
+      "display": "Hematocrit [Volume Fraction] of Blood"
+    },
+    {
+      "reference": "urn:uuid:cb2fb90b-e4fb-fa2b-a5cc-2e66030bf171",
+      "display": "WBC Auto (Bld) [#/Vol]"
+    },
+    {
+      "reference": "urn:uuid:b8c6d293-9232-a24a-50fe-aa48b0ab1fc8",
+      "display": "RBC Auto (Bld) [#/Vol]"
+    },
+    {
+      "reference": "urn:uuid:caaccff8-c860-4b6a-69b2-6dd01cde96b2",
+      "display": "MCV [Entitic volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:f98397fa-bbc8-0db4-970e-2272fff25d11",
+      "display": "MCH [Entitic mass] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:77acd86c-fb6f-1003-dddf-d90fb8357763",
+      "display": "MCHC [Mass/volume] by Automated count"
+    },
+    {
+      "reference": "urn:uuid:62359c2b-4314-98ca-3099-12fbbee1bd46",
+      "display": "RDW - Erythrocyte distribution width Auto (RBC) [Entitic vol]"
+    },
+    {
+      "reference": "urn:uuid:1f10cc49-5e1f-c935-61d9-c859826d033e",
+      "display": "Platelets [#/volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:b5dc108f-580b-668e-f974-ffb04e1c9cb6",
+      "display": "Platelet distribution width [Entitic volume] in Blood by Automated count"
+    },
+    {
+      "reference": "urn:uuid:442dc324-cc7a-55e2-e76e-cab59cc07a44",
+      "display": "Platelet mean volume [Entitic volume] in Blood by Automated count"
+    }
+  ],
+  "code": {
+    "coding": [{
+      "system": "http://loinc.org",
+      "code": "58410-2",
+      "display": "Complete blood count (hemogram) panel - Blood by Automated count"
+    }],
+    "text": "Complete blood count (hemogram) panel - Blood by Automated count"
+  },
+  "performer": [{
+    "reference": "Organization?identifier=https://github.com/synthetichealth/synthea|35bfa5f8-fb35-33c2-ac92-6d7223f2bd3d",
+    "display": "ADVENTIST HEALTHCARE  REHABILITATION AT ROCKVILLE"
+  }],
+  "effectiveDateTime": "2013-03-03T08:25:31-05:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-lab"]},
+  "subject": {"reference": "urn:uuid:454458eb-f895-e86f-4571-e9a03f40064d"},
+  "encounter": {"reference": "urn:uuid:c085c832-e842-5ef3-28f3-3d3c2f24145d"},
+  "category": [{"coding": [{
+    "system": "http://terminology.hl7.org/CodeSystem/v2-0074",
+    "code": "LAB",
+    "display": "Laboratory"
+  }]}],
+  "issued": "2013-03-03T08:25:31.182-05:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}
