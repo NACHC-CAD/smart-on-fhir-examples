@@ -1,0 +1,39 @@
+{
+  "code": {"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]},
+  "performer": [{
+    "display": "Dr. Debbie941 Macejkovic424"
+  }],
+  "effectiveDateTime": "1978-09-02T17:57:46-04:00",
+  "meta": {"profile": ["http://hl7.org/fhir/us/core/StructureDefinition/us-core-diagnosticreport-note"]},
+  "subject": {"reference": "https://r4.smarthealthit.org/Patient/1439152"},
+  "presentedForm": [{
+    "data": "DQoxOTc4LTA5LTAyDQoNCiMgQ2hpZWYgQ29tcGxhaW50DQpObyBjb21wbGFpbnRzLg0KDQojIEhpc3Rvcnkgb2YgUHJlc2VudCBJbGxuZXNzDQpHbGVubjANCiBpcyBhIDE4IHllYXItb2xkIG5vbi1oaXNwYW5pYyB3aGl0ZSBtYWxlLg0KDQojIFNvY2lhbCBIaXN0b3J5DQogUGF0aWVudCBoYXMgbmV2ZXIgc21va2VkLg0KIFBhdGllbnQgaWRlbnRpZmllcyBhcyBoZXRlcm9zZXh1YWwuDQoNClBhdGllbnQgY29tZXMgZnJvbSBhIG1pZGRsZSBzb2Npb2Vjb25vbWljIGJhY2tncm91bmQuDQogUGF0aWVudCBkaWQgbm90IGZpbmlzaCBoaWdoIHNjaG9vbC4NClBhdGllbnQgY3VycmVudGx5IGhhcyBCbHVlIENyb3NzIEJsdWUgU2hpZWxkLg0KDQojIEFsbGVyZ2llcw0KTm8gS25vd24gQWxsZXJnaWVzLg0KDQojIE1lZGljYXRpb25zDQpObyBBY3RpdmUgTWVkaWNhdGlvbnMuDQoNCiMgQXNzZXNzbWVudCBhbmQgUGxhbg0KUGF0aWVudCBpcyBwcmVzZW50aW5nIHdpdGggaG91c2luZyB1bnNhdGlzZmFjdG9yeSAoZmluZGluZyksIG9ubHkgcmVjZWl2ZWQgcHJpbWFyeSBzY2hvb2wgZWR1Y2F0aW9uIChmaW5kaW5nKSwgZnVsbC10aW1lIGVtcGxveW1lbnQgKGZpbmRpbmcpLCBzb2NpYWwgaXNvbGF0aW9uIChmaW5kaW5nKSwgc3RyZXNzIChmaW5kaW5nKS4gDQoNCiMjIFBsYW4NCg0K",
+    "contentType": "text/plain; charset=utf-8"
+  }],
+  "category": [{"coding": [
+    {
+      "system": "http://loinc.org",
+      "code": "34117-2",
+      "display": "History and physical note"
+    },
+    {
+      "system": "http://loinc.org",
+      "code": "51847-2",
+      "display": "Evaluation + Plan note"
+    }
+  ]}],
+  "issued": "1978-09-02T17:57:46.296-04:00",
+  "resourceType": "DiagnosticReport",
+  "status": "final"
+}
