@@ -27,6 +27,9 @@ target/
 .project
 .settings/
 
+# logical link
+_ETC\http-server\smart-on-fhir-examples
+
 # logical link to enable local browsing of docs
 /_ETC/http-server/hiv-cds
 
