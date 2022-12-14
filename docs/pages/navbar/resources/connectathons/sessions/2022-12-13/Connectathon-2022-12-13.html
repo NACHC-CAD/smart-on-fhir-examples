@@ -27,13 +27,20 @@
 				We will be using the following resources for this session.  
 				To fully participate in this session you will only need to bring with you a web browser and access to the internet. 
 				The resources listed below will be used. 
-				These resources include PowerPoint presentations that will enable you to follow along at your own pace,
+				These resources include a PowerPoint presentation for each module that will enable you to follow along at your own pace,
 				share with your friends and colleagues, and refer to after the connectathon is over.   
 				<br/>
 				
 				<h2>Agenda</h2>
+				This session is targeted to new users of SMART on FHIR.  
+				If you have little to no experience with SMART on FHIR you should be able to follow along and complete all of the exercises.  
+				We will start with an introduction to what SMART on FHIR is and the application architecture of a SMART on FHIR application.  
+				We will then discuss the NACHC HIV CDS project in the context of SMART on FHIR.  
+				We will then move into the connectathon activities and use a series of examples to build up to using a SMART on FHIR application to determine if a selected patient has had an HIV test.  
+				<br/><br/>
 				In this session we will focus on the checked items below.  
 				Please let us know if there are other modules you would like to review and we can make arrangements.  
+				<br/><br/>
 
 					<ul>
 						<li>
@@ -114,14 +121,72 @@
 					</tr>
 					<tr>
 						<td>
+							SMART on FHIR links
+						</td>
+						<td>
+							We will be using the following urls to connect to our SMART on FHIR applications
+							<ul>
+
+ 
+ 
+								<li>
+									<a href="http://3.144.176.133:8080/smart-on-fhir-examples/005-serverside/launch.html">http://3.144.176.133:8080/smart-on-fhir-examples/005-serverside/launch.html</a>
+								</li>
+								<li>
+									<a href="http://3.144.176.133:8080/smart-on-fhir-examples/006-lforms/launch.html">http://3.144.176.133:8080/smart-on-fhir-examples/006-lforms/launch.html</a>
+								</li>
+								<li>
+									<a href="http://3.144.176.133:8080/smart-on-fhir-examples/007-hivtest/launch.html">http://3.144.176.133:8080/smart-on-fhir-examples/007-hivtest/launch.html</a>
+								</li>
+							</ul>
+						</td>
+					</tr>
+					<tr>
+						<td>
 							<nobr>
 							Deployable WAR file
 							</nobr>
 						</td>
 						<td>
-							This resource is not needed for today's exercises but is provided for reference.  <br/>
-							The WAR file that has been deployed for today's connectathon is available 
-							<a download href="./resources/smart-on-fhir-examples.war">here</a>.
+							This resource is not needed for today's exercises but is provided for reference.  
+							<br/>
+							The WAR file that has been deployed for today's connectathon is version 1.1.011 and is available 
+							<a href="https://github.com/NACHC-CAD/smart-on-fhir-examples/releases/tag/v1.1.011">here</a>.
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Source Code
+						</td>
+						<td>
+							Source code for this project is at 
+							<a href="https://github.com/NACHC-CAD/smart-on-fhir-examples">https://github.com/NACHC-CAD/smart-on-fhir-examples</a>
+							<br/>
+							Source code for the version used today is at
+							<a href="https://github.com/NACHC-CAD/smart-on-fhir-examples/releases/tag/v1.1.011">https://github.com/NACHC-CAD/smart-on-fhir-examples/releases/tag/v1.1.011</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							The hiv-cds-api
+						</td>
+						<td>
+							In the final example today, we will connect to a SMART on FHIR application that determines if a patient has had an hiv test.  
+							This application calls a web service with the FHIR data it as retrieved from the EMR using FHIR.  
+							This service then uses the patient data to determine if the patient has had an HIV test.  
+							This service can be called by any application that can hand it the appropriate FHIR resource.  
+							Source code for this service is available at 
+							<a href="https://github.com/NACHC-CAD/hiv-cds-api">https://github.com/NACHC-CAD/hiv-cds-api</a>.  
+							We are using release 0.0.1-001 of the hiv-cds-api today.  
+							This release is available at <a href="https://github.com/NACHC-CAD/hiv-cds-api/releases/tag/v0.0.1-001">https://github.com/NACHC-CAD/hiv-cds-api/releases/tag/v0.0.1-001</a>.
+							This service is embedded directly into the smart-on-fhir-examples web application using the Maven XML shown below.  
+<pre class="preformatted">
+&lt;dependency&gt;
+	&lt;groupId&gt;org.nachc.cad.tools&lt;/groupId&gt;
+	&lt;artifactId&gt;hivcdsapi&lt;/artifactId&gt;
+	&lt;version&gt;0.0.1-001&lt;/version&gt;
+&lt;/dependency&gt;
+</pre>
 						</td>
 					</tr>
 					<tr>
